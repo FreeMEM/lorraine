@@ -66,4 +66,4 @@ Tomadas el 2026-10-25:
 | ¿Repositorio en GitHub? | Nombre comprobado y repositorio público `FreeMEM/lorraine` creado. | [09](09_ENTORNO_CONSTRUCCION_Y_ENTREGA.md) § 7 |
 | ¿Quién prueba en Excel y Word? | Nadie: se comprueba con LibreOffice, OnlyOffice y librerías de Python, más el validador. | R-05, [08](08_PLAN_DE_PRUEBAS.md) § 4.4 |
 
-Pendiente: si el 68030 de la máquina mínima puede no llevar FPU. Hoy se supone que la lleva (R-07).
+Y el mismo día: el 68030 de la máquina mínima lleva FPU; la interfaz es MUI siempre (arquitectura § 1).

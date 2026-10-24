@@ -30,7 +30,10 @@ Restricciones:
   `./dash --fpu`. **Tiene que ir bien en un A1200 con 68030 real** (usuario, 2026-10-25): es la máquina de los
   objetivos de rendimiento (entorno "a1200-030" de [08](ingenieria/08_PLAN_DE_PRUEBAS.md), 68030 + 68882 sin JIT). La
   máquina rápida de Tachyon (68040 con JIT) se usa para ver la evolución, no para dar por buenos los objetivos.
-  Supuesto: el 68030 lleva FPU (68881/68882). Sin FPU, los `Double` van por software y Calc será lento (R-07).
+  El 68030 lleva FPU (68881/68882), confirmado por el usuario el 2026-10-25.
+- **Interfaz: MUI, siempre** (usuario, 2026-10-25). Ventanas, menús, diálogos y zonas de dibujo son de MUI (`mui_*` de
+  Dash y `.dashui`). Nada de GadTools, ReAction ni ventanas de Intuition sueltas para la interfaz. Si a Dash le falta
+  algo de MUI, es una tarea D. Solo los tests de módulos sin interfaz se ejecutan sin ventana.
 - **Licencias:** todo lo que va en el repositorio tiene que poder redistribuirse con MIT. zlib (licencia zlib) y
   stb (dominio público o MIT) valen. **El código de Ignition (GPL v3) no se copia.** Se puede leer para entender
   cómo resuelve algo, y luego se escribe de nuevo.

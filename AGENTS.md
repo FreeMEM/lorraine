@@ -8,7 +8,7 @@ clave del prototipo del Amiga). Nada se llama "Amiga algo".
 **Estado: diseño, sin código.** Empieza por `docs/ingenieria/00_INDICE.md` y `docs/ARQUITECTURA.md`.
 
 Plan, reglas y bitácora: `docs/LORRAINE_LOOP.md` (sesiones largas por tandas, rama local `dev`, sin push).
-Máquina mínima: A1200 con 68030 y FPU real (usuario, 2026-10-25).
+Máquina mínima: A1200 con 68030 y FPU real. Interfaz: MUI siempre, nunca GadTools, ReAction ni Intuition suelta (usuario, 2026-10-25).
 
 ## Reglas
 

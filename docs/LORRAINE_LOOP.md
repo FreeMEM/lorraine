@@ -16,6 +16,9 @@ bitácora.
 **Lorraine existe para hacer crecer Dash** (usuario, 2026-10-24): lo que le falte a Dash se añade a Dash (tareas `D<n>`
 de `docs/ingenieria/13_DASH.md`). Nada de rodeos con `@native`: C solo en `third_party/` y su pegamento.
 
+**Interfaz: MUI, siempre** (usuario, 2026-10-25). Nada de GadTools, ReAction ni ventanas de Intuition sueltas para la
+interfaz; lo que le falte a Dash de MUI es una tarea D.
+
 Máquina (usuario, 2026-10-25): **tiene que ir bien en un A1200 con 68030 y FPU real**. Los objetivos de rendimiento se
 miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `./dash --fpu`.
 
