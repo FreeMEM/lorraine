@@ -1,0 +1,9 @@
+# El entorno funciona: Dash con --fpu, FS-UAE con la ROM 3.1 y el runner.
+# expect-out: Lorraine: hola
+# expect-out: 7 / 2 = 3.5
+
+Main
+    Print "Lorraine: hola"
+    x = Float(7) / 2
+    Print "7 / 2 = #{x}"
+end

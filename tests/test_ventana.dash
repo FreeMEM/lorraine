@@ -1,0 +1,31 @@
+# Una ventana MUI con el nombre de la suite: MUI abre, se pinta y se cierra.
+# La captura (build/tests/ventana.png) es la primera imagen de Lorraine en el Amiga.
+# emu-needs: muimaster.library
+# autoclose: 14
+# screenshot: 10 ventana.png
+# expect-out: ventana abierta
+# expect-out: fin
+
+Main
+    if mui_app_begin("Lorraine", "LORRAINE") == 0
+        Print "sin MUI"
+    else
+        win = mui_window_begin("Lorraine", 1)
+            mui_text("\33c\33bLorraine")
+            mui_text("\33cOffice suite for AmigaOS")
+            mui_frame_begin("", true)
+                mui_button("Lorraine _Calc")
+                mui_button("Lorraine _Write")
+            mui_group_end()
+        mui_window_end()
+        if mui_window_open(win)
+            Print "ventana abierta"
+        end
+        ev = 0
+        while ev != -1
+            ev = mui_wait_event()
+        end
+        Print "fin"
+        mui_app_end()
+    end
+end

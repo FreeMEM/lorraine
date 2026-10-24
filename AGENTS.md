@@ -36,5 +36,11 @@ usa otro worktree (`dashweb`): no pisarlo.
 
 ## Comandos
 
-Todavía ninguno. Cuando exista `tests/run.py` (H0), irá aquí, con el entorno del emulador como en
-`~/Projects/tachyon/AGENTS.md`.
+```bash
+export DASH_KICKSTART="/home/freemem/Descargas/Telegram Desktop/ks31a1200.rom"
+export DASH_EMU_SYS=~/.cache/dash-emu/sys31 DASH_EMU_SYS_MUI=~/.cache/dash-emu/sys31mui
+python3 tests/run.py            # compila tests/test_*.dash (y calc/, write/) y los ejecuta en FS-UAE (A1200 + 68882)
+python3 tests/run.py zip -v     # solo los que contienen "zip", con la salida de los que fallan
+```
+
+Directivas de los tests: las explica `tests/run.py`. Las capturas quedan en `build/tests/`.

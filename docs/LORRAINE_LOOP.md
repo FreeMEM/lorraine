@@ -70,7 +70,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
 
 - [x] 0.1 Rama `dev` en Lorraine. Worktree de Dash `.worktrees/lorraine` (rama `lorraine` desde `main`). Dash compila
       un hola con `--fpu`.
-- [ ] 0.2 `tests/run.py` (del de Tachyon, adaptado: `$DASH` por omisión el worktree `lorraine`; entornos a1200,
+- [x] 0.2 `tests/run.py` (del de Tachyon, adaptado: `$DASH` por omisión el worktree `lorraine`; entornos a1200,
       a1200-mui y a1200-030) y `tests/test_hola.dash`, que pasa en FS-UAE con la ROM 3.1. Captura de una ventana MUI
       de prueba con el nombre de Lorraine.
 - [ ] 0.3 Entorno "a1200-030": FS-UAE con 68030 + 68882, sin JIT, a la velocidad de una Blizzard 1230 de 50 MHz
@@ -156,4 +156,16 @@ Plantilla:
 - Aviso: `docs/SINTAXIS.md` de Dash está sin commit en `~/Projects/FreeMEMLang` (no está en `main` ni en este
   worktree). Se lee de ahí, por ruta absoluta, como hace Tachyon.
 - Batería: aún no hay (tarea 0.2).
+
+### 2026-10-25 — Tarea 0.2 (runner de tests y primera ventana MUI)
+
+- `tests/run.py`, del de Tachyon: compila con `--fpu` y el Dash de `$DASH` (por omisión el worktree `lorraine`),
+  ejecuta en FS-UAE y compara la salida. Directivas: `expect-out`, `memcheck`, `autoclose` (modo de prueba de MUI,
+  `DASH_TEST_AUTOCLOSE`), `dash-flags`, `cflags`, `emu-config`, `emu-needs` (`muimaster.library` arranca con
+  `$DASH_EMU_SYS_MUI`; la librería está en `MUI/Libs`) y `screenshot` (una captura; el test arranca solo). Compila
+  también `calc/calc.dash` y `write/write.dash` cuando existan. El entorno "a1200-030" llega con la 0.3.
+- `test_hola` (texto y un `Float`) y `test_ventana` (ventana MUI con el nombre de la suite y captura en
+  `docs/img/h0_ventana.png`, enviada al usuario).
+- `--memcheck` no imprime resumen en un programa que no reserva memoria del pool: `test_ventana` no lo espera.
+- Batería: 2/2 (22 s).
 
