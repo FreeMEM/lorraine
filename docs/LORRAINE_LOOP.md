@@ -68,7 +68,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
 
 ### H0 Entorno, tests y corpus
 
-- [ ] 0.1 Rama `dev` en Lorraine. Worktree de Dash `.worktrees/lorraine` (rama `lorraine` desde `main`). Dash compila
+- [x] 0.1 Rama `dev` en Lorraine. Worktree de Dash `.worktrees/lorraine` (rama `lorraine` desde `main`). Dash compila
       un hola con `--fpu`.
 - [ ] 0.2 `tests/run.py` (del de Tachyon, adaptado: `$DASH` por omisión el worktree `lorraine`; entornos a1200,
       a1200-mui y a1200-030) y `tests/test_hola.dash`, que pasa en FS-UAE con la ROM 3.1. Captura de una ventana MUI
@@ -146,3 +146,14 @@ Plantilla:
 - Decisiones del usuario: licencia MIT, nombre Lorraine, A1200 con 68030 real como máquina mínima, inglés de base
   con catálogos, fuentes Liberation/Carlito/Caladea para la maqueta y el PDF (A13), sin Excel ni Word (se comprueba
   con LibreOffice, OnlyOffice y librerías de Python), capturas al usuario según se avanza.
+
+### 2026-10-25 — Tarea 0.1 (rama y worktree de Dash)
+
+- Rama `dev` de Lorraine (sale de `main`, que ya está en GitHub). Worktree de Dash
+  `~/Projects/FreeMEMLang/.worktrees/lorraine`, rama `lorraine`, desde `main` de Dash (`8cce93e`).
+- Un hola compilado con `./dash --fpu` (`-m68020 -m68881`, 4,4 KB) da su salida en FS-UAE con la ROM 3.1 y 68882
+  (`tools/emu_run.py --fpu --set fpu=68882`).
+- Aviso: `docs/SINTAXIS.md` de Dash está sin commit en `~/Projects/FreeMEMLang` (no está en `main` ni en este
+  worktree). Se lee de ahí, por ruta absoluta, como hace Tachyon.
+- Batería: aún no hay (tarea 0.2).
+
