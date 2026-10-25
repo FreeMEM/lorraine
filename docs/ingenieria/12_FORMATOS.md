@@ -67,8 +67,9 @@ si hace falta) y las imágenes.
 ### 2.2 Versiones
 
 - **Se lee:** ODF 1.0 a 1.3, y 1.4 en lo que coincida. ODF 1.2 es ISO/IEC 26300:2015; 1.3 es estándar OASIS desde
-  2021. **Comprobar** el estado de ODF 1.4 y qué versión escribe por defecto el LibreOffice del PC de pruebas
-  ("1.3 ampliado" o "1.4 ampliado").
+  2021. **Comprobado el 2026-10-25:** el LibreOffice 26.8 del PC de pruebas escribe `office:version="1.4"` (con sus
+  extensiones `calcext:`/`loext:`), así que **1.4 se lee entero**, no solo en lo que coincida. Comprobar todavía el
+  estado de ODF 1.4 en OASIS.
 - **Se escribe:** ODF 1.3 sin extensiones (`office:version="1.3"`), para que pase el validador en modo estricto.
 - Los ficheros de OpenOffice antiguos escriben las fórmulas con `oooc:` en vez de `of:` (§ 2.6).
 

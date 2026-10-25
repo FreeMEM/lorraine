@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+<office:automatic-styles>
+  <number:date-style style:name="N_fecha"><number:day number:style="long"/><number:text>/</number:text><number:month number:style="long"/><number:text>/</number:text><number:year number:style="long"/></number:date-style>
+  <number:date-style style:name="N_fechahora"><number:day number:style="long"/><number:text>/</number:text><number:month number:style="long"/><number:text>/</number:text><number:year number:style="long"/><number:text> </number:text><number:hours number:style="long"/><number:text>:</number:text><number:minutes number:style="long"/></number:date-style>
+  <number:time-style style:name="N_hora"><number:hours number:style="long"/><number:text>:</number:text><number:minutes number:style="long"/><number:text>:</number:text><number:seconds number:style="long"/></number:time-style>
+  <number:number-style style:name="N_2dec"><number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/></number:number-style>
+  <number:number-style style:name="N_miles"><number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/></number:number-style>
+  <number:percentage-style style:name="N_porc"><number:number number:decimal-places="1" number:min-decimal-places="1" number:min-integer-digits="1"/><number:text>%</number:text></number:percentage-style>
+  <number:number-style style:name="N_cient"><number:scientific-number number:decimal-places="3" number:min-decimal-places="3" number:min-integer-digits="1" number:min-exponent-digits="2"/></number:number-style>
+  <number:currency-style style:name="N_euro"><number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/><number:text> </number:text><number:currency-symbol number:language="es" number:country="ES">€</number:currency-symbol></number:currency-style>
+  <number:text-style style:name="N_texto"><number:text-content/></number:text-style>
+  <number:number-style style:name="N_ceros"><number:number number:decimal-places="0" number:min-decimal-places="0" number:min-integer-digits="5"/></number:number-style>
+  <style:style style:name="fecha" style:family="table-cell" style:data-style-name="N_fecha"/>
+  <style:style style:name="fechahora" style:family="table-cell" style:data-style-name="N_fechahora"/>
+  <style:style style:name="hora" style:family="table-cell" style:data-style-name="N_hora"/>
+  <style:style style:name="dosdec" style:family="table-cell" style:data-style-name="N_2dec"/>
+  <style:style style:name="miles" style:family="table-cell" style:data-style-name="N_miles"/>
+  <style:style style:name="porc" style:family="table-cell" style:data-style-name="N_porc"/>
+  <style:style style:name="cient" style:family="table-cell" style:data-style-name="N_cient"/>
+  <style:style style:name="euro" style:family="table-cell" style:data-style-name="N_euro"/>
+  <style:style style:name="comotexto" style:family="table-cell" style:data-style-name="N_texto"/>
+  <style:style style:name="ceros" style:family="table-cell" style:data-style-name="N_ceros"/>
+  <style:style style:name="negrita" style:family="table-cell"><style:text-properties fo:font-weight="bold"/></style:style>
+  <style:style style:name="cursiva" style:family="table-cell"><style:text-properties fo:font-style="italic"/></style:style>
+  <style:style style:name="subrayado" style:family="table-cell"><style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/></style:style>
+  <style:style style:name="rojo" style:family="table-cell"><style:text-properties fo:color="#c00000"/></style:style>
+  <style:style style:name="fondo" style:family="table-cell"><style:table-cell-properties fo:background-color="#ffe699"/></style:style>
+  <style:style style:name="bordes" style:family="table-cell"><style:table-cell-properties fo:border="0.06pt solid #000000"/></style:style>
+  <style:style style:name="grande" style:family="table-cell"><style:text-properties fo:font-size="16pt" style:font-name="Liberation Serif"/></style:style>
+  <style:style style:name="derecha" style:family="table-cell"><style:paragraph-properties fo:text-align="end"/></style:style>
+  <style:style style:name="centro" style:family="table-cell"><style:table-cell-properties style:vertical-align="middle"/><style:paragraph-properties fo:text-align="center"/></style:style>
+  <style:style style:name="ajuste" style:family="table-cell"><style:table-cell-properties fo:wrap-option="wrap"/></style:style>
+  <style:style style:name="col_ancha" style:family="table-column"><style:table-column-properties style:column-width="6cm"/></style:style>
+  <style:style style:name="col_oculta" style:family="table-column"><style:table-column-properties style:column-width="2.258cm"/></style:style>
+  <style:style style:name="fila_alta" style:family="table-row"><style:table-row-properties style:row-height="1.5cm" style:use-optimal-row-height="false"/></style:style>
+</office:automatic-styles>
+<office:body><office:spreadsheet><table:table table:name="Ventas"><table:table-column/><table:table-column/><table:table-row><table:table-cell office:value-type="string"><text:p>Mes</text:p></table:table-cell><table:table-cell office:value-type="string"><text:p>Ventas</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>enero</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="120"><text:p>120</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>febrero</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="95"><text:p>95</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>marzo</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="143"><text:p>143</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell office:value-type="string"><text:p>abril</text:p></table:table-cell><table:table-cell office:value-type="float" office:value="160"><text:p>160</text:p></table:table-cell></table:table-row></table:table></office:spreadsheet></office:body></office:document>

@@ -1079,8 +1079,8 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>NOW()</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" table:formula="of:=NOW()" office:value-type="date" office:date-value="2026-10-25T02:13:42.91254" calcext:value-type="date">
-      <text:p>25/10/26 02:13</text:p>
+     <table:table-cell table:style-name="ce3" table:formula="of:=NOW()" office:value-type="date" office:date-value="2026-10-25T02:18:08.9078" calcext:value-type="date">
+      <text:p>25/10/26 02:18</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1418,8 +1418,8 @@
      <table:table-cell table:formula="of:=[.A10]+1" office:value-type="string" office:string-value="" calcext:value-type="error">
       <text:p>Err:522</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=RAND()" office:value-type="float" office:value="0.511921744263569" calcext:value-type="float">
-      <text:p>0,511921744263569</text:p>
+     <table:table-cell table:formula="of:=RAND()" office:value-type="float" office:value="0.79152307323671" calcext:value-type="float">
+      <text:p>0,79152307323671</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>

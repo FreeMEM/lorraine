@@ -78,7 +78,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
 - [x] 0.4 `tools/corpus.py`: corpus propio con `soffice --headless` en `tests/ficheros/` (Calc: valores, fórmulas,
       formatos, varias hojas, fechas, límites, 20.000 celdas; Write: texto, estructura, 50 páginas), en todos los
       formatos.
-- [ ] 0.4b Corpus, segunda parte: pérdidas (libro con gráfico y con macros; documento con control de cambios y
+- [x] 0.4b Corpus, segunda parte: pérdidas (libro con gráfico y con macros; documento con control de cambios y
       con notas al pie), imágenes JPEG y GIF, libro de 100.000 celdas y documento de 300 páginas, inmovilizado.
 - [ ] 0.5 `tools/volcar_lo.py`: volcado de referencia (valores de celdas, texto y formato de párrafos).
 - [ ] 0.6 Herramientas de comprobación (`08` § 4.4) en `~/.cache/lorraine-tools/`: ODF Validator, .NET y
@@ -206,4 +206,21 @@ Plantilla:
   pasa a CSV. El disco de `/home` está al 95 % (54 GB libres).
 - Pendiente en la 0.4b: pérdidas, JPEG y GIF, los tamaños grandes, inmovilizado (va en `settings.xml`).
 - Batería: 2/2 (sin cambios de código Dash).
+
+### 2026-10-25 — Tarea 0.4b (corpus, segunda parte)
+
+- Calc: `perdidas_grafico` (el gráfico lo añade LibreOffice por UNO: `Object 1` en el `.ods`, `xl/charts/chart1.xml`
+  en el `.xlsx`), `perdidas_macros` (macro de Basic en la fuente; el `.ods` la lleva en `Basic/`), `inmovilizado`
+  (fila 1 y columna A, escrito en `office:settings` de la fuente).
+- Write: `imagenes` (PNG, JPEG y GIF en línea; JPEG y GIF salen del PNG con `magick`; el `.docx` lleva las tres),
+  `perdidas_notas` (nota al pie y al final: `footnotes.xml` y `endnotes.xml`), `perdidas_cambios` (una inserción y un
+  borrado sin aceptar: `w:ins` y `w:del`).
+- Grandes, con `--grandes`, en `tests/ficheros/grandes/` (en `.gitignore`, 12 MB): libro de 100.000 celdas y
+  documento de 302 páginas.
+- Aprendido de LibreOffice sin pantalla: un documento oculto no guarda su vista, así que `freezeAtPosition` por UNO
+  no llega al fichero. Con el inmovilizado escrito en la fuente, el `.xlsx` sale con `<pane ... state="frozen"/>`
+  pero el `.ods` y el `.fods` convertidos lo pierden: para ODF la referencia es la fuente.
+- LibreOffice 26.8 escribe `office:version="1.4"`: los filtros de ODF tienen que leer 1.4 (ver `12` § 2.2).
+- Regenerar el corpus cambia todos los ZIP (fechas dentro): solo se regenera cuando cambian los casos.
+- Batería: 2/2 (sin cambios en Dash).
 

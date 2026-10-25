@@ -8,6 +8,10 @@ Después LibreOffice, sin pantalla, lo convierte al resto de formatos en tests/f
 
     python3 tools/corpus.py            # todo
     python3 tools/corpus.py --fuentes  # solo las fuentes, sin LibreOffice
+    python3 tools/corpus.py --grandes  # además, los de tamaño grande en tests/ficheros/grandes/ (no van a git)
+
+Lo que no se puede escribir a mano en Flat ODF (un gráfico, filas inmovilizadas) lo hace LibreOffice por UNO
+después de convertir. Las imágenes JPEG y GIF salen del PNG con ImageMagick (`magick`).
 
 LibreOffice corre con un perfil propio en build/lo-perfil, para no chocar con uno abierto por el usuario.
 """
@@ -15,9 +19,12 @@ LibreOffice corre con un perfil propio en build/lo-perfil, para no chocar con un
 import argparse
 import base64
 import shutil
+import socket
 import struct
 import subprocess
 import sys
+import tempfile
+import time
 import zlib
 from pathlib import Path
 from xml.sax.saxutils import escape, quoteattr
@@ -36,6 +43,10 @@ NS = ('xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" '
       'xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" '
       'xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" '
       'xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" '
+      'xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" '
+      'xmlns:dc="http://purl.org/dc/elements/1.1/" '
+      'xmlns:ooo="http://openoffice.org/2004/office" '
+      'xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" '
       'office:version="1.3"')
 
 
@@ -151,13 +162,13 @@ ESTILOS_CALC = """
 """
 
 
-def libro(hojas, extra="", fecha_nula=None):
+def libro(hojas, extra="", fecha_nula=None, scripts=""):
     calculo = ""
     if fecha_nula:
         calculo = f'<table:calculation-settings><table:null-date table:date-value={a(fecha_nula)}/></table:calculation-settings>'
     cuerpo = calculo + "".join(h.xml() for h in hojas) + extra
     return (f'<?xml version="1.0" encoding="UTF-8"?>\n<office:document {NS} '
-            f'office:mimetype="application/vnd.oasis.opendocument.spreadsheet">{ESTILOS_CALC}'
+            f'office:mimetype="application/vnd.oasis.opendocument.spreadsheet">{scripts}{ESTILOS_CALC}'
             f"<office:body><office:spreadsheet>{cuerpo}</office:spreadsheet></office:body></office:document>\n")
 
 
@@ -300,14 +311,63 @@ def calc_formato():
                        '<table:table-column table:style-name="col_oculta" table:visibility="collapse"/>')
 
 
-def calc_tamano():
-    """El libro de RNF-C01: 20.000 celdas, 2.000 de ellas fórmulas."""
+def calc_tamano(filas=2000):
+    """El libro de RNF-C01: 20.000 celdas, 2.000 de ellas fórmulas (con filas=10000, el de 100.000 celdas)."""
     h = Hoja("Datos")
-    for f in range(2000):
+    for f in range(filas):
         for c in range(9):
             h.poner(f, c, num((f * 9 + c) % 997 + 0.25) if c != 4 else txt(f"fila {f + 1}"))
         h.poner(f, 9, formula(f"SUM([.A{f + 1}:.D{f + 1}])+[.F{f + 1}]"))
     return libro([h])
+
+
+def calc_datos_grafico():
+    """Datos para el gráfico que LibreOffice añade por UNO (pérdida A9: gráficos)."""
+    h = Hoja("Ventas")
+    h.poner(0, 0, txt("Mes"))
+    h.poner(0, 1, txt("Ventas"))
+    for i, (mes, v) in enumerate([("enero", 120), ("febrero", 95), ("marzo", 143), ("abril", 160)]):
+        h.poner(i + 1, 0, txt(mes))
+        h.poner(i + 1, 1, num(v))
+    return libro([h])
+
+
+def calc_macros():
+    """Un libro con una macro de Basic (pérdida A9: macros)."""
+    scripts = ('<office:scripts><office:script script:language="ooo:Basic"><ooo:libraries>'
+               '<ooo:library-embedded ooo:name="Standard"><ooo:module ooo:name="Modulo1"><ooo:source-code>'
+               + escape('Sub Saludo\n    MsgBox "Hola desde una macro"\nEnd Sub\n') +
+               '</ooo:source-code></ooo:module></ooo:library-embedded></ooo:libraries></office:script></office:scripts>')
+    h = Hoja("Macros")
+    h.poner(0, 0, txt("Este libro lleva una macro de Basic"))
+    return libro([h], scripts=scripts)
+
+
+def calc_inmovilizado():
+    """Datos con la fila 1 y la columna A inmovilizadas, en los ajustes de vista (settings) del documento.
+    (Por UNO no vale: con el documento oculto, LibreOffice no guarda la vista.)"""
+    h = Hoja("Inmovilizado")
+    for c in range(12):
+        h.poner(0, c, txt(f"Columna {c + 1}"))
+    for f in range(1, 60):
+        h.poner(f, 0, txt(f"Fila {f}"))
+        for c in range(1, 12):
+            h.poner(f, c, num(f * c))
+
+    def item(nombre, tipo, valor):
+        return f'<config:config-item config:name="{nombre}" config:type="{tipo}">{valor}</config:config-item>'
+    vista = "".join(item(n, t_, v) for n, t_, v in [
+        ("HorizontalSplitMode", "short", 2), ("VerticalSplitMode", "short", 2), ("HorizontalSplitPosition", "int", 1),
+        ("VerticalSplitPosition", "int", 1), ("ActiveSplitRange", "short", 2), ("PositionLeft", "int", 0),
+        ("PositionRight", "int", 1), ("PositionTop", "int", 0), ("PositionBottom", "int", 1)])
+    ajustes = ('<office:settings><config:config-item-set config:name="ooo:view-settings">'
+               '<config:config-item-map-indexed config:name="Views"><config:config-item-map-entry>'
+               + item("ViewId", "string", "view1") +
+               '<config:config-item-map-named config:name="Tables"><config:config-item-map-entry config:name="Inmovilizado">'
+               + vista + '</config:config-item-map-entry></config:config-item-map-named>'
+               + item("ActiveTable", "string", "Inmovilizado") +
+               '</config:config-item-map-entry></config:config-item-map-indexed></config:config-item-set></office:settings>')
+    return libro([h], scripts=ajustes)
 
 
 # ---------------------------------------------------------------- Write
@@ -456,11 +516,11 @@ PALABRAS = ("la suite ofimática lee y escribe documentos con cuidado para que n
             "formato de origen ni al pasar de uno a otro mientras el amiga sigue trabajando").split()
 
 
-def write_tamano():
-    """El documento de RNF-W01: unas 50 páginas de texto con títulos."""
+def write_tamano(capitulos=10):
+    """El documento de RNF-W01: unas 50 páginas de texto con títulos (con capitulos=60, unas 300)."""
     c = []
     n = 0
-    for capitulo in range(1, 11):
+    for capitulo in range(1, capitulos + 1):
         c.append(f'<text:h text:style-name="Titulo1" text:outline-level="1">Capítulo {capitulo}</text:h>')
         for _ in range(46):
             palabras = [PALABRAS[(n * 7 + k * 3) % len(PALABRAS)] for k in range(60 + n % 40)]
@@ -469,13 +529,65 @@ def write_tamano():
     return documento("".join(c))
 
 
+def write_notas():
+    """Notas al pie y al final (pérdida A9)."""
+    nota = ('<text:note text:id="ftn{n}" text:note-class="{clase}"><text:note-citation>{n}</text:note-citation>'
+            '<text:note-body><text:p text:style-name="Texto">{texto}</text:p></text:note-body></text:note>')
+    c = [p("Un párrafo con una nota al pie" + nota.format(n=1, clase="footnote", texto="La nota al pie.") +
+           " y otra al final" + nota.format(n=2, clase="endnote", texto="La nota al final.") + ".")]
+    return documento("".join(c))
+
+
+def write_cambios():
+    """Control de cambios: una inserción y un borrado sin aceptar (pérdida A9)."""
+    info = ('<office:change-info><dc:creator>Lorraine</dc:creator><dc:date>2026-10-25T10:00:00</dc:date>'
+            '</office:change-info>')
+    cambios = ('<text:tracked-changes text:track-changes="true">'
+               f'<text:changed-region xml:id="ct1" text:id="ct1"><text:insertion>{info}</text:insertion></text:changed-region>'
+               f'<text:changed-region xml:id="ct2" text:id="ct2"><text:deletion>{info}'
+               '<text:p text:style-name="Texto">texto borrado</text:p></text:deletion></text:changed-region>'
+               '</text:tracked-changes>')
+    c = [cambios, p('Texto original, <text:change-start text:change-id="ct1"/>texto insertado<text:change-end '
+                    'text:change-id="ct1"/> y <text:change text:change-id="ct2"/>fin.')]
+    return documento("".join(c))
+
+
+def imagen_convertida(datos_png, formato):
+    """El PNG convertido a JPEG o GIF con ImageMagick; None si no está."""
+    if not shutil.which("magick"):
+        return None
+    with tempfile.TemporaryDirectory() as d:
+        (Path(d) / "i.png").write_bytes(datos_png)
+        r = subprocess.run(["magick", str(Path(d) / "i.png"), str(Path(d) / f"i.{formato}")], capture_output=True)
+        return (Path(d) / f"i.{formato}").read_bytes() if r.returncode == 0 else None
+
+
+def write_imagenes():
+    """Una imagen PNG, una JPEG y una GIF en línea."""
+    base = png(64, 48)
+    c = []
+    for formato, datos in [("PNG", base), ("JPEG", imagen_convertida(base, "jpg")), ("GIF", imagen_convertida(base, "gif"))]:
+        if datos is None:
+            print(f"aviso: sin magick no hay imagen {formato}", file=sys.stderr)
+            continue
+        c.append(f'<text:p text:style-name="Texto"><draw:frame draw:style-name="Imagen" draw:name="{formato}" '
+                 'text:anchor-type="as-char" svg:width="4cm" svg:height="3cm"><draw:image><office:binary-data>'
+                 + base64.b64encode(datos).decode() + f'</office:binary-data></draw:image></draw:frame> {formato}</text:p>')
+    return documento("".join(c))
+
+
 # ---------------------------------------------------------------- todo
 
 CASOS = {
     "calc": {"valores": calc_valores, "fechas1904": calc_fechas1904, "limites": calc_limites,
-             "formulas": calc_formulas, "formato": calc_formato, "tamano_20k": calc_tamano},
-    "write": {"texto": write_texto, "estructura": write_estructura, "tamano_50p": write_tamano},
+             "formulas": calc_formulas, "formato": calc_formato, "tamano_20k": calc_tamano,
+             "perdidas_grafico": calc_datos_grafico, "perdidas_macros": calc_macros,
+             "inmovilizado": calc_inmovilizado},
+    "write": {"texto": write_texto, "estructura": write_estructura, "tamano_50p": write_tamano,
+              "imagenes": write_imagenes, "perdidas_notas": write_notas, "perdidas_cambios": write_cambios},
 }
+# Los grandes: tests/ficheros/grandes/, solo con --grandes (unos 30 MB entre todos: no van a git)
+GRANDES = {"calc": {"tamano_100k": lambda: calc_tamano(10000)}, "write": {"tamano_300p": lambda: write_tamano(60)}}
 CONVERSIONES = {"calc": ["ods", "xlsx", "csv", "fods"], "write": ["odt", "docx", "txt", "fodt"]}
 
 
@@ -488,9 +600,72 @@ def soffice(*args):
     return r.stdout
 
 
+def con_uno(trabajo):
+    """Arranca LibreOffice escuchando en un puerto libre y llama a trabajo(desktop)."""
+    import uno
+    s = socket.socket()
+    s.bind(("localhost", 0))
+    puerto = s.getsockname()[1]
+    s.close()
+    proc = subprocess.Popen(["soffice", f"-env:UserInstallation=file://{PERFIL}", "--headless", "--norestore",
+                             f"--accept=socket,host=localhost,port={puerto};urp;"],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    try:
+        local = uno.getComponentContext()
+        resolver = local.ServiceManager.createInstanceWithContext("com.sun.star.bridge.UnoUrlResolver", local)
+        for _ in range(120):
+            try:
+                ctx = resolver.resolve(f"uno:socket,host=localhost,port={puerto};urp;StarOffice.ComponentContext")
+                break
+            except Exception:
+                time.sleep(0.5)
+        else:
+            sys.exit("no se pudo conectar con LibreOffice por UNO")
+        desktop = ctx.ServiceManager.createInstanceWithContext("com.sun.star.frame.Desktop", ctx)
+        trabajo(desktop)
+        try:
+            desktop.terminate()
+        except Exception:
+            pass
+    finally:
+        try:
+            proc.wait(timeout=30)
+        except subprocess.TimeoutExpired:
+            proc.kill()
+
+
+def prop(nombre, valor):
+    import uno
+    from com.sun.star.beans import PropertyValue
+    p = PropertyValue()
+    p.Name, p.Value = nombre, valor
+    return p
+
+
+FILTROS = {"ods": "calc8", "xlsx": "Calc Office Open XML", "fods": "OpenDocument Spreadsheet Flat XML"}
+
+
+def retoques_uno(desktop):
+    """El gráfico de perdidas_grafico, guardado en ods, xlsx y fods."""
+    import uno
+    from com.sun.star.awt import Rectangle
+    from com.sun.star.table import CellRangeAddress
+    calc = FICHEROS / "calc"
+    for nombre in ("perdidas_grafico",):
+        doc = desktop.loadComponentFromURL(uno.systemPathToFileUrl(str(calc / "fuente" / f"{nombre}.fods")),
+                                           "_blank", 0, (prop("Hidden", True),))
+        hoja = doc.Sheets.getByIndex(0)
+        rango = CellRangeAddress(0, 0, 0, 1, 4)
+        hoja.Charts.addNewByName("Ventas", Rectangle(4000, 500, 12000, 7000), (rango,), True, True)
+        for ext, filtro in FILTROS.items():
+            doc.storeToURL(uno.systemPathToFileUrl(str(calc / f"{nombre}.{ext}")), (prop("FilterName", filtro),))
+        doc.close(True)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--fuentes", action="store_true", help="solo las fuentes .fods/.fodt")
+    ap.add_argument("--grandes", action="store_true", help="además, los grandes en tests/ficheros/grandes/")
     args = ap.parse_args()
     for programa, casos in CASOS.items():
         fuente = FICHEROS / programa / "fuente"
@@ -520,6 +695,18 @@ def main():
             lista = [f for f in fuentes if not (formato == "csv" and "limites" in f)]
             soffice("--convert-to", filtro, "--outdir", str(salida), *lista)
         print(f"{programa}: {len(list(salida.glob('*.*')))} ficheros convertidos")
+    con_uno(retoques_uno)
+    if args.grandes:
+        grandes = FICHEROS / "grandes"
+        grandes.mkdir(exist_ok=True)
+        for programa, casos in GRANDES.items():
+            ext, formatos = ("fods", ["ods", "xlsx"]) if programa == "calc" else ("fodt", ["odt", "docx"])
+            for nombre, hacer in casos.items():
+                fuente = grandes / f"{nombre}.{ext}"
+                fuente.write_text(hacer(), encoding="utf-8")
+                for formato in formatos:
+                    soffice("--convert-to", formato, "--outdir", str(grandes), str(fuente))
+        print(f"grandes: {len(list(grandes.iterdir()))} ficheros")
     version = soffice("--version").strip()
     (FICHEROS / "VERSION").write_text(version + "\n")
     print(version)
