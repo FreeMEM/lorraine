@@ -1,0 +1,38 @@
+# Mide la velocidad de la CPU emulada para ajustar el entorno "a1200-030" (tarea 0.3 del plan).
+#
+# Un bucle de 5 millones de vueltas de "subq.l #1,d0 / bne.s" en ensamblador: en un 68030 con la caché de
+# instrucciones encendida cuesta unos 8 ciclos por vuelta (2 la resta y 6 el salto tomado), así que en un
+# 68030 a 50 MHz son unos 0,8 s. Los MHz que salen son una estimación con esa cuenta.
+# Además, un trabajo de Dash normal (textos y listas) para comparar entornos entre sí.
+
+@native func bucle_cpu(vueltas: Int)
+"""
+    register long n __asm__("d0") = vueltas;
+    __asm__ volatile("1: subq.l #1,%0\n\tbne.s 1b" : "+d"(n));
+"""
+end
+
+func trabajo_dash() -> Int
+    total = 0
+    for i in (1..2000)
+        s = "celda #{i}"
+        partes = str_split(s, " ")
+        total = total + partes.length + s.length
+    end
+    return total
+end
+
+Main
+    t0 = time_ms()
+    bucle_cpu(5000000)
+    t1 = time_ms()
+    ms = t1 - t0
+    Print "bucle: #{ms} ms"
+    if ms > 0
+        Print "MHz estimados: #{40000 / ms}"
+    end
+    t2 = time_ms()
+    r = trabajo_dash()
+    t3 = time_ms()
+    Print "dash: #{t3 - t2} ms (#{r})"
+end

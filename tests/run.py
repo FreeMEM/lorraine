@@ -10,6 +10,7 @@ print, line by line. The programs (calc/calc.dash, write/write.dash) must compil
     python3 tests/run.py --no-emu      # compile only
     python3 tests/run.py --memcheck    # compile with ./dash --memcheck
     python3 tests/run.py -v            # show the output of failing tests in full
+    python3 tests/run.py --maquina a1200-030   # on the minimum machine (68030 at about 50 MHz)
 
 Lines a test can have:
     # expect-out: <line>        expected output, one per printed line, in order
@@ -39,6 +40,14 @@ ROOT = Path(__file__).resolve().parent.parent
 DASH = Path(os.environ.get("DASH", Path.home() / "Projects" / "FreeMEMLang" / ".worktrees" / "lorraine"))
 BUILD = ROOT / "build" / "tests"
 EMU_BASE = "fpu = 68882\n"          # the tests are built with --fpu (68020 + 68881)
+# The emulated machines (docs/ingenieria/08_PLAN_DE_PRUEBAS.md, section 2). a1200-030 is the minimum machine: a
+# 68030 at about 50 MHz. FS-UAE 3.2.35 ignores uae_cpu_multiplier with a 68030 (measured: always the A1200's
+# 14 MHz), so it runs at full speed held back by cpu_throttle: about 50 MHz on this PC, +-7 % with the PC busy.
+# Measurements on it are normalized with tools/medir_cpu.dash (task 0.3 of docs/LORRAINE_LOOP.md).
+MAQUINAS = {
+    "a1200": "",
+    "a1200-030": "cpu = 68030\naccuracy = 0\nuae_cpu_speed = max\nuae_cpu_throttle = -880\n",
+}
 PROGRAMS = ["calc/calc.dash", "write/write.dash"]
 
 
@@ -99,6 +108,7 @@ def main():
     # (the tests with the same emulator config run in one session: it gets this plus 20 s per test)
     ap.add_argument("--timeout", type=float, default=600)
     ap.add_argument("-v", "--verbose", action="store_true")
+    ap.add_argument("--maquina", choices=sorted(MAQUINAS), default="a1200")
     args = ap.parse_args()
 
     if not (DASH / "dash").exists():
@@ -133,7 +143,7 @@ def main():
         elif missing:
             results[src.stem] = (True, f"compiled (emulator skipped: no {', '.join(missing)})")
         else:
-            cfg = EMU_BASE + "".join(c + "\n" for c in directives(src, "emu-config"))
+            cfg = EMU_BASE + MAQUINAS[args.maquina] + "".join(c + "\n" for c in directives(src, "emu-config"))
             # a test with a screenshot boots alone (the screen is its window's)
             shot = src.stem if directives(src, "screenshot") else None
             to_run.setdefault((cfg, system, shot), []).append((src, exe, expected))

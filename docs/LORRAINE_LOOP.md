@@ -73,7 +73,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
 - [x] 0.2 `tests/run.py` (del de Tachyon, adaptado: `$DASH` por omisión el worktree `lorraine`; entornos a1200,
       a1200-mui y a1200-030) y `tests/test_hola.dash`, que pasa en FS-UAE con la ROM 3.1. Captura de una ventana MUI
       de prueba con el nombre de Lorraine.
-- [ ] 0.3 Entorno "a1200-030": FS-UAE con 68030 + 68882, sin JIT, a la velocidad de una Blizzard 1230 de 50 MHz
+- [x] 0.3 Entorno "a1200-030": FS-UAE con 68030 + 68882, sin JIT, a la velocidad de una Blizzard 1230 de 50 MHz
       (averiguar las opciones; apuntar cómo se comprobó). Un bucle de referencia medido en los tres entornos.
 - [ ] 0.4 `tools/corpus.py`: corpus propio con `soffice --headless` en `tests/ficheros/` (Calc: valores, fórmulas,
       formatos, varias hojas, fechas; Write: párrafos, estilos, listas, tabla, imagen), en todos los formatos.
@@ -168,4 +168,19 @@ Plantilla:
   `docs/img/h0_ventana.png`, enviada al usuario).
 - `--memcheck` no imprime resumen en un programa que no reserva memoria del pool: `test_ventana` no lo espera.
 - Batería: 2/2 (22 s).
+
+### 2026-10-25 — Tarea 0.3 (entorno a1200-030)
+
+- `tools/medir_cpu.dash`: 5 millones de vueltas de `subq.l #1,d0 / bne.s` (unos 8 ciclos cada una en un 68030 con
+  caché: 0,8 s a 50 MHz) y un trabajo de Dash con textos y listas.
+- **FS-UAE 3.2.35 no cambia la velocidad de un 68030 con `uae_cpu_multiplier`** (4, 14 y 28 dan lo mismo, también
+  con `uae_cpu_frequency`, ciclo exacto completo, CPU compatible y Fast de Zorro III; la configuración UAE sí los
+  recibe). Siempre sale la velocidad del A1200 de serie.
+- Lo que funciona: velocidad máxima sin JIT frenada con `uae_cpu_throttle = -880`. Medido: 51, 47 y 54 MHz
+  estimados con el PC cargado (carga media de 10 a 15): ±7 %. Por eso cada medida de rendimiento pasará antes el
+  bucle y se normalizará a 50 MHz.
+- Bucle de referencia: a1200 de serie 2898 ms (14 MHz), a1200-030 unos 780 ms (50 MHz), rtg (68040 + JIT) 46 ms.
+  El trabajo de Dash: 1062, unos 320 y 13 ms.
+- `tests/run.py --maquina a1200-030`. `08` § 2 al día.
+- Batería: 2/2 en a1200 y 2/2 en a1200-030.
 

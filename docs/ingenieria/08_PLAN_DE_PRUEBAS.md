@@ -34,7 +34,7 @@ publicar una versión. Es el **plan de partida**: las herramientas que aquí se 
 | a1200 | 68020 + 68882 | Workbench 3.1 (`sys31`) | Tests de módulos (sin MUI) |
 | a1200-mui | Igual | 3.1 con MUI 5 (`sys31mui`) | Tests con ventana |
 | a1200-32-mui | Igual | 3.2 con MUI 5 (`sys32mui`) | Compatibilidad con 3.2 (RNF-01) |
-| a1200-030 | 68030 + 68882 sin JIT, a la velocidad de una Blizzard 1230 de 50 MHz; 16 MB de Fast (propuesta) | 3.1 con MUI 5 (`sys31mui`) | **Máquina mínima: los objetivos de rendimiento (PR) se cumplen aquí** (usuario, 2026-10-25). Cómo se ajusta FS-UAE a esa velocidad: **comprobar** en H0 |
+| a1200-030 | 68030 + 68882, sin JIT, a unos 50 MHz: velocidad máxima frenada con `uae_cpu_throttle = -880` (FS-UAE 3.2.35 no hace caso de `uae_cpu_multiplier` con un 68030; medido). 8 MB de Fast | 3.1 con MUI 5 (`sys31mui`) | **Máquina mínima: los objetivos de rendimiento (PR) se cumplen aquí** (usuario, 2026-10-25). `tests/run.py --maquina a1200-030`. La velocidad varía un ±7 % según la carga del PC: cada medida pasa antes `tools/medir_cpu.dash` y se normaliza a 50 MHz |
 | medida | 68040 + JIT, RTG | 3.2 con MUI 5 (el `sys32rtg` de Tachyon) | Capturas y evolución de las medidas; no da por buenos los objetivos |
 | mui38 | 68040 + JIT, RTG | 3.2 con MUI 3.8 (`sys32rtg38`) | Compatibilidad con MUI 3.8 (RNF-01) |
 | real | Un Amiga real o Amiberry del usuario | El suyo | Aceptación a mano, cuando haya versión |
