@@ -1,0 +1,12 @@
+# perdidas_grafico.fods leído por LibreOffice 26.8.1.1, en-US
+hoja	Ventas	5	2	1
+celda	Ventas!A1	txt	Mes	Mes	
+celda	Ventas!B1	txt	Ventas	Ventas	
+celda	Ventas!A2	txt	enero	enero	
+celda	Ventas!B2	num	120.0	120	
+celda	Ventas!A3	txt	febrero	febrero	
+celda	Ventas!B3	num	95.0	95	
+celda	Ventas!A4	txt	marzo	marzo	
+celda	Ventas!B4	num	143.0	143	
+celda	Ventas!A5	txt	abril	abril	
+celda	Ventas!B5	num	160.0	160	

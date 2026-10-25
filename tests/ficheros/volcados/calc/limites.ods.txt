@@ -1,0 +1,4 @@
+# limites.ods leído por LibreOffice 26.8.1.1, en-US
+hoja	Limites	1048576	16384	0
+celda	Limites!A1	txt	A1	A1	
+celda	Limites!XFD1048576	num	1.0	1	

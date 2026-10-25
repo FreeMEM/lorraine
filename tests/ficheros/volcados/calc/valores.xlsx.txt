@@ -1,0 +1,46 @@
+# valores.xlsx leído por LibreOffice 26.8.1.1, en-US
+hoja	Valores	41	10	0
+celda	Valores!A1	txt	entero	entero	
+celda	Valores!B1	num	42.0	42	
+celda	Valores!A2	txt	negativo	negativo	
+celda	Valores!B2	num	-17.0	-17	
+celda	Valores!A3	txt	decimal	decimal	
+celda	Valores!B3	num	3.14159	3.14159	
+celda	Valores!A4	txt	grande	grande	
+celda	Valores!B4	num	1.23456789012346e+300	1.23456789012346E+300	
+celda	Valores!A5	txt	pequeño	pequeño	
+celda	Valores!B5	num	1e-300	1E-300	
+celda	Valores!A6	txt	quince cifras	quince cifras	
+celda	Valores!B6	num	123456789012345.0	123456789012345	
+celda	Valores!A7	txt	cero	cero	
+celda	Valores!B7	num	0.0	0	
+celda	Valores!A8	txt	0,1+0,2	0,1+0,2	
+celda	Valores!B8	num	0.3	0.3	=0.1+0.2
+celda	Valores!A9	txt	texto	texto	
+celda	Valores!B9	txt	Málaga, año 2026	Málaga, año 2026	
+celda	Valores!A10	txt	euro	euro	
+celda	Valores!B10	txt	Precio: 12 €	Precio: 12 €	
+celda	Valores!A11	txt	otros alfabetos	otros alfabetos	
+celda	Valores!B11	txt	Ελληνικά · Русский · 日本語	Ελληνικά · Русский · 日本語	
+celda	Valores!A12	txt	emoji	emoji	
+celda	Valores!B12	txt	Hola 😀	Hola 😀	
+celda	Valores!A13	txt	fecha	fecha	
+celda	Valores!B13	num	46320.0	25/10/2026	
+celda	Valores!A14	txt	fecha y hora	fecha y hora	
+celda	Valores!B14	num	46320.5729166667	25/10/2026 13:45	
+celda	Valores!A15	txt	hora	hora	
+celda	Valores!B15	num	0.354340277777778	08:30:15	
+celda	Valores!A16	txt	lógico verdadero	lógico verdadero	
+celda	Valores!B16	num	1.0	TRUE	=TRUE()
+celda	Valores!A17	txt	lógico falso	lógico falso	
+celda	Valores!B17	num	0.0	FALSE	=FALSE()
+celda	Valores!A18	txt	error división	error división	
+celda	Valores!B18	err	#DIV/0!	#DIV/0!	=1/0
+celda	Valores!A19	txt	error N/A	error N/A	
+celda	Valores!B19	err	#N/A	#N/A	=NA()
+celda	Valores!A20	txt	error valor	error valor	
+celda	Valores!B20	err	#VALUE!	#VALUE!	="a"+1
+celda	Valores!A21	txt	error nombre	error nombre	
+celda	Valores!B21	err	#NAME?	#NAME?	=noexiste(1)
+celda	Valores!A41	txt	tras un hueco	tras un hueco	
+celda	Valores!J41	num	9.0	9	

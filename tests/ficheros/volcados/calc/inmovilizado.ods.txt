@@ -1,0 +1,722 @@
+# inmovilizado.ods leído por LibreOffice 26.8.1.1, en-US
+hoja	Inmovilizado	60	12	0
+celda	Inmovilizado!A1	txt	Columna 1	Columna 1	
+celda	Inmovilizado!B1	txt	Columna 2	Columna 2	
+celda	Inmovilizado!C1	txt	Columna 3	Columna 3	
+celda	Inmovilizado!D1	txt	Columna 4	Columna 4	
+celda	Inmovilizado!E1	txt	Columna 5	Columna 5	
+celda	Inmovilizado!F1	txt	Columna 6	Columna 6	
+celda	Inmovilizado!G1	txt	Columna 7	Columna 7	
+celda	Inmovilizado!H1	txt	Columna 8	Columna 8	
+celda	Inmovilizado!I1	txt	Columna 9	Columna 9	
+celda	Inmovilizado!J1	txt	Columna 10	Columna 10	
+celda	Inmovilizado!K1	txt	Columna 11	Columna 11	
+celda	Inmovilizado!L1	txt	Columna 12	Columna 12	
+celda	Inmovilizado!A2	txt	Fila 1	Fila 1	
+celda	Inmovilizado!B2	num	1.0	1	
+celda	Inmovilizado!C2	num	2.0	2	
+celda	Inmovilizado!D2	num	3.0	3	
+celda	Inmovilizado!E2	num	4.0	4	
+celda	Inmovilizado!F2	num	5.0	5	
+celda	Inmovilizado!G2	num	6.0	6	
+celda	Inmovilizado!H2	num	7.0	7	
+celda	Inmovilizado!I2	num	8.0	8	
+celda	Inmovilizado!J2	num	9.0	9	
+celda	Inmovilizado!K2	num	10.0	10	
+celda	Inmovilizado!L2	num	11.0	11	
+celda	Inmovilizado!A3	txt	Fila 2	Fila 2	
+celda	Inmovilizado!B3	num	2.0	2	
+celda	Inmovilizado!C3	num	4.0	4	
+celda	Inmovilizado!D3	num	6.0	6	
+celda	Inmovilizado!E3	num	8.0	8	
+celda	Inmovilizado!F3	num	10.0	10	
+celda	Inmovilizado!G3	num	12.0	12	
+celda	Inmovilizado!H3	num	14.0	14	
+celda	Inmovilizado!I3	num	16.0	16	
+celda	Inmovilizado!J3	num	18.0	18	
+celda	Inmovilizado!K3	num	20.0	20	
+celda	Inmovilizado!L3	num	22.0	22	
+celda	Inmovilizado!A4	txt	Fila 3	Fila 3	
+celda	Inmovilizado!B4	num	3.0	3	
+celda	Inmovilizado!C4	num	6.0	6	
+celda	Inmovilizado!D4	num	9.0	9	
+celda	Inmovilizado!E4	num	12.0	12	
+celda	Inmovilizado!F4	num	15.0	15	
+celda	Inmovilizado!G4	num	18.0	18	
+celda	Inmovilizado!H4	num	21.0	21	
+celda	Inmovilizado!I4	num	24.0	24	
+celda	Inmovilizado!J4	num	27.0	27	
+celda	Inmovilizado!K4	num	30.0	30	
+celda	Inmovilizado!L4	num	33.0	33	
+celda	Inmovilizado!A5	txt	Fila 4	Fila 4	
+celda	Inmovilizado!B5	num	4.0	4	
+celda	Inmovilizado!C5	num	8.0	8	
+celda	Inmovilizado!D5	num	12.0	12	
+celda	Inmovilizado!E5	num	16.0	16	
+celda	Inmovilizado!F5	num	20.0	20	
+celda	Inmovilizado!G5	num	24.0	24	
+celda	Inmovilizado!H5	num	28.0	28	
+celda	Inmovilizado!I5	num	32.0	32	
+celda	Inmovilizado!J5	num	36.0	36	
+celda	Inmovilizado!K5	num	40.0	40	
+celda	Inmovilizado!L5	num	44.0	44	
+celda	Inmovilizado!A6	txt	Fila 5	Fila 5	
+celda	Inmovilizado!B6	num	5.0	5	
+celda	Inmovilizado!C6	num	10.0	10	
+celda	Inmovilizado!D6	num	15.0	15	
+celda	Inmovilizado!E6	num	20.0	20	
+celda	Inmovilizado!F6	num	25.0	25	
+celda	Inmovilizado!G6	num	30.0	30	
+celda	Inmovilizado!H6	num	35.0	35	
+celda	Inmovilizado!I6	num	40.0	40	
+celda	Inmovilizado!J6	num	45.0	45	
+celda	Inmovilizado!K6	num	50.0	50	
+celda	Inmovilizado!L6	num	55.0	55	
+celda	Inmovilizado!A7	txt	Fila 6	Fila 6	
+celda	Inmovilizado!B7	num	6.0	6	
+celda	Inmovilizado!C7	num	12.0	12	
+celda	Inmovilizado!D7	num	18.0	18	
+celda	Inmovilizado!E7	num	24.0	24	
+celda	Inmovilizado!F7	num	30.0	30	
+celda	Inmovilizado!G7	num	36.0	36	
+celda	Inmovilizado!H7	num	42.0	42	
+celda	Inmovilizado!I7	num	48.0	48	
+celda	Inmovilizado!J7	num	54.0	54	
+celda	Inmovilizado!K7	num	60.0	60	
+celda	Inmovilizado!L7	num	66.0	66	
+celda	Inmovilizado!A8	txt	Fila 7	Fila 7	
+celda	Inmovilizado!B8	num	7.0	7	
+celda	Inmovilizado!C8	num	14.0	14	
+celda	Inmovilizado!D8	num	21.0	21	
+celda	Inmovilizado!E8	num	28.0	28	
+celda	Inmovilizado!F8	num	35.0	35	
+celda	Inmovilizado!G8	num	42.0	42	
+celda	Inmovilizado!H8	num	49.0	49	
+celda	Inmovilizado!I8	num	56.0	56	
+celda	Inmovilizado!J8	num	63.0	63	
+celda	Inmovilizado!K8	num	70.0	70	
+celda	Inmovilizado!L8	num	77.0	77	
+celda	Inmovilizado!A9	txt	Fila 8	Fila 8	
+celda	Inmovilizado!B9	num	8.0	8	
+celda	Inmovilizado!C9	num	16.0	16	
+celda	Inmovilizado!D9	num	24.0	24	
+celda	Inmovilizado!E9	num	32.0	32	
+celda	Inmovilizado!F9	num	40.0	40	
+celda	Inmovilizado!G9	num	48.0	48	
+celda	Inmovilizado!H9	num	56.0	56	
+celda	Inmovilizado!I9	num	64.0	64	
+celda	Inmovilizado!J9	num	72.0	72	
+celda	Inmovilizado!K9	num	80.0	80	
+celda	Inmovilizado!L9	num	88.0	88	
+celda	Inmovilizado!A10	txt	Fila 9	Fila 9	
+celda	Inmovilizado!B10	num	9.0	9	
+celda	Inmovilizado!C10	num	18.0	18	
+celda	Inmovilizado!D10	num	27.0	27	
+celda	Inmovilizado!E10	num	36.0	36	
+celda	Inmovilizado!F10	num	45.0	45	
+celda	Inmovilizado!G10	num	54.0	54	
+celda	Inmovilizado!H10	num	63.0	63	
+celda	Inmovilizado!I10	num	72.0	72	
+celda	Inmovilizado!J10	num	81.0	81	
+celda	Inmovilizado!K10	num	90.0	90	
+celda	Inmovilizado!L10	num	99.0	99	
+celda	Inmovilizado!A11	txt	Fila 10	Fila 10	
+celda	Inmovilizado!B11	num	10.0	10	
+celda	Inmovilizado!C11	num	20.0	20	
+celda	Inmovilizado!D11	num	30.0	30	
+celda	Inmovilizado!E11	num	40.0	40	
+celda	Inmovilizado!F11	num	50.0	50	
+celda	Inmovilizado!G11	num	60.0	60	
+celda	Inmovilizado!H11	num	70.0	70	
+celda	Inmovilizado!I11	num	80.0	80	
+celda	Inmovilizado!J11	num	90.0	90	
+celda	Inmovilizado!K11	num	100.0	100	
+celda	Inmovilizado!L11	num	110.0	110	
+celda	Inmovilizado!A12	txt	Fila 11	Fila 11	
+celda	Inmovilizado!B12	num	11.0	11	
+celda	Inmovilizado!C12	num	22.0	22	
+celda	Inmovilizado!D12	num	33.0	33	
+celda	Inmovilizado!E12	num	44.0	44	
+celda	Inmovilizado!F12	num	55.0	55	
+celda	Inmovilizado!G12	num	66.0	66	
+celda	Inmovilizado!H12	num	77.0	77	
+celda	Inmovilizado!I12	num	88.0	88	
+celda	Inmovilizado!J12	num	99.0	99	
+celda	Inmovilizado!K12	num	110.0	110	
+celda	Inmovilizado!L12	num	121.0	121	
+celda	Inmovilizado!A13	txt	Fila 12	Fila 12	
+celda	Inmovilizado!B13	num	12.0	12	
+celda	Inmovilizado!C13	num	24.0	24	
+celda	Inmovilizado!D13	num	36.0	36	
+celda	Inmovilizado!E13	num	48.0	48	
+celda	Inmovilizado!F13	num	60.0	60	
+celda	Inmovilizado!G13	num	72.0	72	
+celda	Inmovilizado!H13	num	84.0	84	
+celda	Inmovilizado!I13	num	96.0	96	
+celda	Inmovilizado!J13	num	108.0	108	
+celda	Inmovilizado!K13	num	120.0	120	
+celda	Inmovilizado!L13	num	132.0	132	
+celda	Inmovilizado!A14	txt	Fila 13	Fila 13	
+celda	Inmovilizado!B14	num	13.0	13	
+celda	Inmovilizado!C14	num	26.0	26	
+celda	Inmovilizado!D14	num	39.0	39	
+celda	Inmovilizado!E14	num	52.0	52	
+celda	Inmovilizado!F14	num	65.0	65	
+celda	Inmovilizado!G14	num	78.0	78	
+celda	Inmovilizado!H14	num	91.0	91	
+celda	Inmovilizado!I14	num	104.0	104	
+celda	Inmovilizado!J14	num	117.0	117	
+celda	Inmovilizado!K14	num	130.0	130	
+celda	Inmovilizado!L14	num	143.0	143	
+celda	Inmovilizado!A15	txt	Fila 14	Fila 14	
+celda	Inmovilizado!B15	num	14.0	14	
+celda	Inmovilizado!C15	num	28.0	28	
+celda	Inmovilizado!D15	num	42.0	42	
+celda	Inmovilizado!E15	num	56.0	56	
+celda	Inmovilizado!F15	num	70.0	70	
+celda	Inmovilizado!G15	num	84.0	84	
+celda	Inmovilizado!H15	num	98.0	98	
+celda	Inmovilizado!I15	num	112.0	112	
+celda	Inmovilizado!J15	num	126.0	126	
+celda	Inmovilizado!K15	num	140.0	140	
+celda	Inmovilizado!L15	num	154.0	154	
+celda	Inmovilizado!A16	txt	Fila 15	Fila 15	
+celda	Inmovilizado!B16	num	15.0	15	
+celda	Inmovilizado!C16	num	30.0	30	
+celda	Inmovilizado!D16	num	45.0	45	
+celda	Inmovilizado!E16	num	60.0	60	
+celda	Inmovilizado!F16	num	75.0	75	
+celda	Inmovilizado!G16	num	90.0	90	
+celda	Inmovilizado!H16	num	105.0	105	
+celda	Inmovilizado!I16	num	120.0	120	
+celda	Inmovilizado!J16	num	135.0	135	
+celda	Inmovilizado!K16	num	150.0	150	
+celda	Inmovilizado!L16	num	165.0	165	
+celda	Inmovilizado!A17	txt	Fila 16	Fila 16	
+celda	Inmovilizado!B17	num	16.0	16	
+celda	Inmovilizado!C17	num	32.0	32	
+celda	Inmovilizado!D17	num	48.0	48	
+celda	Inmovilizado!E17	num	64.0	64	
+celda	Inmovilizado!F17	num	80.0	80	
+celda	Inmovilizado!G17	num	96.0	96	
+celda	Inmovilizado!H17	num	112.0	112	
+celda	Inmovilizado!I17	num	128.0	128	
+celda	Inmovilizado!J17	num	144.0	144	
+celda	Inmovilizado!K17	num	160.0	160	
+celda	Inmovilizado!L17	num	176.0	176	
+celda	Inmovilizado!A18	txt	Fila 17	Fila 17	
+celda	Inmovilizado!B18	num	17.0	17	
+celda	Inmovilizado!C18	num	34.0	34	
+celda	Inmovilizado!D18	num	51.0	51	
+celda	Inmovilizado!E18	num	68.0	68	
+celda	Inmovilizado!F18	num	85.0	85	
+celda	Inmovilizado!G18	num	102.0	102	
+celda	Inmovilizado!H18	num	119.0	119	
+celda	Inmovilizado!I18	num	136.0	136	
+celda	Inmovilizado!J18	num	153.0	153	
+celda	Inmovilizado!K18	num	170.0	170	
+celda	Inmovilizado!L18	num	187.0	187	
+celda	Inmovilizado!A19	txt	Fila 18	Fila 18	
+celda	Inmovilizado!B19	num	18.0	18	
+celda	Inmovilizado!C19	num	36.0	36	
+celda	Inmovilizado!D19	num	54.0	54	
+celda	Inmovilizado!E19	num	72.0	72	
+celda	Inmovilizado!F19	num	90.0	90	
+celda	Inmovilizado!G19	num	108.0	108	
+celda	Inmovilizado!H19	num	126.0	126	
+celda	Inmovilizado!I19	num	144.0	144	
+celda	Inmovilizado!J19	num	162.0	162	
+celda	Inmovilizado!K19	num	180.0	180	
+celda	Inmovilizado!L19	num	198.0	198	
+celda	Inmovilizado!A20	txt	Fila 19	Fila 19	
+celda	Inmovilizado!B20	num	19.0	19	
+celda	Inmovilizado!C20	num	38.0	38	
+celda	Inmovilizado!D20	num	57.0	57	
+celda	Inmovilizado!E20	num	76.0	76	
+celda	Inmovilizado!F20	num	95.0	95	
+celda	Inmovilizado!G20	num	114.0	114	
+celda	Inmovilizado!H20	num	133.0	133	
+celda	Inmovilizado!I20	num	152.0	152	
+celda	Inmovilizado!J20	num	171.0	171	
+celda	Inmovilizado!K20	num	190.0	190	
+celda	Inmovilizado!L20	num	209.0	209	
+celda	Inmovilizado!A21	txt	Fila 20	Fila 20	
+celda	Inmovilizado!B21	num	20.0	20	
+celda	Inmovilizado!C21	num	40.0	40	
+celda	Inmovilizado!D21	num	60.0	60	
+celda	Inmovilizado!E21	num	80.0	80	
+celda	Inmovilizado!F21	num	100.0	100	
+celda	Inmovilizado!G21	num	120.0	120	
+celda	Inmovilizado!H21	num	140.0	140	
+celda	Inmovilizado!I21	num	160.0	160	
+celda	Inmovilizado!J21	num	180.0	180	
+celda	Inmovilizado!K21	num	200.0	200	
+celda	Inmovilizado!L21	num	220.0	220	
+celda	Inmovilizado!A22	txt	Fila 21	Fila 21	
+celda	Inmovilizado!B22	num	21.0	21	
+celda	Inmovilizado!C22	num	42.0	42	
+celda	Inmovilizado!D22	num	63.0	63	
+celda	Inmovilizado!E22	num	84.0	84	
+celda	Inmovilizado!F22	num	105.0	105	
+celda	Inmovilizado!G22	num	126.0	126	
+celda	Inmovilizado!H22	num	147.0	147	
+celda	Inmovilizado!I22	num	168.0	168	
+celda	Inmovilizado!J22	num	189.0	189	
+celda	Inmovilizado!K22	num	210.0	210	
+celda	Inmovilizado!L22	num	231.0	231	
+celda	Inmovilizado!A23	txt	Fila 22	Fila 22	
+celda	Inmovilizado!B23	num	22.0	22	
+celda	Inmovilizado!C23	num	44.0	44	
+celda	Inmovilizado!D23	num	66.0	66	
+celda	Inmovilizado!E23	num	88.0	88	
+celda	Inmovilizado!F23	num	110.0	110	
+celda	Inmovilizado!G23	num	132.0	132	
+celda	Inmovilizado!H23	num	154.0	154	
+celda	Inmovilizado!I23	num	176.0	176	
+celda	Inmovilizado!J23	num	198.0	198	
+celda	Inmovilizado!K23	num	220.0	220	
+celda	Inmovilizado!L23	num	242.0	242	
+celda	Inmovilizado!A24	txt	Fila 23	Fila 23	
+celda	Inmovilizado!B24	num	23.0	23	
+celda	Inmovilizado!C24	num	46.0	46	
+celda	Inmovilizado!D24	num	69.0	69	
+celda	Inmovilizado!E24	num	92.0	92	
+celda	Inmovilizado!F24	num	115.0	115	
+celda	Inmovilizado!G24	num	138.0	138	
+celda	Inmovilizado!H24	num	161.0	161	
+celda	Inmovilizado!I24	num	184.0	184	
+celda	Inmovilizado!J24	num	207.0	207	
+celda	Inmovilizado!K24	num	230.0	230	
+celda	Inmovilizado!L24	num	253.0	253	
+celda	Inmovilizado!A25	txt	Fila 24	Fila 24	
+celda	Inmovilizado!B25	num	24.0	24	
+celda	Inmovilizado!C25	num	48.0	48	
+celda	Inmovilizado!D25	num	72.0	72	
+celda	Inmovilizado!E25	num	96.0	96	
+celda	Inmovilizado!F25	num	120.0	120	
+celda	Inmovilizado!G25	num	144.0	144	
+celda	Inmovilizado!H25	num	168.0	168	
+celda	Inmovilizado!I25	num	192.0	192	
+celda	Inmovilizado!J25	num	216.0	216	
+celda	Inmovilizado!K25	num	240.0	240	
+celda	Inmovilizado!L25	num	264.0	264	
+celda	Inmovilizado!A26	txt	Fila 25	Fila 25	
+celda	Inmovilizado!B26	num	25.0	25	
+celda	Inmovilizado!C26	num	50.0	50	
+celda	Inmovilizado!D26	num	75.0	75	
+celda	Inmovilizado!E26	num	100.0	100	
+celda	Inmovilizado!F26	num	125.0	125	
+celda	Inmovilizado!G26	num	150.0	150	
+celda	Inmovilizado!H26	num	175.0	175	
+celda	Inmovilizado!I26	num	200.0	200	
+celda	Inmovilizado!J26	num	225.0	225	
+celda	Inmovilizado!K26	num	250.0	250	
+celda	Inmovilizado!L26	num	275.0	275	
+celda	Inmovilizado!A27	txt	Fila 26	Fila 26	
+celda	Inmovilizado!B27	num	26.0	26	
+celda	Inmovilizado!C27	num	52.0	52	
+celda	Inmovilizado!D27	num	78.0	78	
+celda	Inmovilizado!E27	num	104.0	104	
+celda	Inmovilizado!F27	num	130.0	130	
+celda	Inmovilizado!G27	num	156.0	156	
+celda	Inmovilizado!H27	num	182.0	182	
+celda	Inmovilizado!I27	num	208.0	208	
+celda	Inmovilizado!J27	num	234.0	234	
+celda	Inmovilizado!K27	num	260.0	260	
+celda	Inmovilizado!L27	num	286.0	286	
+celda	Inmovilizado!A28	txt	Fila 27	Fila 27	
+celda	Inmovilizado!B28	num	27.0	27	
+celda	Inmovilizado!C28	num	54.0	54	
+celda	Inmovilizado!D28	num	81.0	81	
+celda	Inmovilizado!E28	num	108.0	108	
+celda	Inmovilizado!F28	num	135.0	135	
+celda	Inmovilizado!G28	num	162.0	162	
+celda	Inmovilizado!H28	num	189.0	189	
+celda	Inmovilizado!I28	num	216.0	216	
+celda	Inmovilizado!J28	num	243.0	243	
+celda	Inmovilizado!K28	num	270.0	270	
+celda	Inmovilizado!L28	num	297.0	297	
+celda	Inmovilizado!A29	txt	Fila 28	Fila 28	
+celda	Inmovilizado!B29	num	28.0	28	
+celda	Inmovilizado!C29	num	56.0	56	
+celda	Inmovilizado!D29	num	84.0	84	
+celda	Inmovilizado!E29	num	112.0	112	
+celda	Inmovilizado!F29	num	140.0	140	
+celda	Inmovilizado!G29	num	168.0	168	
+celda	Inmovilizado!H29	num	196.0	196	
+celda	Inmovilizado!I29	num	224.0	224	
+celda	Inmovilizado!J29	num	252.0	252	
+celda	Inmovilizado!K29	num	280.0	280	
+celda	Inmovilizado!L29	num	308.0	308	
+celda	Inmovilizado!A30	txt	Fila 29	Fila 29	
+celda	Inmovilizado!B30	num	29.0	29	
+celda	Inmovilizado!C30	num	58.0	58	
+celda	Inmovilizado!D30	num	87.0	87	
+celda	Inmovilizado!E30	num	116.0	116	
+celda	Inmovilizado!F30	num	145.0	145	
+celda	Inmovilizado!G30	num	174.0	174	
+celda	Inmovilizado!H30	num	203.0	203	
+celda	Inmovilizado!I30	num	232.0	232	
+celda	Inmovilizado!J30	num	261.0	261	
+celda	Inmovilizado!K30	num	290.0	290	
+celda	Inmovilizado!L30	num	319.0	319	
+celda	Inmovilizado!A31	txt	Fila 30	Fila 30	
+celda	Inmovilizado!B31	num	30.0	30	
+celda	Inmovilizado!C31	num	60.0	60	
+celda	Inmovilizado!D31	num	90.0	90	
+celda	Inmovilizado!E31	num	120.0	120	
+celda	Inmovilizado!F31	num	150.0	150	
+celda	Inmovilizado!G31	num	180.0	180	
+celda	Inmovilizado!H31	num	210.0	210	
+celda	Inmovilizado!I31	num	240.0	240	
+celda	Inmovilizado!J31	num	270.0	270	
+celda	Inmovilizado!K31	num	300.0	300	
+celda	Inmovilizado!L31	num	330.0	330	
+celda	Inmovilizado!A32	txt	Fila 31	Fila 31	
+celda	Inmovilizado!B32	num	31.0	31	
+celda	Inmovilizado!C32	num	62.0	62	
+celda	Inmovilizado!D32	num	93.0	93	
+celda	Inmovilizado!E32	num	124.0	124	
+celda	Inmovilizado!F32	num	155.0	155	
+celda	Inmovilizado!G32	num	186.0	186	
+celda	Inmovilizado!H32	num	217.0	217	
+celda	Inmovilizado!I32	num	248.0	248	
+celda	Inmovilizado!J32	num	279.0	279	
+celda	Inmovilizado!K32	num	310.0	310	
+celda	Inmovilizado!L32	num	341.0	341	
+celda	Inmovilizado!A33	txt	Fila 32	Fila 32	
+celda	Inmovilizado!B33	num	32.0	32	
+celda	Inmovilizado!C33	num	64.0	64	
+celda	Inmovilizado!D33	num	96.0	96	
+celda	Inmovilizado!E33	num	128.0	128	
+celda	Inmovilizado!F33	num	160.0	160	
+celda	Inmovilizado!G33	num	192.0	192	
+celda	Inmovilizado!H33	num	224.0	224	
+celda	Inmovilizado!I33	num	256.0	256	
+celda	Inmovilizado!J33	num	288.0	288	
+celda	Inmovilizado!K33	num	320.0	320	
+celda	Inmovilizado!L33	num	352.0	352	
+celda	Inmovilizado!A34	txt	Fila 33	Fila 33	
+celda	Inmovilizado!B34	num	33.0	33	
+celda	Inmovilizado!C34	num	66.0	66	
+celda	Inmovilizado!D34	num	99.0	99	
+celda	Inmovilizado!E34	num	132.0	132	
+celda	Inmovilizado!F34	num	165.0	165	
+celda	Inmovilizado!G34	num	198.0	198	
+celda	Inmovilizado!H34	num	231.0	231	
+celda	Inmovilizado!I34	num	264.0	264	
+celda	Inmovilizado!J34	num	297.0	297	
+celda	Inmovilizado!K34	num	330.0	330	
+celda	Inmovilizado!L34	num	363.0	363	
+celda	Inmovilizado!A35	txt	Fila 34	Fila 34	
+celda	Inmovilizado!B35	num	34.0	34	
+celda	Inmovilizado!C35	num	68.0	68	
+celda	Inmovilizado!D35	num	102.0	102	
+celda	Inmovilizado!E35	num	136.0	136	
+celda	Inmovilizado!F35	num	170.0	170	
+celda	Inmovilizado!G35	num	204.0	204	
+celda	Inmovilizado!H35	num	238.0	238	
+celda	Inmovilizado!I35	num	272.0	272	
+celda	Inmovilizado!J35	num	306.0	306	
+celda	Inmovilizado!K35	num	340.0	340	
+celda	Inmovilizado!L35	num	374.0	374	
+celda	Inmovilizado!A36	txt	Fila 35	Fila 35	
+celda	Inmovilizado!B36	num	35.0	35	
+celda	Inmovilizado!C36	num	70.0	70	
+celda	Inmovilizado!D36	num	105.0	105	
+celda	Inmovilizado!E36	num	140.0	140	
+celda	Inmovilizado!F36	num	175.0	175	
+celda	Inmovilizado!G36	num	210.0	210	
+celda	Inmovilizado!H36	num	245.0	245	
+celda	Inmovilizado!I36	num	280.0	280	
+celda	Inmovilizado!J36	num	315.0	315	
+celda	Inmovilizado!K36	num	350.0	350	
+celda	Inmovilizado!L36	num	385.0	385	
+celda	Inmovilizado!A37	txt	Fila 36	Fila 36	
+celda	Inmovilizado!B37	num	36.0	36	
+celda	Inmovilizado!C37	num	72.0	72	
+celda	Inmovilizado!D37	num	108.0	108	
+celda	Inmovilizado!E37	num	144.0	144	
+celda	Inmovilizado!F37	num	180.0	180	
+celda	Inmovilizado!G37	num	216.0	216	
+celda	Inmovilizado!H37	num	252.0	252	
+celda	Inmovilizado!I37	num	288.0	288	
+celda	Inmovilizado!J37	num	324.0	324	
+celda	Inmovilizado!K37	num	360.0	360	
+celda	Inmovilizado!L37	num	396.0	396	
+celda	Inmovilizado!A38	txt	Fila 37	Fila 37	
+celda	Inmovilizado!B38	num	37.0	37	
+celda	Inmovilizado!C38	num	74.0	74	
+celda	Inmovilizado!D38	num	111.0	111	
+celda	Inmovilizado!E38	num	148.0	148	
+celda	Inmovilizado!F38	num	185.0	185	
+celda	Inmovilizado!G38	num	222.0	222	
+celda	Inmovilizado!H38	num	259.0	259	
+celda	Inmovilizado!I38	num	296.0	296	
+celda	Inmovilizado!J38	num	333.0	333	
+celda	Inmovilizado!K38	num	370.0	370	
+celda	Inmovilizado!L38	num	407.0	407	
+celda	Inmovilizado!A39	txt	Fila 38	Fila 38	
+celda	Inmovilizado!B39	num	38.0	38	
+celda	Inmovilizado!C39	num	76.0	76	
+celda	Inmovilizado!D39	num	114.0	114	
+celda	Inmovilizado!E39	num	152.0	152	
+celda	Inmovilizado!F39	num	190.0	190	
+celda	Inmovilizado!G39	num	228.0	228	
+celda	Inmovilizado!H39	num	266.0	266	
+celda	Inmovilizado!I39	num	304.0	304	
+celda	Inmovilizado!J39	num	342.0	342	
+celda	Inmovilizado!K39	num	380.0	380	
+celda	Inmovilizado!L39	num	418.0	418	
+celda	Inmovilizado!A40	txt	Fila 39	Fila 39	
+celda	Inmovilizado!B40	num	39.0	39	
+celda	Inmovilizado!C40	num	78.0	78	
+celda	Inmovilizado!D40	num	117.0	117	
+celda	Inmovilizado!E40	num	156.0	156	
+celda	Inmovilizado!F40	num	195.0	195	
+celda	Inmovilizado!G40	num	234.0	234	
+celda	Inmovilizado!H40	num	273.0	273	
+celda	Inmovilizado!I40	num	312.0	312	
+celda	Inmovilizado!J40	num	351.0	351	
+celda	Inmovilizado!K40	num	390.0	390	
+celda	Inmovilizado!L40	num	429.0	429	
+celda	Inmovilizado!A41	txt	Fila 40	Fila 40	
+celda	Inmovilizado!B41	num	40.0	40	
+celda	Inmovilizado!C41	num	80.0	80	
+celda	Inmovilizado!D41	num	120.0	120	
+celda	Inmovilizado!E41	num	160.0	160	
+celda	Inmovilizado!F41	num	200.0	200	
+celda	Inmovilizado!G41	num	240.0	240	
+celda	Inmovilizado!H41	num	280.0	280	
+celda	Inmovilizado!I41	num	320.0	320	
+celda	Inmovilizado!J41	num	360.0	360	
+celda	Inmovilizado!K41	num	400.0	400	
+celda	Inmovilizado!L41	num	440.0	440	
+celda	Inmovilizado!A42	txt	Fila 41	Fila 41	
+celda	Inmovilizado!B42	num	41.0	41	
+celda	Inmovilizado!C42	num	82.0	82	
+celda	Inmovilizado!D42	num	123.0	123	
+celda	Inmovilizado!E42	num	164.0	164	
+celda	Inmovilizado!F42	num	205.0	205	
+celda	Inmovilizado!G42	num	246.0	246	
+celda	Inmovilizado!H42	num	287.0	287	
+celda	Inmovilizado!I42	num	328.0	328	
+celda	Inmovilizado!J42	num	369.0	369	
+celda	Inmovilizado!K42	num	410.0	410	
+celda	Inmovilizado!L42	num	451.0	451	
+celda	Inmovilizado!A43	txt	Fila 42	Fila 42	
+celda	Inmovilizado!B43	num	42.0	42	
+celda	Inmovilizado!C43	num	84.0	84	
+celda	Inmovilizado!D43	num	126.0	126	
+celda	Inmovilizado!E43	num	168.0	168	
+celda	Inmovilizado!F43	num	210.0	210	
+celda	Inmovilizado!G43	num	252.0	252	
+celda	Inmovilizado!H43	num	294.0	294	
+celda	Inmovilizado!I43	num	336.0	336	
+celda	Inmovilizado!J43	num	378.0	378	
+celda	Inmovilizado!K43	num	420.0	420	
+celda	Inmovilizado!L43	num	462.0	462	
+celda	Inmovilizado!A44	txt	Fila 43	Fila 43	
+celda	Inmovilizado!B44	num	43.0	43	
+celda	Inmovilizado!C44	num	86.0	86	
+celda	Inmovilizado!D44	num	129.0	129	
+celda	Inmovilizado!E44	num	172.0	172	
+celda	Inmovilizado!F44	num	215.0	215	
+celda	Inmovilizado!G44	num	258.0	258	
+celda	Inmovilizado!H44	num	301.0	301	
+celda	Inmovilizado!I44	num	344.0	344	
+celda	Inmovilizado!J44	num	387.0	387	
+celda	Inmovilizado!K44	num	430.0	430	
+celda	Inmovilizado!L44	num	473.0	473	
+celda	Inmovilizado!A45	txt	Fila 44	Fila 44	
+celda	Inmovilizado!B45	num	44.0	44	
+celda	Inmovilizado!C45	num	88.0	88	
+celda	Inmovilizado!D45	num	132.0	132	
+celda	Inmovilizado!E45	num	176.0	176	
+celda	Inmovilizado!F45	num	220.0	220	
+celda	Inmovilizado!G45	num	264.0	264	
+celda	Inmovilizado!H45	num	308.0	308	
+celda	Inmovilizado!I45	num	352.0	352	
+celda	Inmovilizado!J45	num	396.0	396	
+celda	Inmovilizado!K45	num	440.0	440	
+celda	Inmovilizado!L45	num	484.0	484	
+celda	Inmovilizado!A46	txt	Fila 45	Fila 45	
+celda	Inmovilizado!B46	num	45.0	45	
+celda	Inmovilizado!C46	num	90.0	90	
+celda	Inmovilizado!D46	num	135.0	135	
+celda	Inmovilizado!E46	num	180.0	180	
+celda	Inmovilizado!F46	num	225.0	225	
+celda	Inmovilizado!G46	num	270.0	270	
+celda	Inmovilizado!H46	num	315.0	315	
+celda	Inmovilizado!I46	num	360.0	360	
+celda	Inmovilizado!J46	num	405.0	405	
+celda	Inmovilizado!K46	num	450.0	450	
+celda	Inmovilizado!L46	num	495.0	495	
+celda	Inmovilizado!A47	txt	Fila 46	Fila 46	
+celda	Inmovilizado!B47	num	46.0	46	
+celda	Inmovilizado!C47	num	92.0	92	
+celda	Inmovilizado!D47	num	138.0	138	
+celda	Inmovilizado!E47	num	184.0	184	
+celda	Inmovilizado!F47	num	230.0	230	
+celda	Inmovilizado!G47	num	276.0	276	
+celda	Inmovilizado!H47	num	322.0	322	
+celda	Inmovilizado!I47	num	368.0	368	
+celda	Inmovilizado!J47	num	414.0	414	
+celda	Inmovilizado!K47	num	460.0	460	
+celda	Inmovilizado!L47	num	506.0	506	
+celda	Inmovilizado!A48	txt	Fila 47	Fila 47	
+celda	Inmovilizado!B48	num	47.0	47	
+celda	Inmovilizado!C48	num	94.0	94	
+celda	Inmovilizado!D48	num	141.0	141	
+celda	Inmovilizado!E48	num	188.0	188	
+celda	Inmovilizado!F48	num	235.0	235	
+celda	Inmovilizado!G48	num	282.0	282	
+celda	Inmovilizado!H48	num	329.0	329	
+celda	Inmovilizado!I48	num	376.0	376	
+celda	Inmovilizado!J48	num	423.0	423	
+celda	Inmovilizado!K48	num	470.0	470	
+celda	Inmovilizado!L48	num	517.0	517	
+celda	Inmovilizado!A49	txt	Fila 48	Fila 48	
+celda	Inmovilizado!B49	num	48.0	48	
+celda	Inmovilizado!C49	num	96.0	96	
+celda	Inmovilizado!D49	num	144.0	144	
+celda	Inmovilizado!E49	num	192.0	192	
+celda	Inmovilizado!F49	num	240.0	240	
+celda	Inmovilizado!G49	num	288.0	288	
+celda	Inmovilizado!H49	num	336.0	336	
+celda	Inmovilizado!I49	num	384.0	384	
+celda	Inmovilizado!J49	num	432.0	432	
+celda	Inmovilizado!K49	num	480.0	480	
+celda	Inmovilizado!L49	num	528.0	528	
+celda	Inmovilizado!A50	txt	Fila 49	Fila 49	
+celda	Inmovilizado!B50	num	49.0	49	
+celda	Inmovilizado!C50	num	98.0	98	
+celda	Inmovilizado!D50	num	147.0	147	
+celda	Inmovilizado!E50	num	196.0	196	
+celda	Inmovilizado!F50	num	245.0	245	
+celda	Inmovilizado!G50	num	294.0	294	
+celda	Inmovilizado!H50	num	343.0	343	
+celda	Inmovilizado!I50	num	392.0	392	
+celda	Inmovilizado!J50	num	441.0	441	
+celda	Inmovilizado!K50	num	490.0	490	
+celda	Inmovilizado!L50	num	539.0	539	
+celda	Inmovilizado!A51	txt	Fila 50	Fila 50	
+celda	Inmovilizado!B51	num	50.0	50	
+celda	Inmovilizado!C51	num	100.0	100	
+celda	Inmovilizado!D51	num	150.0	150	
+celda	Inmovilizado!E51	num	200.0	200	
+celda	Inmovilizado!F51	num	250.0	250	
+celda	Inmovilizado!G51	num	300.0	300	
+celda	Inmovilizado!H51	num	350.0	350	
+celda	Inmovilizado!I51	num	400.0	400	
+celda	Inmovilizado!J51	num	450.0	450	
+celda	Inmovilizado!K51	num	500.0	500	
+celda	Inmovilizado!L51	num	550.0	550	
+celda	Inmovilizado!A52	txt	Fila 51	Fila 51	
+celda	Inmovilizado!B52	num	51.0	51	
+celda	Inmovilizado!C52	num	102.0	102	
+celda	Inmovilizado!D52	num	153.0	153	
+celda	Inmovilizado!E52	num	204.0	204	
+celda	Inmovilizado!F52	num	255.0	255	
+celda	Inmovilizado!G52	num	306.0	306	
+celda	Inmovilizado!H52	num	357.0	357	
+celda	Inmovilizado!I52	num	408.0	408	
+celda	Inmovilizado!J52	num	459.0	459	
+celda	Inmovilizado!K52	num	510.0	510	
+celda	Inmovilizado!L52	num	561.0	561	
+celda	Inmovilizado!A53	txt	Fila 52	Fila 52	
+celda	Inmovilizado!B53	num	52.0	52	
+celda	Inmovilizado!C53	num	104.0	104	
+celda	Inmovilizado!D53	num	156.0	156	
+celda	Inmovilizado!E53	num	208.0	208	
+celda	Inmovilizado!F53	num	260.0	260	
+celda	Inmovilizado!G53	num	312.0	312	
+celda	Inmovilizado!H53	num	364.0	364	
+celda	Inmovilizado!I53	num	416.0	416	
+celda	Inmovilizado!J53	num	468.0	468	
+celda	Inmovilizado!K53	num	520.0	520	
+celda	Inmovilizado!L53	num	572.0	572	
+celda	Inmovilizado!A54	txt	Fila 53	Fila 53	
+celda	Inmovilizado!B54	num	53.0	53	
+celda	Inmovilizado!C54	num	106.0	106	
+celda	Inmovilizado!D54	num	159.0	159	
+celda	Inmovilizado!E54	num	212.0	212	
+celda	Inmovilizado!F54	num	265.0	265	
+celda	Inmovilizado!G54	num	318.0	318	
+celda	Inmovilizado!H54	num	371.0	371	
+celda	Inmovilizado!I54	num	424.0	424	
+celda	Inmovilizado!J54	num	477.0	477	
+celda	Inmovilizado!K54	num	530.0	530	
+celda	Inmovilizado!L54	num	583.0	583	
+celda	Inmovilizado!A55	txt	Fila 54	Fila 54	
+celda	Inmovilizado!B55	num	54.0	54	
+celda	Inmovilizado!C55	num	108.0	108	
+celda	Inmovilizado!D55	num	162.0	162	
+celda	Inmovilizado!E55	num	216.0	216	
+celda	Inmovilizado!F55	num	270.0	270	
+celda	Inmovilizado!G55	num	324.0	324	
+celda	Inmovilizado!H55	num	378.0	378	
+celda	Inmovilizado!I55	num	432.0	432	
+celda	Inmovilizado!J55	num	486.0	486	
+celda	Inmovilizado!K55	num	540.0	540	
+celda	Inmovilizado!L55	num	594.0	594	
+celda	Inmovilizado!A56	txt	Fila 55	Fila 55	
+celda	Inmovilizado!B56	num	55.0	55	
+celda	Inmovilizado!C56	num	110.0	110	
+celda	Inmovilizado!D56	num	165.0	165	
+celda	Inmovilizado!E56	num	220.0	220	
+celda	Inmovilizado!F56	num	275.0	275	
+celda	Inmovilizado!G56	num	330.0	330	
+celda	Inmovilizado!H56	num	385.0	385	
+celda	Inmovilizado!I56	num	440.0	440	
+celda	Inmovilizado!J56	num	495.0	495	
+celda	Inmovilizado!K56	num	550.0	550	
+celda	Inmovilizado!L56	num	605.0	605	
+celda	Inmovilizado!A57	txt	Fila 56	Fila 56	
+celda	Inmovilizado!B57	num	56.0	56	
+celda	Inmovilizado!C57	num	112.0	112	
+celda	Inmovilizado!D57	num	168.0	168	
+celda	Inmovilizado!E57	num	224.0	224	
+celda	Inmovilizado!F57	num	280.0	280	
+celda	Inmovilizado!G57	num	336.0	336	
+celda	Inmovilizado!H57	num	392.0	392	
+celda	Inmovilizado!I57	num	448.0	448	
+celda	Inmovilizado!J57	num	504.0	504	
+celda	Inmovilizado!K57	num	560.0	560	
+celda	Inmovilizado!L57	num	616.0	616	
+celda	Inmovilizado!A58	txt	Fila 57	Fila 57	
+celda	Inmovilizado!B58	num	57.0	57	
+celda	Inmovilizado!C58	num	114.0	114	
+celda	Inmovilizado!D58	num	171.0	171	
+celda	Inmovilizado!E58	num	228.0	228	
+celda	Inmovilizado!F58	num	285.0	285	
+celda	Inmovilizado!G58	num	342.0	342	
+celda	Inmovilizado!H58	num	399.0	399	
+celda	Inmovilizado!I58	num	456.0	456	
+celda	Inmovilizado!J58	num	513.0	513	
+celda	Inmovilizado!K58	num	570.0	570	
+celda	Inmovilizado!L58	num	627.0	627	
+celda	Inmovilizado!A59	txt	Fila 58	Fila 58	
+celda	Inmovilizado!B59	num	58.0	58	
+celda	Inmovilizado!C59	num	116.0	116	
+celda	Inmovilizado!D59	num	174.0	174	
+celda	Inmovilizado!E59	num	232.0	232	
+celda	Inmovilizado!F59	num	290.0	290	
+celda	Inmovilizado!G59	num	348.0	348	
+celda	Inmovilizado!H59	num	406.0	406	
+celda	Inmovilizado!I59	num	464.0	464	
+celda	Inmovilizado!J59	num	522.0	522	
+celda	Inmovilizado!K59	num	580.0	580	
+celda	Inmovilizado!L59	num	638.0	638	
+celda	Inmovilizado!A60	txt	Fila 59	Fila 59	
+celda	Inmovilizado!B60	num	59.0	59	
+celda	Inmovilizado!C60	num	118.0	118	
+celda	Inmovilizado!D60	num	177.0	177	
+celda	Inmovilizado!E60	num	236.0	236	
+celda	Inmovilizado!F60	num	295.0	295	
+celda	Inmovilizado!G60	num	354.0	354	
+celda	Inmovilizado!H60	num	413.0	413	
+celda	Inmovilizado!I60	num	472.0	472	
+celda	Inmovilizado!J60	num	531.0	531	
+celda	Inmovilizado!K60	num	590.0	590	
+celda	Inmovilizado!L60	num	649.0	649	

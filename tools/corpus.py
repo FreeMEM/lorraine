@@ -13,11 +13,13 @@ Después LibreOffice, sin pantalla, lo convierte al resto de formatos en tests/f
 Lo que no se puede escribir a mano en Flat ODF (un gráfico, filas inmovilizadas) lo hace LibreOffice por UNO
 después de convertir. Las imágenes JPEG y GIF salen del PNG con ImageMagick (`magick`).
 
-LibreOffice corre con un perfil propio en build/lo-perfil, para no chocar con uno abierto por el usuario.
+LibreOffice corre en inglés de EE. UU. y con un perfil propio en build/lo-perfil, para no chocar con uno abierto
+por el usuario.
 """
 
 import argparse
 import base64
+import os
 import shutil
 import socket
 import struct
@@ -667,6 +669,8 @@ def main():
     ap.add_argument("--fuentes", action="store_true", help="solo las fuentes .fods/.fodt")
     ap.add_argument("--grandes", action="store_true", help="además, los grandes en tests/ficheros/grandes/")
     args = ap.parse_args()
+    # LibreOffice en inglés de EE. UU.: lo que escribe en los ficheros (formatos de lógico, de fecha) no depende del PC
+    os.environ.update(LANG="en_US.UTF-8", LC_ALL="en_US.UTF-8")
     for programa, casos in CASOS.items():
         fuente = FICHEROS / programa / "fuente"
         if fuente.exists():

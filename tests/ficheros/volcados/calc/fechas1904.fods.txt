@@ -1,0 +1,6 @@
+# fechas1904.fods leído por LibreOffice 26.8.1.1, en-US
+hoja	Fechas1904	4	1	0
+celda	Fechas1904!A1	txt	Sistema de fechas de 1904	Sistema de fechas de 1904	
+celda	Fechas1904!A2	num	44858.0	25/10/2026	
+celda	Fechas1904!A3	num	1.0	02/01/1904	
+celda	Fechas1904!A4	num	44857.0	44857	=A2-A3

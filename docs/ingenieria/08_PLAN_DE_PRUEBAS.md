@@ -81,12 +81,28 @@ de Lorraine. Propuesta: una macro en Python que corre en `soffice --headless` po
 del LibreOffice instalado).
 
 - **Calc:** por cada celda no vacía, una línea: `hoja!A1 <tipo> <valor exacto> <texto mostrado> <fórmula>`. El valor
-  exacto de un número con 17 cifras significativas (vuelve al mismo `Double`).
+  exacto de un número es el texto más corto que vuelve al mismo `Double` (el `repr` de Python; Lorraine lo escribe
+  igual con D3).
 - **Write:** por cada párrafo, su estilo y su texto; por cada tramo, su formato de carácter; tablas como filas de
   celdas; imágenes con su tamaño.
 
 Lorraine escribe el mismo volcado desde los tests (`test_volcar_*.dash`) y `tools/comparar.py` compara las dos
 salidas línea a línea con la tolerancia del § 4.3.
+
+Hecho en la tarea 0.5 (el formato exacto está al principio de `tools/volcar_lo.py`). Lo que se vio al hacerlo:
+
+- **LibreOffice corre en inglés de EE. UU.** al generar el corpus y al volcar: con otro idioma, el `.xlsx` lleva
+  formatos de lógico en ese idioma ("VERDADERO") y el texto mostrado cambia.
+- **Las fórmulas no se recalculan** al volcar: el valor es el guardado en el fichero (decisión A8). Las volátiles
+  (`RAND`, `NOW`, `TODAY`) las recalcula LibreOffice al abrir y cambian en cada volcado: `tools/comparar.py` las salta.
+- **Un `.xlsx` guarda los valores con 15 cifras** (`0.1+0.2` da `0.3`; en el `.ods`, `0.30000000000000004`). Comparar
+  un valor de un `.xlsx` con el del mismo caso en `.ods` necesita la tolerancia de los calculados (§ 4.3).
+- LibreOffice lee un lógico de un `.xlsx` como la fórmula `=TRUE()`.
+- LibreOffice parte el texto de un párrafo donde cae un salto de página: el volcado junta los trozos seguidos con el
+  mismo formato. Las imágenes salen de `GraphicObjects` y de la página de dibujo (según el fichero están en una u
+  otra).
+- Entre el `.odt` y el `.docx` del mismo caso, lo único que cambia es el nombre de las tablas (`Tabla1` / `Table1`) y
+  las páginas de un documento con nota al final.
 
 ### 3.3 Corpus externo, de ficheros reales
 
@@ -128,6 +144,8 @@ que Lorraine guarda se recupera con `--keep` para que LibreOffice lo vuelque en 
 Los `Double` se comparan así:
 
 - **Valores leídos de un fichero** (sin calcular): iguales bit a bit. Leer y escribir un número no puede cambiarlo.
+  Ojo: el mismo caso guardado en `.xlsx` trae el valor redondeado a 15 cifras (§ 3.2); se compara cada fichero con
+  su propio volcado, no un formato con otro.
 - **Valores calculados por Lorraine:** `|a − b| ≤ 1e-12 × max(1, |a|, |b|)`.
 - **Funciones con algoritmo iterativo o de otro orden de suma** (IRR, RATE, STDEV, VAR, PERCENTILE y las que se
   apunten): `1e-9` relativo. La lista está en `tools/comparar.py`.

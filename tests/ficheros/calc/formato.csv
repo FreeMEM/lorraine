@@ -1,8 +1,8 @@
-"dos decimales","1234,57"
-"miles","1.234.567,89"
-"porcentaje","25,6%"
-"científico","1,235E+05"
-"moneda","1.234,50 €"
+"dos decimales",1234.57
+"miles","1,234,567.89"
+"porcentaje",25.6%
+"científico",1.235E+05
+"moneda","1,234.50 €"
 "como texto","00123"
 "ceros a la izquierda",00042
 "fecha",25/10/2026

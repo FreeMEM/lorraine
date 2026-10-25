@@ -80,7 +80,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
       formatos.
 - [x] 0.4b Corpus, segunda parte: pérdidas (libro con gráfico y con macros; documento con control de cambios y
       con notas al pie), imágenes JPEG y GIF, libro de 100.000 celdas y documento de 300 páginas, inmovilizado.
-- [ ] 0.5 `tools/volcar_lo.py`: volcado de referencia (valores de celdas, texto y formato de párrafos).
+- [x] 0.5 `tools/volcar_lo.py`: volcado de referencia (valores de celdas, texto y formato de párrafos).
 - [ ] 0.6 Herramientas de comprobación (`08` § 4.4) en `~/.cache/lorraine-tools/`: ODF Validator, .NET y
       OOXML-Validator, `venv` con openpyxl y python-docx, parámetros del `x2t` de OnlyOffice. `tools/comprobar.py`
       pasa un fichero por todas y resume.
@@ -222,5 +222,19 @@ Plantilla:
   pero el `.ods` y el `.fods` convertidos lo pierden: para ODF la referencia es la fuente.
 - LibreOffice 26.8 escribe `office:version="1.4"`: los filtros de ODF tienen que leer 1.4 (ver `12` § 2.2).
 - Regenerar el corpus cambia todos los ZIP (fechas dentro): solo se regenera cuando cambian los casos.
+- Batería: 2/2 (sin cambios en Dash).
+
+### 2026-10-25 — Tarea 0.5 (volcado de referencia)
+
+- `tools/volcar_lo.py`: LibreOffice por UNO (con `con_uno` de `tools/corpus.py`) abre cada `.ods`, `.fods`,
+  `.xlsx`, `.odt`, `.fodt` y `.docx` del corpus y escribe `tests/ficheros/volcados/<calc|write>/<fichero>.txt`:
+  hojas, celdas (tipo, valor exacto, texto mostrado, fórmula) y nombres; párrafos (estilo, alineación, sangrías,
+  salto, etiqueta de lista, texto), tramos con su formato, tablas, imágenes, notas, cambios y páginas. 39 s todo,
+  4 MB.
+- Calc: celdas con `queryContentCells`, no recorriendo el área usada (la de `limites` es de 16.384 × 1.048.576).
+- `tools/corpus.py` ahora también en inglés de EE. UU. (con español, el `.xlsx` llevaba "VERDADERO"); corpus
+  regenerado.
+- Lo visto, en `08` § 3.2 y § 4.3: el `.xlsx` guarda 15 cifras, los lógicos de `.xlsx` vuelven como `=TRUE()`, las
+  volátiles cambian en cada volcado, los saltos de página parten tramos, imágenes en dos sitios.
 - Batería: 2/2 (sin cambios en Dash).
 

@@ -1,0 +1,41 @@
+# formato.ods leído por LibreOffice 26.8.1.1, en-US
+hoja	Formato	23	2	0
+celda	Formato!A1	txt	dos decimales	dos decimales	
+celda	Formato!B1	num	1234.5678	1234.57	
+celda	Formato!A2	txt	miles	miles	
+celda	Formato!B2	num	1234567.891	1,234,567.89	
+celda	Formato!A3	txt	porcentaje	porcentaje	
+celda	Formato!B3	num	0.256	25.6%	
+celda	Formato!A4	txt	científico	científico	
+celda	Formato!B4	num	123456.789	1.235E+05	
+celda	Formato!A5	txt	moneda	moneda	
+celda	Formato!B5	num	1234.5	1,234.50 €	
+celda	Formato!A6	txt	como texto	como texto	
+celda	Formato!B6	txt	00123	00123	
+celda	Formato!A7	txt	ceros a la izquierda	ceros a la izquierda	
+celda	Formato!B7	num	42.0	00042	
+celda	Formato!A8	txt	fecha	fecha	
+celda	Formato!B8	num	46320.0	25/10/2026	
+celda	Formato!A9	txt	negrita	negrita	
+celda	Formato!B9	txt	negrita	negrita	
+celda	Formato!A10	txt	cursiva	cursiva	
+celda	Formato!B10	txt	cursiva	cursiva	
+celda	Formato!A11	txt	subrayado	subrayado	
+celda	Formato!B11	txt	subrayado	subrayado	
+celda	Formato!A12	txt	color	color	
+celda	Formato!B12	txt	rojo	rojo	
+celda	Formato!A13	txt	fondo	fondo	
+celda	Formato!B13	txt	fondo amarillo	fondo amarillo	
+celda	Formato!A14	txt	bordes	bordes	
+celda	Formato!B14	txt	con bordes	con bordes	
+celda	Formato!A15	txt	fuente y tamaño	fuente y tamaño	
+celda	Formato!B15	txt	Liberation Serif 16	Liberation Serif 16	
+celda	Formato!A16	txt	a la derecha	a la derecha	
+celda	Formato!B16	txt	derecha	derecha	
+celda	Formato!A17	txt	centrado	centrado	
+celda	Formato!B17	txt	centro	centro	
+celda	Formato!A18	txt	ajustar texto	ajustar texto	
+celda	Formato!B18	txt	un texto largo que no cabe en el ancho de la columna y baja de línea	un texto largo que no cabe en el ancho de la columna y baja de línea	
+celda	Formato!A21	txt	fila alta	fila alta	
+celda	Formato!A22	txt	fila oculta	fila oculta	
+celda	Formato!A23	txt	combinada 2x3	combinada 2x3	

@@ -1,0 +1,2262 @@
+# formulas.fods leído por LibreOffice 26.8.1.1, en-US
+hoja	Matematicas	23	6	0
+celda	Matematicas!A1	num	1.0	1	
+celda	Matematicas!B1	txt	a	a	
+celda	Matematicas!D1	txt	a	a	
+celda	Matematicas!E1	txt	b	b	
+celda	Matematicas!F1	txt	c	c	
+celda	Matematicas!A2	num	2.0	2	
+celda	Matematicas!B2	txt	b	b	
+celda	Matematicas!D2	num	10.0	10	
+celda	Matematicas!E2	num	20.0	20	
+celda	Matematicas!F2	num	30.0	30	
+celda	Matematicas!A3	num	3.0	3	
+celda	Matematicas!B3	txt	c	c	
+celda	Matematicas!A4	num	4.0	4	
+celda	Matematicas!B4	txt	d	d	
+celda	Matematicas!A5	num	5.0	5	
+celda	Matematicas!B5	txt	e	e	
+celda	Matematicas!A6	txt	texto	texto	
+celda	Matematicas!A7	num	1.0	TRUE	
+celda	Matematicas!A11	txt	SUM([.A1:.A5])	SUM([.A1:.A5])	
+celda	Matematicas!B11	num	15.0	15	=SUM(A1:A5)
+celda	Matematicas!A12	txt	PRODUCT([.A1:.A3])	PRODUCT([.A1:.A3])	
+celda	Matematicas!B12	num	6.0	6	=PRODUCT(A1:A3)
+celda	Matematicas!A13	txt	ABS(-[.A2])	ABS(-[.A2])	
+celda	Matematicas!B13	num	2.0	2	=ABS(-A2)
+celda	Matematicas!A14	txt	ROUND(2.567;2)	ROUND(2.567;2)	
+celda	Matematicas!B14	num	2.57	2.57	=ROUND(2.567;2)
+celda	Matematicas!A15	txt	ROUNDUP(2.561;1)	ROUNDUP(2.561;1)	
+celda	Matematicas!B15	num	2.6	2.6	=ROUNDUP(2.561;1)
+celda	Matematicas!A16	txt	ROUNDDOWN(2.569;1)	ROUNDDOWN(2.569;1)	
+celda	Matematicas!B16	num	2.5	2.5	=ROUNDDOWN(2.569;1)
+celda	Matematicas!A17	txt	INT(-2.5)	INT(-2.5)	
+celda	Matematicas!B17	num	-3.0	-3	=INT(-2.5)
+celda	Matematicas!A18	txt	MOD(17;5)	MOD(17;5)	
+celda	Matematicas!B18	num	2.0	2	=MOD(17;5)
+celda	Matematicas!A19	txt	POWER(2;10)	POWER(2;10)	
+celda	Matematicas!B19	num	1024.0	1024	=POWER(2;10)
+celda	Matematicas!A20	txt	SQRT(2)	SQRT(2)	
+celda	Matematicas!B20	num	1.4142135623730951	1.4142135623731	=SQRT(2)
+celda	Matematicas!A21	txt	PI()	PI()	
+celda	Matematicas!B21	num	3.141592653589793	3.14159265358979	=PI()
+celda	Matematicas!A22	txt	SIGN(-3)	SIGN(-3)	
+celda	Matematicas!B22	num	-1.0	-1	=SIGN(-3)
+celda	Matematicas!A23	txt	TRUNC(-2.7)	TRUNC(-2.7)	
+celda	Matematicas!B23	num	-2.0	-2	=TRUNC(-2.7)
+hoja	Estadistica	16	6	0
+celda	Estadistica!A1	num	1.0	1	
+celda	Estadistica!B1	txt	a	a	
+celda	Estadistica!D1	txt	a	a	
+celda	Estadistica!E1	txt	b	b	
+celda	Estadistica!F1	txt	c	c	
+celda	Estadistica!A2	num	2.0	2	
+celda	Estadistica!B2	txt	b	b	
+celda	Estadistica!D2	num	10.0	10	
+celda	Estadistica!E2	num	20.0	20	
+celda	Estadistica!F2	num	30.0	30	
+celda	Estadistica!A3	num	3.0	3	
+celda	Estadistica!B3	txt	c	c	
+celda	Estadistica!A4	num	4.0	4	
+celda	Estadistica!B4	txt	d	d	
+celda	Estadistica!A5	num	5.0	5	
+celda	Estadistica!B5	txt	e	e	
+celda	Estadistica!A6	txt	texto	texto	
+celda	Estadistica!A7	num	1.0	TRUE	
+celda	Estadistica!A11	txt	AVERAGE([.A1:.A5])	AVERAGE([.A1:.A5])	
+celda	Estadistica!B11	num	3.0	3	=AVERAGE(A1:A5)
+celda	Estadistica!A12	txt	COUNT([.A1:.A7])	COUNT([.A1:.A7])	
+celda	Estadistica!B12	num	6.0	6	=COUNT(A1:A7)
+celda	Estadistica!A13	txt	COUNTA([.A1:.A7])	COUNTA([.A1:.A7])	
+celda	Estadistica!B13	num	7.0	7	=COUNTA(A1:A7)
+celda	Estadistica!A14	txt	COUNTBLANK([.A1:.A8])	COUNTBLANK([.A1:.A8])	
+celda	Estadistica!B14	num	1.0	1	=COUNTBLANK(A1:A8)
+celda	Estadistica!A15	txt	MAX([.A1:.A5])	MAX([.A1:.A5])	
+celda	Estadistica!B15	num	5.0	5	=MAX(A1:A5)
+celda	Estadistica!A16	txt	MIN([.A1:.A5])	MIN([.A1:.A5])	
+celda	Estadistica!B16	num	1.0	1	=MIN(A1:A5)
+hoja	Logica	17	6	0
+celda	Logica!A1	num	1.0	1	
+celda	Logica!B1	txt	a	a	
+celda	Logica!D1	txt	a	a	
+celda	Logica!E1	txt	b	b	
+celda	Logica!F1	txt	c	c	
+celda	Logica!A2	num	2.0	2	
+celda	Logica!B2	txt	b	b	
+celda	Logica!D2	num	10.0	10	
+celda	Logica!E2	num	20.0	20	
+celda	Logica!F2	num	30.0	30	
+celda	Logica!A3	num	3.0	3	
+celda	Logica!B3	txt	c	c	
+celda	Logica!A4	num	4.0	4	
+celda	Logica!B4	txt	d	d	
+celda	Logica!A5	num	5.0	5	
+celda	Logica!B5	txt	e	e	
+celda	Logica!A6	txt	texto	texto	
+celda	Logica!A7	num	1.0	TRUE	
+celda	Logica!A11	txt	IF([.A1]>2;"grande";"pequeño")	IF([.A1]>2;"grande";"pequeño")	
+celda	Logica!B11	txt	pequeño	pequeño	=IF(A1>2;"grande";"pequeño")
+celda	Logica!A12	txt	AND(TRUE();[.A1]>0)	AND(TRUE();[.A1]>0)	
+celda	Logica!B12	num	1.0	TRUE	=AND(TRUE();A1>0)
+celda	Logica!A13	txt	OR(FALSE();[.A1]<0)	OR(FALSE();[.A1]<0)	
+celda	Logica!B13	num	0.0	FALSE	=OR(FALSE();A1<0)
+celda	Logica!A14	txt	NOT(TRUE())	NOT(TRUE())	
+celda	Logica!B14	num	0.0	FALSE	=NOT(TRUE())
+celda	Logica!A15	txt	TRUE()	TRUE()	
+celda	Logica!B15	num	1.0	TRUE	=TRUE()
+celda	Logica!A16	txt	FALSE()	FALSE()	
+celda	Logica!B16	num	0.0	FALSE	=FALSE()
+celda	Logica!A17	txt	IFERROR(1/0;"error")	IFERROR(1/0;"error")	
+celda	Logica!B17	txt	error	error	=IFERROR(1/0;"error")
+hoja	Texto	20	6	0
+celda	Texto!A1	num	1.0	1	
+celda	Texto!B1	txt	a	a	
+celda	Texto!D1	txt	a	a	
+celda	Texto!E1	txt	b	b	
+celda	Texto!F1	txt	c	c	
+celda	Texto!A2	num	2.0	2	
+celda	Texto!B2	txt	b	b	
+celda	Texto!D2	num	10.0	10	
+celda	Texto!E2	num	20.0	20	
+celda	Texto!F2	num	30.0	30	
+celda	Texto!A3	num	3.0	3	
+celda	Texto!B3	txt	c	c	
+celda	Texto!A4	num	4.0	4	
+celda	Texto!B4	txt	d	d	
+celda	Texto!A5	num	5.0	5	
+celda	Texto!B5	txt	e	e	
+celda	Texto!A6	txt	texto	texto	
+celda	Texto!A7	num	1.0	TRUE	
+celda	Texto!A11	txt	CONCATENATE("Lo";"rraine")	CONCATENATE("Lo";"rraine")	
+celda	Texto!B11	txt	Lorraine	Lorraine	=CONCATENATE("Lo";"rraine")
+celda	Texto!A12	txt	LEFT("Lorraine";3)	LEFT("Lorraine";3)	
+celda	Texto!B12	txt	Lor	Lor	=LEFT("Lorraine";3)
+celda	Texto!A13	txt	RIGHT("Lorraine";3)	RIGHT("Lorraine";3)	
+celda	Texto!B13	txt	ine	ine	=RIGHT("Lorraine";3)
+celda	Texto!A14	txt	MID("Lorraine";2;3)	MID("Lorraine";2;3)	
+celda	Texto!B14	txt	orr	orr	=MID("Lorraine";2;3)
+celda	Texto!A15	txt	LEN("Málaga")	LEN("Málaga")	
+celda	Texto!B15	num	6.0	6	=LEN("Málaga")
+celda	Texto!A16	txt	UPPER("ñandú")	UPPER("ñandú")	
+celda	Texto!B16	txt	ÑANDÚ	ÑANDÚ	=UPPER("ñandú")
+celda	Texto!A17	txt	LOWER("ÁRBOL")	LOWER("ÁRBOL")	
+celda	Texto!B17	txt	árbol	árbol	=LOWER("ÁRBOL")
+celda	Texto!A18	txt	TRIM("  dos   espacios  ")	TRIM("  dos   espacios  ")	
+celda	Texto!B18	txt	dos espacios	dos espacios	=TRIM("  dos   espacios  ")
+celda	Texto!A19	txt	TEXT(1234.5;"#,##0.00")	TEXT(1234.5;"#,##0.00")	
+celda	Texto!B19	txt	1,234.50	1,234.50	=TEXT(1234.5;"#,##0.00")
+celda	Texto!A20	txt	VALUE("42")	VALUE("42")	
+celda	Texto!B20	num	42.0	42	=VALUE("42")
+hoja	Fechas	16	6	0
+celda	Fechas!A1	num	1.0	1	
+celda	Fechas!B1	txt	a	a	
+celda	Fechas!D1	txt	a	a	
+celda	Fechas!E1	txt	b	b	
+celda	Fechas!F1	txt	c	c	
+celda	Fechas!A2	num	2.0	2	
+celda	Fechas!B2	txt	b	b	
+celda	Fechas!D2	num	10.0	10	
+celda	Fechas!E2	num	20.0	20	
+celda	Fechas!F2	num	30.0	30	
+celda	Fechas!A3	num	3.0	3	
+celda	Fechas!B3	txt	c	c	
+celda	Fechas!A4	num	4.0	4	
+celda	Fechas!B4	txt	d	d	
+celda	Fechas!A5	num	5.0	5	
+celda	Fechas!B5	txt	e	e	
+celda	Fechas!A6	txt	texto	texto	
+celda	Fechas!A7	num	1.0	TRUE	
+celda	Fechas!A11	txt	DATE(2026;10;25)	DATE(2026;10;25)	
+celda	Fechas!B11	num	46320.0	10/25/26	=DATE(2026;10;25)
+celda	Fechas!A12	txt	YEAR(DATE(2026;10;25))	YEAR(DATE(2026;10;25))	
+celda	Fechas!B12	num	2026.0	2026	=YEAR(DATE(2026;10;25))
+celda	Fechas!A13	txt	MONTH(DATE(2026;10;25))	MONTH(DATE(2026;10;25))	
+celda	Fechas!B13	num	10.0	10	=MONTH(DATE(2026;10;25))
+celda	Fechas!A14	txt	DAY(DATE(2026;10;25))	DAY(DATE(2026;10;25))	
+celda	Fechas!B14	num	25.0	25	=DAY(DATE(2026;10;25))
+celda	Fechas!A15	txt	TODAY()	TODAY()	
+celda	Fechas!B15	num	46320.0	10/25/26	=TODAY()
+celda	Fechas!A16	txt	NOW()	NOW()	
+celda	Fechas!B16	num	46320.099929047974	10/25/26 02:23 AM	=NOW()
+hoja	Busqueda	14	6	0
+celda	Busqueda!A1	num	1.0	1	
+celda	Busqueda!B1	txt	a	a	
+celda	Busqueda!D1	txt	a	a	
+celda	Busqueda!E1	txt	b	b	
+celda	Busqueda!F1	txt	c	c	
+celda	Busqueda!A2	num	2.0	2	
+celda	Busqueda!B2	txt	b	b	
+celda	Busqueda!D2	num	10.0	10	
+celda	Busqueda!E2	num	20.0	20	
+celda	Busqueda!F2	num	30.0	30	
+celda	Busqueda!A3	num	3.0	3	
+celda	Busqueda!B3	txt	c	c	
+celda	Busqueda!A4	num	4.0	4	
+celda	Busqueda!B4	txt	d	d	
+celda	Busqueda!A5	num	5.0	5	
+celda	Busqueda!B5	txt	e	e	
+celda	Busqueda!A6	txt	texto	texto	
+celda	Busqueda!A7	num	1.0	TRUE	
+celda	Busqueda!A11	txt	VLOOKUP(3;[.A1:.B5];2;0)	VLOOKUP(3;[.A1:.B5];2;0)	
+celda	Busqueda!B11	txt	c	c	=VLOOKUP(3;A1:B5;2;0)
+celda	Busqueda!A12	txt	HLOOKUP("b";[.D1:.F2];2;0)	HLOOKUP("b";[.D1:.F2];2;0)	
+celda	Busqueda!B12	num	20.0	20	=HLOOKUP("b";D1:F2;2;0)
+celda	Busqueda!A13	txt	INDEX([.A1:.B5];2;2)	INDEX([.A1:.B5];2;2)	
+celda	Busqueda!B13	txt	b	b	=INDEX(A1:B5;2;2)
+celda	Busqueda!A14	txt	MATCH(4;[.A1:.A5];0)	MATCH(4;[.A1:.A5];0)	
+celda	Busqueda!B14	num	4.0	4	=MATCH(4;A1:A5;0)
+hoja	Informacion	14	6	0
+celda	Informacion!A1	num	1.0	1	
+celda	Informacion!B1	txt	a	a	
+celda	Informacion!D1	txt	a	a	
+celda	Informacion!E1	txt	b	b	
+celda	Informacion!F1	txt	c	c	
+celda	Informacion!A2	num	2.0	2	
+celda	Informacion!B2	txt	b	b	
+celda	Informacion!D2	num	10.0	10	
+celda	Informacion!E2	num	20.0	20	
+celda	Informacion!F2	num	30.0	30	
+celda	Informacion!A3	num	3.0	3	
+celda	Informacion!B3	txt	c	c	
+celda	Informacion!A4	num	4.0	4	
+celda	Informacion!B4	txt	d	d	
+celda	Informacion!A5	num	5.0	5	
+celda	Informacion!B5	txt	e	e	
+celda	Informacion!A6	txt	texto	texto	
+celda	Informacion!A7	num	1.0	TRUE	
+celda	Informacion!A11	txt	ISBLANK([.A8])	ISBLANK([.A8])	
+celda	Informacion!B11	num	1.0	TRUE	=ISBLANK(A8)
+celda	Informacion!A12	txt	ISNUMBER([.A1])	ISNUMBER([.A1])	
+celda	Informacion!B12	num	1.0	TRUE	=ISNUMBER(A1)
+celda	Informacion!A13	txt	ISTEXT([.A6])	ISTEXT([.A6])	
+celda	Informacion!B13	num	1.0	TRUE	=ISTEXT(A6)
+celda	Informacion!A14	txt	ISERROR(1/0)	ISERROR(1/0)	
+celda	Informacion!B14	num	1.0	TRUE	=ISERROR(1/0)
+hoja	Referencias	1010	7	0
+celda	Referencias!A1	num	1.0	1	
+celda	Referencias!B1	num	2.0	2	=A1*2
+celda	Referencias!C1	num	10.0	10	=A1*$E$1
+celda	Referencias!D1	num	2.0	2	=$A1+A$1
+celda	Referencias!E1	num	10.0	10	
+celda	Referencias!A2	num	2.0	2	
+celda	Referencias!B2	num	4.0	4	=A2*2
+celda	Referencias!C2	num	20.0	20	=A2*$E$1
+celda	Referencias!D2	num	3.0	3	=$A2+A$1
+celda	Referencias!A3	num	3.0	3	
+celda	Referencias!B3	num	6.0	6	=A3*2
+celda	Referencias!C3	num	30.0	30	=A3*$E$1
+celda	Referencias!D3	num	4.0	4	=$A3+A$1
+celda	Referencias!A4	num	4.0	4	
+celda	Referencias!B4	num	8.0	8	=A4*2
+celda	Referencias!C4	num	40.0	40	=A4*$E$1
+celda	Referencias!D4	num	5.0	5	=$A4+A$1
+celda	Referencias!A5	num	5.0	5	
+celda	Referencias!B5	num	10.0	10	=A5*2
+celda	Referencias!C5	num	50.0	50	=A5*$E$1
+celda	Referencias!D5	num	6.0	6	=$A5+A$1
+celda	Referencias!A7	num	3.0	3	=$Matematicas.A1+$Matematicas.A2
+celda	Referencias!A8	num	15.0	15	=SUM(datos)
+celda	Referencias!A9	err	Err:522	Err:522	=A10+1
+celda	Referencias!B9	num	0.29926762882433966	0.29926762882434	=RAND()
+celda	Referencias!A10	err	Err:522	Err:522	=A9+1
+celda	Referencias!F11	num	0.0	0	
+celda	Referencias!G11	num	1.0	1	=F11*2+1
+celda	Referencias!F12	num	1.0	1	
+celda	Referencias!G12	num	3.0	3	=F12*2+1
+celda	Referencias!F13	num	2.0	2	
+celda	Referencias!G13	num	5.0	5	=F13*2+1
+celda	Referencias!F14	num	3.0	3	
+celda	Referencias!G14	num	7.0	7	=F14*2+1
+celda	Referencias!F15	num	4.0	4	
+celda	Referencias!G15	num	9.0	9	=F15*2+1
+celda	Referencias!F16	num	5.0	5	
+celda	Referencias!G16	num	11.0	11	=F16*2+1
+celda	Referencias!F17	num	6.0	6	
+celda	Referencias!G17	num	13.0	13	=F17*2+1
+celda	Referencias!F18	num	7.0	7	
+celda	Referencias!G18	num	15.0	15	=F18*2+1
+celda	Referencias!F19	num	8.0	8	
+celda	Referencias!G19	num	17.0	17	=F19*2+1
+celda	Referencias!F20	num	9.0	9	
+celda	Referencias!G20	num	19.0	19	=F20*2+1
+celda	Referencias!F21	num	10.0	10	
+celda	Referencias!G21	num	21.0	21	=F21*2+1
+celda	Referencias!F22	num	11.0	11	
+celda	Referencias!G22	num	23.0	23	=F22*2+1
+celda	Referencias!F23	num	12.0	12	
+celda	Referencias!G23	num	25.0	25	=F23*2+1
+celda	Referencias!F24	num	13.0	13	
+celda	Referencias!G24	num	27.0	27	=F24*2+1
+celda	Referencias!F25	num	14.0	14	
+celda	Referencias!G25	num	29.0	29	=F25*2+1
+celda	Referencias!F26	num	15.0	15	
+celda	Referencias!G26	num	31.0	31	=F26*2+1
+celda	Referencias!F27	num	16.0	16	
+celda	Referencias!G27	num	33.0	33	=F27*2+1
+celda	Referencias!F28	num	17.0	17	
+celda	Referencias!G28	num	35.0	35	=F28*2+1
+celda	Referencias!F29	num	18.0	18	
+celda	Referencias!G29	num	37.0	37	=F29*2+1
+celda	Referencias!F30	num	19.0	19	
+celda	Referencias!G30	num	39.0	39	=F30*2+1
+celda	Referencias!F31	num	20.0	20	
+celda	Referencias!G31	num	41.0	41	=F31*2+1
+celda	Referencias!F32	num	21.0	21	
+celda	Referencias!G32	num	43.0	43	=F32*2+1
+celda	Referencias!F33	num	22.0	22	
+celda	Referencias!G33	num	45.0	45	=F33*2+1
+celda	Referencias!F34	num	23.0	23	
+celda	Referencias!G34	num	47.0	47	=F34*2+1
+celda	Referencias!F35	num	24.0	24	
+celda	Referencias!G35	num	49.0	49	=F35*2+1
+celda	Referencias!F36	num	25.0	25	
+celda	Referencias!G36	num	51.0	51	=F36*2+1
+celda	Referencias!F37	num	26.0	26	
+celda	Referencias!G37	num	53.0	53	=F37*2+1
+celda	Referencias!F38	num	27.0	27	
+celda	Referencias!G38	num	55.0	55	=F38*2+1
+celda	Referencias!F39	num	28.0	28	
+celda	Referencias!G39	num	57.0	57	=F39*2+1
+celda	Referencias!F40	num	29.0	29	
+celda	Referencias!G40	num	59.0	59	=F40*2+1
+celda	Referencias!F41	num	30.0	30	
+celda	Referencias!G41	num	61.0	61	=F41*2+1
+celda	Referencias!F42	num	31.0	31	
+celda	Referencias!G42	num	63.0	63	=F42*2+1
+celda	Referencias!F43	num	32.0	32	
+celda	Referencias!G43	num	65.0	65	=F43*2+1
+celda	Referencias!F44	num	33.0	33	
+celda	Referencias!G44	num	67.0	67	=F44*2+1
+celda	Referencias!F45	num	34.0	34	
+celda	Referencias!G45	num	69.0	69	=F45*2+1
+celda	Referencias!F46	num	35.0	35	
+celda	Referencias!G46	num	71.0	71	=F46*2+1
+celda	Referencias!F47	num	36.0	36	
+celda	Referencias!G47	num	73.0	73	=F47*2+1
+celda	Referencias!F48	num	37.0	37	
+celda	Referencias!G48	num	75.0	75	=F48*2+1
+celda	Referencias!F49	num	38.0	38	
+celda	Referencias!G49	num	77.0	77	=F49*2+1
+celda	Referencias!F50	num	39.0	39	
+celda	Referencias!G50	num	79.0	79	=F50*2+1
+celda	Referencias!F51	num	40.0	40	
+celda	Referencias!G51	num	81.0	81	=F51*2+1
+celda	Referencias!F52	num	41.0	41	
+celda	Referencias!G52	num	83.0	83	=F52*2+1
+celda	Referencias!F53	num	42.0	42	
+celda	Referencias!G53	num	85.0	85	=F53*2+1
+celda	Referencias!F54	num	43.0	43	
+celda	Referencias!G54	num	87.0	87	=F54*2+1
+celda	Referencias!F55	num	44.0	44	
+celda	Referencias!G55	num	89.0	89	=F55*2+1
+celda	Referencias!F56	num	45.0	45	
+celda	Referencias!G56	num	91.0	91	=F56*2+1
+celda	Referencias!F57	num	46.0	46	
+celda	Referencias!G57	num	93.0	93	=F57*2+1
+celda	Referencias!F58	num	47.0	47	
+celda	Referencias!G58	num	95.0	95	=F58*2+1
+celda	Referencias!F59	num	48.0	48	
+celda	Referencias!G59	num	97.0	97	=F59*2+1
+celda	Referencias!F60	num	49.0	49	
+celda	Referencias!G60	num	99.0	99	=F60*2+1
+celda	Referencias!F61	num	50.0	50	
+celda	Referencias!G61	num	101.0	101	=F61*2+1
+celda	Referencias!F62	num	51.0	51	
+celda	Referencias!G62	num	103.0	103	=F62*2+1
+celda	Referencias!F63	num	52.0	52	
+celda	Referencias!G63	num	105.0	105	=F63*2+1
+celda	Referencias!F64	num	53.0	53	
+celda	Referencias!G64	num	107.0	107	=F64*2+1
+celda	Referencias!F65	num	54.0	54	
+celda	Referencias!G65	num	109.0	109	=F65*2+1
+celda	Referencias!F66	num	55.0	55	
+celda	Referencias!G66	num	111.0	111	=F66*2+1
+celda	Referencias!F67	num	56.0	56	
+celda	Referencias!G67	num	113.0	113	=F67*2+1
+celda	Referencias!F68	num	57.0	57	
+celda	Referencias!G68	num	115.0	115	=F68*2+1
+celda	Referencias!F69	num	58.0	58	
+celda	Referencias!G69	num	117.0	117	=F69*2+1
+celda	Referencias!F70	num	59.0	59	
+celda	Referencias!G70	num	119.0	119	=F70*2+1
+celda	Referencias!F71	num	60.0	60	
+celda	Referencias!G71	num	121.0	121	=F71*2+1
+celda	Referencias!F72	num	61.0	61	
+celda	Referencias!G72	num	123.0	123	=F72*2+1
+celda	Referencias!F73	num	62.0	62	
+celda	Referencias!G73	num	125.0	125	=F73*2+1
+celda	Referencias!F74	num	63.0	63	
+celda	Referencias!G74	num	127.0	127	=F74*2+1
+celda	Referencias!F75	num	64.0	64	
+celda	Referencias!G75	num	129.0	129	=F75*2+1
+celda	Referencias!F76	num	65.0	65	
+celda	Referencias!G76	num	131.0	131	=F76*2+1
+celda	Referencias!F77	num	66.0	66	
+celda	Referencias!G77	num	133.0	133	=F77*2+1
+celda	Referencias!F78	num	67.0	67	
+celda	Referencias!G78	num	135.0	135	=F78*2+1
+celda	Referencias!F79	num	68.0	68	
+celda	Referencias!G79	num	137.0	137	=F79*2+1
+celda	Referencias!F80	num	69.0	69	
+celda	Referencias!G80	num	139.0	139	=F80*2+1
+celda	Referencias!F81	num	70.0	70	
+celda	Referencias!G81	num	141.0	141	=F81*2+1
+celda	Referencias!F82	num	71.0	71	
+celda	Referencias!G82	num	143.0	143	=F82*2+1
+celda	Referencias!F83	num	72.0	72	
+celda	Referencias!G83	num	145.0	145	=F83*2+1
+celda	Referencias!F84	num	73.0	73	
+celda	Referencias!G84	num	147.0	147	=F84*2+1
+celda	Referencias!F85	num	74.0	74	
+celda	Referencias!G85	num	149.0	149	=F85*2+1
+celda	Referencias!F86	num	75.0	75	
+celda	Referencias!G86	num	151.0	151	=F86*2+1
+celda	Referencias!F87	num	76.0	76	
+celda	Referencias!G87	num	153.0	153	=F87*2+1
+celda	Referencias!F88	num	77.0	77	
+celda	Referencias!G88	num	155.0	155	=F88*2+1
+celda	Referencias!F89	num	78.0	78	
+celda	Referencias!G89	num	157.0	157	=F89*2+1
+celda	Referencias!F90	num	79.0	79	
+celda	Referencias!G90	num	159.0	159	=F90*2+1
+celda	Referencias!F91	num	80.0	80	
+celda	Referencias!G91	num	161.0	161	=F91*2+1
+celda	Referencias!F92	num	81.0	81	
+celda	Referencias!G92	num	163.0	163	=F92*2+1
+celda	Referencias!F93	num	82.0	82	
+celda	Referencias!G93	num	165.0	165	=F93*2+1
+celda	Referencias!F94	num	83.0	83	
+celda	Referencias!G94	num	167.0	167	=F94*2+1
+celda	Referencias!F95	num	84.0	84	
+celda	Referencias!G95	num	169.0	169	=F95*2+1
+celda	Referencias!F96	num	85.0	85	
+celda	Referencias!G96	num	171.0	171	=F96*2+1
+celda	Referencias!F97	num	86.0	86	
+celda	Referencias!G97	num	173.0	173	=F97*2+1
+celda	Referencias!F98	num	87.0	87	
+celda	Referencias!G98	num	175.0	175	=F98*2+1
+celda	Referencias!F99	num	88.0	88	
+celda	Referencias!G99	num	177.0	177	=F99*2+1
+celda	Referencias!F100	num	89.0	89	
+celda	Referencias!G100	num	179.0	179	=F100*2+1
+celda	Referencias!F101	num	90.0	90	
+celda	Referencias!G101	num	181.0	181	=F101*2+1
+celda	Referencias!F102	num	91.0	91	
+celda	Referencias!G102	num	183.0	183	=F102*2+1
+celda	Referencias!F103	num	92.0	92	
+celda	Referencias!G103	num	185.0	185	=F103*2+1
+celda	Referencias!F104	num	93.0	93	
+celda	Referencias!G104	num	187.0	187	=F104*2+1
+celda	Referencias!F105	num	94.0	94	
+celda	Referencias!G105	num	189.0	189	=F105*2+1
+celda	Referencias!F106	num	95.0	95	
+celda	Referencias!G106	num	191.0	191	=F106*2+1
+celda	Referencias!F107	num	96.0	96	
+celda	Referencias!G107	num	193.0	193	=F107*2+1
+celda	Referencias!F108	num	97.0	97	
+celda	Referencias!G108	num	195.0	195	=F108*2+1
+celda	Referencias!F109	num	98.0	98	
+celda	Referencias!G109	num	197.0	197	=F109*2+1
+celda	Referencias!F110	num	99.0	99	
+celda	Referencias!G110	num	199.0	199	=F110*2+1
+celda	Referencias!F111	num	100.0	100	
+celda	Referencias!G111	num	201.0	201	=F111*2+1
+celda	Referencias!F112	num	101.0	101	
+celda	Referencias!G112	num	203.0	203	=F112*2+1
+celda	Referencias!F113	num	102.0	102	
+celda	Referencias!G113	num	205.0	205	=F113*2+1
+celda	Referencias!F114	num	103.0	103	
+celda	Referencias!G114	num	207.0	207	=F114*2+1
+celda	Referencias!F115	num	104.0	104	
+celda	Referencias!G115	num	209.0	209	=F115*2+1
+celda	Referencias!F116	num	105.0	105	
+celda	Referencias!G116	num	211.0	211	=F116*2+1
+celda	Referencias!F117	num	106.0	106	
+celda	Referencias!G117	num	213.0	213	=F117*2+1
+celda	Referencias!F118	num	107.0	107	
+celda	Referencias!G118	num	215.0	215	=F118*2+1
+celda	Referencias!F119	num	108.0	108	
+celda	Referencias!G119	num	217.0	217	=F119*2+1
+celda	Referencias!F120	num	109.0	109	
+celda	Referencias!G120	num	219.0	219	=F120*2+1
+celda	Referencias!F121	num	110.0	110	
+celda	Referencias!G121	num	221.0	221	=F121*2+1
+celda	Referencias!F122	num	111.0	111	
+celda	Referencias!G122	num	223.0	223	=F122*2+1
+celda	Referencias!F123	num	112.0	112	
+celda	Referencias!G123	num	225.0	225	=F123*2+1
+celda	Referencias!F124	num	113.0	113	
+celda	Referencias!G124	num	227.0	227	=F124*2+1
+celda	Referencias!F125	num	114.0	114	
+celda	Referencias!G125	num	229.0	229	=F125*2+1
+celda	Referencias!F126	num	115.0	115	
+celda	Referencias!G126	num	231.0	231	=F126*2+1
+celda	Referencias!F127	num	116.0	116	
+celda	Referencias!G127	num	233.0	233	=F127*2+1
+celda	Referencias!F128	num	117.0	117	
+celda	Referencias!G128	num	235.0	235	=F128*2+1
+celda	Referencias!F129	num	118.0	118	
+celda	Referencias!G129	num	237.0	237	=F129*2+1
+celda	Referencias!F130	num	119.0	119	
+celda	Referencias!G130	num	239.0	239	=F130*2+1
+celda	Referencias!F131	num	120.0	120	
+celda	Referencias!G131	num	241.0	241	=F131*2+1
+celda	Referencias!F132	num	121.0	121	
+celda	Referencias!G132	num	243.0	243	=F132*2+1
+celda	Referencias!F133	num	122.0	122	
+celda	Referencias!G133	num	245.0	245	=F133*2+1
+celda	Referencias!F134	num	123.0	123	
+celda	Referencias!G134	num	247.0	247	=F134*2+1
+celda	Referencias!F135	num	124.0	124	
+celda	Referencias!G135	num	249.0	249	=F135*2+1
+celda	Referencias!F136	num	125.0	125	
+celda	Referencias!G136	num	251.0	251	=F136*2+1
+celda	Referencias!F137	num	126.0	126	
+celda	Referencias!G137	num	253.0	253	=F137*2+1
+celda	Referencias!F138	num	127.0	127	
+celda	Referencias!G138	num	255.0	255	=F138*2+1
+celda	Referencias!F139	num	128.0	128	
+celda	Referencias!G139	num	257.0	257	=F139*2+1
+celda	Referencias!F140	num	129.0	129	
+celda	Referencias!G140	num	259.0	259	=F140*2+1
+celda	Referencias!F141	num	130.0	130	
+celda	Referencias!G141	num	261.0	261	=F141*2+1
+celda	Referencias!F142	num	131.0	131	
+celda	Referencias!G142	num	263.0	263	=F142*2+1
+celda	Referencias!F143	num	132.0	132	
+celda	Referencias!G143	num	265.0	265	=F143*2+1
+celda	Referencias!F144	num	133.0	133	
+celda	Referencias!G144	num	267.0	267	=F144*2+1
+celda	Referencias!F145	num	134.0	134	
+celda	Referencias!G145	num	269.0	269	=F145*2+1
+celda	Referencias!F146	num	135.0	135	
+celda	Referencias!G146	num	271.0	271	=F146*2+1
+celda	Referencias!F147	num	136.0	136	
+celda	Referencias!G147	num	273.0	273	=F147*2+1
+celda	Referencias!F148	num	137.0	137	
+celda	Referencias!G148	num	275.0	275	=F148*2+1
+celda	Referencias!F149	num	138.0	138	
+celda	Referencias!G149	num	277.0	277	=F149*2+1
+celda	Referencias!F150	num	139.0	139	
+celda	Referencias!G150	num	279.0	279	=F150*2+1
+celda	Referencias!F151	num	140.0	140	
+celda	Referencias!G151	num	281.0	281	=F151*2+1
+celda	Referencias!F152	num	141.0	141	
+celda	Referencias!G152	num	283.0	283	=F152*2+1
+celda	Referencias!F153	num	142.0	142	
+celda	Referencias!G153	num	285.0	285	=F153*2+1
+celda	Referencias!F154	num	143.0	143	
+celda	Referencias!G154	num	287.0	287	=F154*2+1
+celda	Referencias!F155	num	144.0	144	
+celda	Referencias!G155	num	289.0	289	=F155*2+1
+celda	Referencias!F156	num	145.0	145	
+celda	Referencias!G156	num	291.0	291	=F156*2+1
+celda	Referencias!F157	num	146.0	146	
+celda	Referencias!G157	num	293.0	293	=F157*2+1
+celda	Referencias!F158	num	147.0	147	
+celda	Referencias!G158	num	295.0	295	=F158*2+1
+celda	Referencias!F159	num	148.0	148	
+celda	Referencias!G159	num	297.0	297	=F159*2+1
+celda	Referencias!F160	num	149.0	149	
+celda	Referencias!G160	num	299.0	299	=F160*2+1
+celda	Referencias!F161	num	150.0	150	
+celda	Referencias!G161	num	301.0	301	=F161*2+1
+celda	Referencias!F162	num	151.0	151	
+celda	Referencias!G162	num	303.0	303	=F162*2+1
+celda	Referencias!F163	num	152.0	152	
+celda	Referencias!G163	num	305.0	305	=F163*2+1
+celda	Referencias!F164	num	153.0	153	
+celda	Referencias!G164	num	307.0	307	=F164*2+1
+celda	Referencias!F165	num	154.0	154	
+celda	Referencias!G165	num	309.0	309	=F165*2+1
+celda	Referencias!F166	num	155.0	155	
+celda	Referencias!G166	num	311.0	311	=F166*2+1
+celda	Referencias!F167	num	156.0	156	
+celda	Referencias!G167	num	313.0	313	=F167*2+1
+celda	Referencias!F168	num	157.0	157	
+celda	Referencias!G168	num	315.0	315	=F168*2+1
+celda	Referencias!F169	num	158.0	158	
+celda	Referencias!G169	num	317.0	317	=F169*2+1
+celda	Referencias!F170	num	159.0	159	
+celda	Referencias!G170	num	319.0	319	=F170*2+1
+celda	Referencias!F171	num	160.0	160	
+celda	Referencias!G171	num	321.0	321	=F171*2+1
+celda	Referencias!F172	num	161.0	161	
+celda	Referencias!G172	num	323.0	323	=F172*2+1
+celda	Referencias!F173	num	162.0	162	
+celda	Referencias!G173	num	325.0	325	=F173*2+1
+celda	Referencias!F174	num	163.0	163	
+celda	Referencias!G174	num	327.0	327	=F174*2+1
+celda	Referencias!F175	num	164.0	164	
+celda	Referencias!G175	num	329.0	329	=F175*2+1
+celda	Referencias!F176	num	165.0	165	
+celda	Referencias!G176	num	331.0	331	=F176*2+1
+celda	Referencias!F177	num	166.0	166	
+celda	Referencias!G177	num	333.0	333	=F177*2+1
+celda	Referencias!F178	num	167.0	167	
+celda	Referencias!G178	num	335.0	335	=F178*2+1
+celda	Referencias!F179	num	168.0	168	
+celda	Referencias!G179	num	337.0	337	=F179*2+1
+celda	Referencias!F180	num	169.0	169	
+celda	Referencias!G180	num	339.0	339	=F180*2+1
+celda	Referencias!F181	num	170.0	170	
+celda	Referencias!G181	num	341.0	341	=F181*2+1
+celda	Referencias!F182	num	171.0	171	
+celda	Referencias!G182	num	343.0	343	=F182*2+1
+celda	Referencias!F183	num	172.0	172	
+celda	Referencias!G183	num	345.0	345	=F183*2+1
+celda	Referencias!F184	num	173.0	173	
+celda	Referencias!G184	num	347.0	347	=F184*2+1
+celda	Referencias!F185	num	174.0	174	
+celda	Referencias!G185	num	349.0	349	=F185*2+1
+celda	Referencias!F186	num	175.0	175	
+celda	Referencias!G186	num	351.0	351	=F186*2+1
+celda	Referencias!F187	num	176.0	176	
+celda	Referencias!G187	num	353.0	353	=F187*2+1
+celda	Referencias!F188	num	177.0	177	
+celda	Referencias!G188	num	355.0	355	=F188*2+1
+celda	Referencias!F189	num	178.0	178	
+celda	Referencias!G189	num	357.0	357	=F189*2+1
+celda	Referencias!F190	num	179.0	179	
+celda	Referencias!G190	num	359.0	359	=F190*2+1
+celda	Referencias!F191	num	180.0	180	
+celda	Referencias!G191	num	361.0	361	=F191*2+1
+celda	Referencias!F192	num	181.0	181	
+celda	Referencias!G192	num	363.0	363	=F192*2+1
+celda	Referencias!F193	num	182.0	182	
+celda	Referencias!G193	num	365.0	365	=F193*2+1
+celda	Referencias!F194	num	183.0	183	
+celda	Referencias!G194	num	367.0	367	=F194*2+1
+celda	Referencias!F195	num	184.0	184	
+celda	Referencias!G195	num	369.0	369	=F195*2+1
+celda	Referencias!F196	num	185.0	185	
+celda	Referencias!G196	num	371.0	371	=F196*2+1
+celda	Referencias!F197	num	186.0	186	
+celda	Referencias!G197	num	373.0	373	=F197*2+1
+celda	Referencias!F198	num	187.0	187	
+celda	Referencias!G198	num	375.0	375	=F198*2+1
+celda	Referencias!F199	num	188.0	188	
+celda	Referencias!G199	num	377.0	377	=F199*2+1
+celda	Referencias!F200	num	189.0	189	
+celda	Referencias!G200	num	379.0	379	=F200*2+1
+celda	Referencias!F201	num	190.0	190	
+celda	Referencias!G201	num	381.0	381	=F201*2+1
+celda	Referencias!F202	num	191.0	191	
+celda	Referencias!G202	num	383.0	383	=F202*2+1
+celda	Referencias!F203	num	192.0	192	
+celda	Referencias!G203	num	385.0	385	=F203*2+1
+celda	Referencias!F204	num	193.0	193	
+celda	Referencias!G204	num	387.0	387	=F204*2+1
+celda	Referencias!F205	num	194.0	194	
+celda	Referencias!G205	num	389.0	389	=F205*2+1
+celda	Referencias!F206	num	195.0	195	
+celda	Referencias!G206	num	391.0	391	=F206*2+1
+celda	Referencias!F207	num	196.0	196	
+celda	Referencias!G207	num	393.0	393	=F207*2+1
+celda	Referencias!F208	num	197.0	197	
+celda	Referencias!G208	num	395.0	395	=F208*2+1
+celda	Referencias!F209	num	198.0	198	
+celda	Referencias!G209	num	397.0	397	=F209*2+1
+celda	Referencias!F210	num	199.0	199	
+celda	Referencias!G210	num	399.0	399	=F210*2+1
+celda	Referencias!F211	num	200.0	200	
+celda	Referencias!G211	num	401.0	401	=F211*2+1
+celda	Referencias!F212	num	201.0	201	
+celda	Referencias!G212	num	403.0	403	=F212*2+1
+celda	Referencias!F213	num	202.0	202	
+celda	Referencias!G213	num	405.0	405	=F213*2+1
+celda	Referencias!F214	num	203.0	203	
+celda	Referencias!G214	num	407.0	407	=F214*2+1
+celda	Referencias!F215	num	204.0	204	
+celda	Referencias!G215	num	409.0	409	=F215*2+1
+celda	Referencias!F216	num	205.0	205	
+celda	Referencias!G216	num	411.0	411	=F216*2+1
+celda	Referencias!F217	num	206.0	206	
+celda	Referencias!G217	num	413.0	413	=F217*2+1
+celda	Referencias!F218	num	207.0	207	
+celda	Referencias!G218	num	415.0	415	=F218*2+1
+celda	Referencias!F219	num	208.0	208	
+celda	Referencias!G219	num	417.0	417	=F219*2+1
+celda	Referencias!F220	num	209.0	209	
+celda	Referencias!G220	num	419.0	419	=F220*2+1
+celda	Referencias!F221	num	210.0	210	
+celda	Referencias!G221	num	421.0	421	=F221*2+1
+celda	Referencias!F222	num	211.0	211	
+celda	Referencias!G222	num	423.0	423	=F222*2+1
+celda	Referencias!F223	num	212.0	212	
+celda	Referencias!G223	num	425.0	425	=F223*2+1
+celda	Referencias!F224	num	213.0	213	
+celda	Referencias!G224	num	427.0	427	=F224*2+1
+celda	Referencias!F225	num	214.0	214	
+celda	Referencias!G225	num	429.0	429	=F225*2+1
+celda	Referencias!F226	num	215.0	215	
+celda	Referencias!G226	num	431.0	431	=F226*2+1
+celda	Referencias!F227	num	216.0	216	
+celda	Referencias!G227	num	433.0	433	=F227*2+1
+celda	Referencias!F228	num	217.0	217	
+celda	Referencias!G228	num	435.0	435	=F228*2+1
+celda	Referencias!F229	num	218.0	218	
+celda	Referencias!G229	num	437.0	437	=F229*2+1
+celda	Referencias!F230	num	219.0	219	
+celda	Referencias!G230	num	439.0	439	=F230*2+1
+celda	Referencias!F231	num	220.0	220	
+celda	Referencias!G231	num	441.0	441	=F231*2+1
+celda	Referencias!F232	num	221.0	221	
+celda	Referencias!G232	num	443.0	443	=F232*2+1
+celda	Referencias!F233	num	222.0	222	
+celda	Referencias!G233	num	445.0	445	=F233*2+1
+celda	Referencias!F234	num	223.0	223	
+celda	Referencias!G234	num	447.0	447	=F234*2+1
+celda	Referencias!F235	num	224.0	224	
+celda	Referencias!G235	num	449.0	449	=F235*2+1
+celda	Referencias!F236	num	225.0	225	
+celda	Referencias!G236	num	451.0	451	=F236*2+1
+celda	Referencias!F237	num	226.0	226	
+celda	Referencias!G237	num	453.0	453	=F237*2+1
+celda	Referencias!F238	num	227.0	227	
+celda	Referencias!G238	num	455.0	455	=F238*2+1
+celda	Referencias!F239	num	228.0	228	
+celda	Referencias!G239	num	457.0	457	=F239*2+1
+celda	Referencias!F240	num	229.0	229	
+celda	Referencias!G240	num	459.0	459	=F240*2+1
+celda	Referencias!F241	num	230.0	230	
+celda	Referencias!G241	num	461.0	461	=F241*2+1
+celda	Referencias!F242	num	231.0	231	
+celda	Referencias!G242	num	463.0	463	=F242*2+1
+celda	Referencias!F243	num	232.0	232	
+celda	Referencias!G243	num	465.0	465	=F243*2+1
+celda	Referencias!F244	num	233.0	233	
+celda	Referencias!G244	num	467.0	467	=F244*2+1
+celda	Referencias!F245	num	234.0	234	
+celda	Referencias!G245	num	469.0	469	=F245*2+1
+celda	Referencias!F246	num	235.0	235	
+celda	Referencias!G246	num	471.0	471	=F246*2+1
+celda	Referencias!F247	num	236.0	236	
+celda	Referencias!G247	num	473.0	473	=F247*2+1
+celda	Referencias!F248	num	237.0	237	
+celda	Referencias!G248	num	475.0	475	=F248*2+1
+celda	Referencias!F249	num	238.0	238	
+celda	Referencias!G249	num	477.0	477	=F249*2+1
+celda	Referencias!F250	num	239.0	239	
+celda	Referencias!G250	num	479.0	479	=F250*2+1
+celda	Referencias!F251	num	240.0	240	
+celda	Referencias!G251	num	481.0	481	=F251*2+1
+celda	Referencias!F252	num	241.0	241	
+celda	Referencias!G252	num	483.0	483	=F252*2+1
+celda	Referencias!F253	num	242.0	242	
+celda	Referencias!G253	num	485.0	485	=F253*2+1
+celda	Referencias!F254	num	243.0	243	
+celda	Referencias!G254	num	487.0	487	=F254*2+1
+celda	Referencias!F255	num	244.0	244	
+celda	Referencias!G255	num	489.0	489	=F255*2+1
+celda	Referencias!F256	num	245.0	245	
+celda	Referencias!G256	num	491.0	491	=F256*2+1
+celda	Referencias!F257	num	246.0	246	
+celda	Referencias!G257	num	493.0	493	=F257*2+1
+celda	Referencias!F258	num	247.0	247	
+celda	Referencias!G258	num	495.0	495	=F258*2+1
+celda	Referencias!F259	num	248.0	248	
+celda	Referencias!G259	num	497.0	497	=F259*2+1
+celda	Referencias!F260	num	249.0	249	
+celda	Referencias!G260	num	499.0	499	=F260*2+1
+celda	Referencias!F261	num	250.0	250	
+celda	Referencias!G261	num	501.0	501	=F261*2+1
+celda	Referencias!F262	num	251.0	251	
+celda	Referencias!G262	num	503.0	503	=F262*2+1
+celda	Referencias!F263	num	252.0	252	
+celda	Referencias!G263	num	505.0	505	=F263*2+1
+celda	Referencias!F264	num	253.0	253	
+celda	Referencias!G264	num	507.0	507	=F264*2+1
+celda	Referencias!F265	num	254.0	254	
+celda	Referencias!G265	num	509.0	509	=F265*2+1
+celda	Referencias!F266	num	255.0	255	
+celda	Referencias!G266	num	511.0	511	=F266*2+1
+celda	Referencias!F267	num	256.0	256	
+celda	Referencias!G267	num	513.0	513	=F267*2+1
+celda	Referencias!F268	num	257.0	257	
+celda	Referencias!G268	num	515.0	515	=F268*2+1
+celda	Referencias!F269	num	258.0	258	
+celda	Referencias!G269	num	517.0	517	=F269*2+1
+celda	Referencias!F270	num	259.0	259	
+celda	Referencias!G270	num	519.0	519	=F270*2+1
+celda	Referencias!F271	num	260.0	260	
+celda	Referencias!G271	num	521.0	521	=F271*2+1
+celda	Referencias!F272	num	261.0	261	
+celda	Referencias!G272	num	523.0	523	=F272*2+1
+celda	Referencias!F273	num	262.0	262	
+celda	Referencias!G273	num	525.0	525	=F273*2+1
+celda	Referencias!F274	num	263.0	263	
+celda	Referencias!G274	num	527.0	527	=F274*2+1
+celda	Referencias!F275	num	264.0	264	
+celda	Referencias!G275	num	529.0	529	=F275*2+1
+celda	Referencias!F276	num	265.0	265	
+celda	Referencias!G276	num	531.0	531	=F276*2+1
+celda	Referencias!F277	num	266.0	266	
+celda	Referencias!G277	num	533.0	533	=F277*2+1
+celda	Referencias!F278	num	267.0	267	
+celda	Referencias!G278	num	535.0	535	=F278*2+1
+celda	Referencias!F279	num	268.0	268	
+celda	Referencias!G279	num	537.0	537	=F279*2+1
+celda	Referencias!F280	num	269.0	269	
+celda	Referencias!G280	num	539.0	539	=F280*2+1
+celda	Referencias!F281	num	270.0	270	
+celda	Referencias!G281	num	541.0	541	=F281*2+1
+celda	Referencias!F282	num	271.0	271	
+celda	Referencias!G282	num	543.0	543	=F282*2+1
+celda	Referencias!F283	num	272.0	272	
+celda	Referencias!G283	num	545.0	545	=F283*2+1
+celda	Referencias!F284	num	273.0	273	
+celda	Referencias!G284	num	547.0	547	=F284*2+1
+celda	Referencias!F285	num	274.0	274	
+celda	Referencias!G285	num	549.0	549	=F285*2+1
+celda	Referencias!F286	num	275.0	275	
+celda	Referencias!G286	num	551.0	551	=F286*2+1
+celda	Referencias!F287	num	276.0	276	
+celda	Referencias!G287	num	553.0	553	=F287*2+1
+celda	Referencias!F288	num	277.0	277	
+celda	Referencias!G288	num	555.0	555	=F288*2+1
+celda	Referencias!F289	num	278.0	278	
+celda	Referencias!G289	num	557.0	557	=F289*2+1
+celda	Referencias!F290	num	279.0	279	
+celda	Referencias!G290	num	559.0	559	=F290*2+1
+celda	Referencias!F291	num	280.0	280	
+celda	Referencias!G291	num	561.0	561	=F291*2+1
+celda	Referencias!F292	num	281.0	281	
+celda	Referencias!G292	num	563.0	563	=F292*2+1
+celda	Referencias!F293	num	282.0	282	
+celda	Referencias!G293	num	565.0	565	=F293*2+1
+celda	Referencias!F294	num	283.0	283	
+celda	Referencias!G294	num	567.0	567	=F294*2+1
+celda	Referencias!F295	num	284.0	284	
+celda	Referencias!G295	num	569.0	569	=F295*2+1
+celda	Referencias!F296	num	285.0	285	
+celda	Referencias!G296	num	571.0	571	=F296*2+1
+celda	Referencias!F297	num	286.0	286	
+celda	Referencias!G297	num	573.0	573	=F297*2+1
+celda	Referencias!F298	num	287.0	287	
+celda	Referencias!G298	num	575.0	575	=F298*2+1
+celda	Referencias!F299	num	288.0	288	
+celda	Referencias!G299	num	577.0	577	=F299*2+1
+celda	Referencias!F300	num	289.0	289	
+celda	Referencias!G300	num	579.0	579	=F300*2+1
+celda	Referencias!F301	num	290.0	290	
+celda	Referencias!G301	num	581.0	581	=F301*2+1
+celda	Referencias!F302	num	291.0	291	
+celda	Referencias!G302	num	583.0	583	=F302*2+1
+celda	Referencias!F303	num	292.0	292	
+celda	Referencias!G303	num	585.0	585	=F303*2+1
+celda	Referencias!F304	num	293.0	293	
+celda	Referencias!G304	num	587.0	587	=F304*2+1
+celda	Referencias!F305	num	294.0	294	
+celda	Referencias!G305	num	589.0	589	=F305*2+1
+celda	Referencias!F306	num	295.0	295	
+celda	Referencias!G306	num	591.0	591	=F306*2+1
+celda	Referencias!F307	num	296.0	296	
+celda	Referencias!G307	num	593.0	593	=F307*2+1
+celda	Referencias!F308	num	297.0	297	
+celda	Referencias!G308	num	595.0	595	=F308*2+1
+celda	Referencias!F309	num	298.0	298	
+celda	Referencias!G309	num	597.0	597	=F309*2+1
+celda	Referencias!F310	num	299.0	299	
+celda	Referencias!G310	num	599.0	599	=F310*2+1
+celda	Referencias!F311	num	300.0	300	
+celda	Referencias!G311	num	601.0	601	=F311*2+1
+celda	Referencias!F312	num	301.0	301	
+celda	Referencias!G312	num	603.0	603	=F312*2+1
+celda	Referencias!F313	num	302.0	302	
+celda	Referencias!G313	num	605.0	605	=F313*2+1
+celda	Referencias!F314	num	303.0	303	
+celda	Referencias!G314	num	607.0	607	=F314*2+1
+celda	Referencias!F315	num	304.0	304	
+celda	Referencias!G315	num	609.0	609	=F315*2+1
+celda	Referencias!F316	num	305.0	305	
+celda	Referencias!G316	num	611.0	611	=F316*2+1
+celda	Referencias!F317	num	306.0	306	
+celda	Referencias!G317	num	613.0	613	=F317*2+1
+celda	Referencias!F318	num	307.0	307	
+celda	Referencias!G318	num	615.0	615	=F318*2+1
+celda	Referencias!F319	num	308.0	308	
+celda	Referencias!G319	num	617.0	617	=F319*2+1
+celda	Referencias!F320	num	309.0	309	
+celda	Referencias!G320	num	619.0	619	=F320*2+1
+celda	Referencias!F321	num	310.0	310	
+celda	Referencias!G321	num	621.0	621	=F321*2+1
+celda	Referencias!F322	num	311.0	311	
+celda	Referencias!G322	num	623.0	623	=F322*2+1
+celda	Referencias!F323	num	312.0	312	
+celda	Referencias!G323	num	625.0	625	=F323*2+1
+celda	Referencias!F324	num	313.0	313	
+celda	Referencias!G324	num	627.0	627	=F324*2+1
+celda	Referencias!F325	num	314.0	314	
+celda	Referencias!G325	num	629.0	629	=F325*2+1
+celda	Referencias!F326	num	315.0	315	
+celda	Referencias!G326	num	631.0	631	=F326*2+1
+celda	Referencias!F327	num	316.0	316	
+celda	Referencias!G327	num	633.0	633	=F327*2+1
+celda	Referencias!F328	num	317.0	317	
+celda	Referencias!G328	num	635.0	635	=F328*2+1
+celda	Referencias!F329	num	318.0	318	
+celda	Referencias!G329	num	637.0	637	=F329*2+1
+celda	Referencias!F330	num	319.0	319	
+celda	Referencias!G330	num	639.0	639	=F330*2+1
+celda	Referencias!F331	num	320.0	320	
+celda	Referencias!G331	num	641.0	641	=F331*2+1
+celda	Referencias!F332	num	321.0	321	
+celda	Referencias!G332	num	643.0	643	=F332*2+1
+celda	Referencias!F333	num	322.0	322	
+celda	Referencias!G333	num	645.0	645	=F333*2+1
+celda	Referencias!F334	num	323.0	323	
+celda	Referencias!G334	num	647.0	647	=F334*2+1
+celda	Referencias!F335	num	324.0	324	
+celda	Referencias!G335	num	649.0	649	=F335*2+1
+celda	Referencias!F336	num	325.0	325	
+celda	Referencias!G336	num	651.0	651	=F336*2+1
+celda	Referencias!F337	num	326.0	326	
+celda	Referencias!G337	num	653.0	653	=F337*2+1
+celda	Referencias!F338	num	327.0	327	
+celda	Referencias!G338	num	655.0	655	=F338*2+1
+celda	Referencias!F339	num	328.0	328	
+celda	Referencias!G339	num	657.0	657	=F339*2+1
+celda	Referencias!F340	num	329.0	329	
+celda	Referencias!G340	num	659.0	659	=F340*2+1
+celda	Referencias!F341	num	330.0	330	
+celda	Referencias!G341	num	661.0	661	=F341*2+1
+celda	Referencias!F342	num	331.0	331	
+celda	Referencias!G342	num	663.0	663	=F342*2+1
+celda	Referencias!F343	num	332.0	332	
+celda	Referencias!G343	num	665.0	665	=F343*2+1
+celda	Referencias!F344	num	333.0	333	
+celda	Referencias!G344	num	667.0	667	=F344*2+1
+celda	Referencias!F345	num	334.0	334	
+celda	Referencias!G345	num	669.0	669	=F345*2+1
+celda	Referencias!F346	num	335.0	335	
+celda	Referencias!G346	num	671.0	671	=F346*2+1
+celda	Referencias!F347	num	336.0	336	
+celda	Referencias!G347	num	673.0	673	=F347*2+1
+celda	Referencias!F348	num	337.0	337	
+celda	Referencias!G348	num	675.0	675	=F348*2+1
+celda	Referencias!F349	num	338.0	338	
+celda	Referencias!G349	num	677.0	677	=F349*2+1
+celda	Referencias!F350	num	339.0	339	
+celda	Referencias!G350	num	679.0	679	=F350*2+1
+celda	Referencias!F351	num	340.0	340	
+celda	Referencias!G351	num	681.0	681	=F351*2+1
+celda	Referencias!F352	num	341.0	341	
+celda	Referencias!G352	num	683.0	683	=F352*2+1
+celda	Referencias!F353	num	342.0	342	
+celda	Referencias!G353	num	685.0	685	=F353*2+1
+celda	Referencias!F354	num	343.0	343	
+celda	Referencias!G354	num	687.0	687	=F354*2+1
+celda	Referencias!F355	num	344.0	344	
+celda	Referencias!G355	num	689.0	689	=F355*2+1
+celda	Referencias!F356	num	345.0	345	
+celda	Referencias!G356	num	691.0	691	=F356*2+1
+celda	Referencias!F357	num	346.0	346	
+celda	Referencias!G357	num	693.0	693	=F357*2+1
+celda	Referencias!F358	num	347.0	347	
+celda	Referencias!G358	num	695.0	695	=F358*2+1
+celda	Referencias!F359	num	348.0	348	
+celda	Referencias!G359	num	697.0	697	=F359*2+1
+celda	Referencias!F360	num	349.0	349	
+celda	Referencias!G360	num	699.0	699	=F360*2+1
+celda	Referencias!F361	num	350.0	350	
+celda	Referencias!G361	num	701.0	701	=F361*2+1
+celda	Referencias!F362	num	351.0	351	
+celda	Referencias!G362	num	703.0	703	=F362*2+1
+celda	Referencias!F363	num	352.0	352	
+celda	Referencias!G363	num	705.0	705	=F363*2+1
+celda	Referencias!F364	num	353.0	353	
+celda	Referencias!G364	num	707.0	707	=F364*2+1
+celda	Referencias!F365	num	354.0	354	
+celda	Referencias!G365	num	709.0	709	=F365*2+1
+celda	Referencias!F366	num	355.0	355	
+celda	Referencias!G366	num	711.0	711	=F366*2+1
+celda	Referencias!F367	num	356.0	356	
+celda	Referencias!G367	num	713.0	713	=F367*2+1
+celda	Referencias!F368	num	357.0	357	
+celda	Referencias!G368	num	715.0	715	=F368*2+1
+celda	Referencias!F369	num	358.0	358	
+celda	Referencias!G369	num	717.0	717	=F369*2+1
+celda	Referencias!F370	num	359.0	359	
+celda	Referencias!G370	num	719.0	719	=F370*2+1
+celda	Referencias!F371	num	360.0	360	
+celda	Referencias!G371	num	721.0	721	=F371*2+1
+celda	Referencias!F372	num	361.0	361	
+celda	Referencias!G372	num	723.0	723	=F372*2+1
+celda	Referencias!F373	num	362.0	362	
+celda	Referencias!G373	num	725.0	725	=F373*2+1
+celda	Referencias!F374	num	363.0	363	
+celda	Referencias!G374	num	727.0	727	=F374*2+1
+celda	Referencias!F375	num	364.0	364	
+celda	Referencias!G375	num	729.0	729	=F375*2+1
+celda	Referencias!F376	num	365.0	365	
+celda	Referencias!G376	num	731.0	731	=F376*2+1
+celda	Referencias!F377	num	366.0	366	
+celda	Referencias!G377	num	733.0	733	=F377*2+1
+celda	Referencias!F378	num	367.0	367	
+celda	Referencias!G378	num	735.0	735	=F378*2+1
+celda	Referencias!F379	num	368.0	368	
+celda	Referencias!G379	num	737.0	737	=F379*2+1
+celda	Referencias!F380	num	369.0	369	
+celda	Referencias!G380	num	739.0	739	=F380*2+1
+celda	Referencias!F381	num	370.0	370	
+celda	Referencias!G381	num	741.0	741	=F381*2+1
+celda	Referencias!F382	num	371.0	371	
+celda	Referencias!G382	num	743.0	743	=F382*2+1
+celda	Referencias!F383	num	372.0	372	
+celda	Referencias!G383	num	745.0	745	=F383*2+1
+celda	Referencias!F384	num	373.0	373	
+celda	Referencias!G384	num	747.0	747	=F384*2+1
+celda	Referencias!F385	num	374.0	374	
+celda	Referencias!G385	num	749.0	749	=F385*2+1
+celda	Referencias!F386	num	375.0	375	
+celda	Referencias!G386	num	751.0	751	=F386*2+1
+celda	Referencias!F387	num	376.0	376	
+celda	Referencias!G387	num	753.0	753	=F387*2+1
+celda	Referencias!F388	num	377.0	377	
+celda	Referencias!G388	num	755.0	755	=F388*2+1
+celda	Referencias!F389	num	378.0	378	
+celda	Referencias!G389	num	757.0	757	=F389*2+1
+celda	Referencias!F390	num	379.0	379	
+celda	Referencias!G390	num	759.0	759	=F390*2+1
+celda	Referencias!F391	num	380.0	380	
+celda	Referencias!G391	num	761.0	761	=F391*2+1
+celda	Referencias!F392	num	381.0	381	
+celda	Referencias!G392	num	763.0	763	=F392*2+1
+celda	Referencias!F393	num	382.0	382	
+celda	Referencias!G393	num	765.0	765	=F393*2+1
+celda	Referencias!F394	num	383.0	383	
+celda	Referencias!G394	num	767.0	767	=F394*2+1
+celda	Referencias!F395	num	384.0	384	
+celda	Referencias!G395	num	769.0	769	=F395*2+1
+celda	Referencias!F396	num	385.0	385	
+celda	Referencias!G396	num	771.0	771	=F396*2+1
+celda	Referencias!F397	num	386.0	386	
+celda	Referencias!G397	num	773.0	773	=F397*2+1
+celda	Referencias!F398	num	387.0	387	
+celda	Referencias!G398	num	775.0	775	=F398*2+1
+celda	Referencias!F399	num	388.0	388	
+celda	Referencias!G399	num	777.0	777	=F399*2+1
+celda	Referencias!F400	num	389.0	389	
+celda	Referencias!G400	num	779.0	779	=F400*2+1
+celda	Referencias!F401	num	390.0	390	
+celda	Referencias!G401	num	781.0	781	=F401*2+1
+celda	Referencias!F402	num	391.0	391	
+celda	Referencias!G402	num	783.0	783	=F402*2+1
+celda	Referencias!F403	num	392.0	392	
+celda	Referencias!G403	num	785.0	785	=F403*2+1
+celda	Referencias!F404	num	393.0	393	
+celda	Referencias!G404	num	787.0	787	=F404*2+1
+celda	Referencias!F405	num	394.0	394	
+celda	Referencias!G405	num	789.0	789	=F405*2+1
+celda	Referencias!F406	num	395.0	395	
+celda	Referencias!G406	num	791.0	791	=F406*2+1
+celda	Referencias!F407	num	396.0	396	
+celda	Referencias!G407	num	793.0	793	=F407*2+1
+celda	Referencias!F408	num	397.0	397	
+celda	Referencias!G408	num	795.0	795	=F408*2+1
+celda	Referencias!F409	num	398.0	398	
+celda	Referencias!G409	num	797.0	797	=F409*2+1
+celda	Referencias!F410	num	399.0	399	
+celda	Referencias!G410	num	799.0	799	=F410*2+1
+celda	Referencias!F411	num	400.0	400	
+celda	Referencias!G411	num	801.0	801	=F411*2+1
+celda	Referencias!F412	num	401.0	401	
+celda	Referencias!G412	num	803.0	803	=F412*2+1
+celda	Referencias!F413	num	402.0	402	
+celda	Referencias!G413	num	805.0	805	=F413*2+1
+celda	Referencias!F414	num	403.0	403	
+celda	Referencias!G414	num	807.0	807	=F414*2+1
+celda	Referencias!F415	num	404.0	404	
+celda	Referencias!G415	num	809.0	809	=F415*2+1
+celda	Referencias!F416	num	405.0	405	
+celda	Referencias!G416	num	811.0	811	=F416*2+1
+celda	Referencias!F417	num	406.0	406	
+celda	Referencias!G417	num	813.0	813	=F417*2+1
+celda	Referencias!F418	num	407.0	407	
+celda	Referencias!G418	num	815.0	815	=F418*2+1
+celda	Referencias!F419	num	408.0	408	
+celda	Referencias!G419	num	817.0	817	=F419*2+1
+celda	Referencias!F420	num	409.0	409	
+celda	Referencias!G420	num	819.0	819	=F420*2+1
+celda	Referencias!F421	num	410.0	410	
+celda	Referencias!G421	num	821.0	821	=F421*2+1
+celda	Referencias!F422	num	411.0	411	
+celda	Referencias!G422	num	823.0	823	=F422*2+1
+celda	Referencias!F423	num	412.0	412	
+celda	Referencias!G423	num	825.0	825	=F423*2+1
+celda	Referencias!F424	num	413.0	413	
+celda	Referencias!G424	num	827.0	827	=F424*2+1
+celda	Referencias!F425	num	414.0	414	
+celda	Referencias!G425	num	829.0	829	=F425*2+1
+celda	Referencias!F426	num	415.0	415	
+celda	Referencias!G426	num	831.0	831	=F426*2+1
+celda	Referencias!F427	num	416.0	416	
+celda	Referencias!G427	num	833.0	833	=F427*2+1
+celda	Referencias!F428	num	417.0	417	
+celda	Referencias!G428	num	835.0	835	=F428*2+1
+celda	Referencias!F429	num	418.0	418	
+celda	Referencias!G429	num	837.0	837	=F429*2+1
+celda	Referencias!F430	num	419.0	419	
+celda	Referencias!G430	num	839.0	839	=F430*2+1
+celda	Referencias!F431	num	420.0	420	
+celda	Referencias!G431	num	841.0	841	=F431*2+1
+celda	Referencias!F432	num	421.0	421	
+celda	Referencias!G432	num	843.0	843	=F432*2+1
+celda	Referencias!F433	num	422.0	422	
+celda	Referencias!G433	num	845.0	845	=F433*2+1
+celda	Referencias!F434	num	423.0	423	
+celda	Referencias!G434	num	847.0	847	=F434*2+1
+celda	Referencias!F435	num	424.0	424	
+celda	Referencias!G435	num	849.0	849	=F435*2+1
+celda	Referencias!F436	num	425.0	425	
+celda	Referencias!G436	num	851.0	851	=F436*2+1
+celda	Referencias!F437	num	426.0	426	
+celda	Referencias!G437	num	853.0	853	=F437*2+1
+celda	Referencias!F438	num	427.0	427	
+celda	Referencias!G438	num	855.0	855	=F438*2+1
+celda	Referencias!F439	num	428.0	428	
+celda	Referencias!G439	num	857.0	857	=F439*2+1
+celda	Referencias!F440	num	429.0	429	
+celda	Referencias!G440	num	859.0	859	=F440*2+1
+celda	Referencias!F441	num	430.0	430	
+celda	Referencias!G441	num	861.0	861	=F441*2+1
+celda	Referencias!F442	num	431.0	431	
+celda	Referencias!G442	num	863.0	863	=F442*2+1
+celda	Referencias!F443	num	432.0	432	
+celda	Referencias!G443	num	865.0	865	=F443*2+1
+celda	Referencias!F444	num	433.0	433	
+celda	Referencias!G444	num	867.0	867	=F444*2+1
+celda	Referencias!F445	num	434.0	434	
+celda	Referencias!G445	num	869.0	869	=F445*2+1
+celda	Referencias!F446	num	435.0	435	
+celda	Referencias!G446	num	871.0	871	=F446*2+1
+celda	Referencias!F447	num	436.0	436	
+celda	Referencias!G447	num	873.0	873	=F447*2+1
+celda	Referencias!F448	num	437.0	437	
+celda	Referencias!G448	num	875.0	875	=F448*2+1
+celda	Referencias!F449	num	438.0	438	
+celda	Referencias!G449	num	877.0	877	=F449*2+1
+celda	Referencias!F450	num	439.0	439	
+celda	Referencias!G450	num	879.0	879	=F450*2+1
+celda	Referencias!F451	num	440.0	440	
+celda	Referencias!G451	num	881.0	881	=F451*2+1
+celda	Referencias!F452	num	441.0	441	
+celda	Referencias!G452	num	883.0	883	=F452*2+1
+celda	Referencias!F453	num	442.0	442	
+celda	Referencias!G453	num	885.0	885	=F453*2+1
+celda	Referencias!F454	num	443.0	443	
+celda	Referencias!G454	num	887.0	887	=F454*2+1
+celda	Referencias!F455	num	444.0	444	
+celda	Referencias!G455	num	889.0	889	=F455*2+1
+celda	Referencias!F456	num	445.0	445	
+celda	Referencias!G456	num	891.0	891	=F456*2+1
+celda	Referencias!F457	num	446.0	446	
+celda	Referencias!G457	num	893.0	893	=F457*2+1
+celda	Referencias!F458	num	447.0	447	
+celda	Referencias!G458	num	895.0	895	=F458*2+1
+celda	Referencias!F459	num	448.0	448	
+celda	Referencias!G459	num	897.0	897	=F459*2+1
+celda	Referencias!F460	num	449.0	449	
+celda	Referencias!G460	num	899.0	899	=F460*2+1
+celda	Referencias!F461	num	450.0	450	
+celda	Referencias!G461	num	901.0	901	=F461*2+1
+celda	Referencias!F462	num	451.0	451	
+celda	Referencias!G462	num	903.0	903	=F462*2+1
+celda	Referencias!F463	num	452.0	452	
+celda	Referencias!G463	num	905.0	905	=F463*2+1
+celda	Referencias!F464	num	453.0	453	
+celda	Referencias!G464	num	907.0	907	=F464*2+1
+celda	Referencias!F465	num	454.0	454	
+celda	Referencias!G465	num	909.0	909	=F465*2+1
+celda	Referencias!F466	num	455.0	455	
+celda	Referencias!G466	num	911.0	911	=F466*2+1
+celda	Referencias!F467	num	456.0	456	
+celda	Referencias!G467	num	913.0	913	=F467*2+1
+celda	Referencias!F468	num	457.0	457	
+celda	Referencias!G468	num	915.0	915	=F468*2+1
+celda	Referencias!F469	num	458.0	458	
+celda	Referencias!G469	num	917.0	917	=F469*2+1
+celda	Referencias!F470	num	459.0	459	
+celda	Referencias!G470	num	919.0	919	=F470*2+1
+celda	Referencias!F471	num	460.0	460	
+celda	Referencias!G471	num	921.0	921	=F471*2+1
+celda	Referencias!F472	num	461.0	461	
+celda	Referencias!G472	num	923.0	923	=F472*2+1
+celda	Referencias!F473	num	462.0	462	
+celda	Referencias!G473	num	925.0	925	=F473*2+1
+celda	Referencias!F474	num	463.0	463	
+celda	Referencias!G474	num	927.0	927	=F474*2+1
+celda	Referencias!F475	num	464.0	464	
+celda	Referencias!G475	num	929.0	929	=F475*2+1
+celda	Referencias!F476	num	465.0	465	
+celda	Referencias!G476	num	931.0	931	=F476*2+1
+celda	Referencias!F477	num	466.0	466	
+celda	Referencias!G477	num	933.0	933	=F477*2+1
+celda	Referencias!F478	num	467.0	467	
+celda	Referencias!G478	num	935.0	935	=F478*2+1
+celda	Referencias!F479	num	468.0	468	
+celda	Referencias!G479	num	937.0	937	=F479*2+1
+celda	Referencias!F480	num	469.0	469	
+celda	Referencias!G480	num	939.0	939	=F480*2+1
+celda	Referencias!F481	num	470.0	470	
+celda	Referencias!G481	num	941.0	941	=F481*2+1
+celda	Referencias!F482	num	471.0	471	
+celda	Referencias!G482	num	943.0	943	=F482*2+1
+celda	Referencias!F483	num	472.0	472	
+celda	Referencias!G483	num	945.0	945	=F483*2+1
+celda	Referencias!F484	num	473.0	473	
+celda	Referencias!G484	num	947.0	947	=F484*2+1
+celda	Referencias!F485	num	474.0	474	
+celda	Referencias!G485	num	949.0	949	=F485*2+1
+celda	Referencias!F486	num	475.0	475	
+celda	Referencias!G486	num	951.0	951	=F486*2+1
+celda	Referencias!F487	num	476.0	476	
+celda	Referencias!G487	num	953.0	953	=F487*2+1
+celda	Referencias!F488	num	477.0	477	
+celda	Referencias!G488	num	955.0	955	=F488*2+1
+celda	Referencias!F489	num	478.0	478	
+celda	Referencias!G489	num	957.0	957	=F489*2+1
+celda	Referencias!F490	num	479.0	479	
+celda	Referencias!G490	num	959.0	959	=F490*2+1
+celda	Referencias!F491	num	480.0	480	
+celda	Referencias!G491	num	961.0	961	=F491*2+1
+celda	Referencias!F492	num	481.0	481	
+celda	Referencias!G492	num	963.0	963	=F492*2+1
+celda	Referencias!F493	num	482.0	482	
+celda	Referencias!G493	num	965.0	965	=F493*2+1
+celda	Referencias!F494	num	483.0	483	
+celda	Referencias!G494	num	967.0	967	=F494*2+1
+celda	Referencias!F495	num	484.0	484	
+celda	Referencias!G495	num	969.0	969	=F495*2+1
+celda	Referencias!F496	num	485.0	485	
+celda	Referencias!G496	num	971.0	971	=F496*2+1
+celda	Referencias!F497	num	486.0	486	
+celda	Referencias!G497	num	973.0	973	=F497*2+1
+celda	Referencias!F498	num	487.0	487	
+celda	Referencias!G498	num	975.0	975	=F498*2+1
+celda	Referencias!F499	num	488.0	488	
+celda	Referencias!G499	num	977.0	977	=F499*2+1
+celda	Referencias!F500	num	489.0	489	
+celda	Referencias!G500	num	979.0	979	=F500*2+1
+celda	Referencias!F501	num	490.0	490	
+celda	Referencias!G501	num	981.0	981	=F501*2+1
+celda	Referencias!F502	num	491.0	491	
+celda	Referencias!G502	num	983.0	983	=F502*2+1
+celda	Referencias!F503	num	492.0	492	
+celda	Referencias!G503	num	985.0	985	=F503*2+1
+celda	Referencias!F504	num	493.0	493	
+celda	Referencias!G504	num	987.0	987	=F504*2+1
+celda	Referencias!F505	num	494.0	494	
+celda	Referencias!G505	num	989.0	989	=F505*2+1
+celda	Referencias!F506	num	495.0	495	
+celda	Referencias!G506	num	991.0	991	=F506*2+1
+celda	Referencias!F507	num	496.0	496	
+celda	Referencias!G507	num	993.0	993	=F507*2+1
+celda	Referencias!F508	num	497.0	497	
+celda	Referencias!G508	num	995.0	995	=F508*2+1
+celda	Referencias!F509	num	498.0	498	
+celda	Referencias!G509	num	997.0	997	=F509*2+1
+celda	Referencias!F510	num	499.0	499	
+celda	Referencias!G510	num	999.0	999	=F510*2+1
+celda	Referencias!F511	num	500.0	500	
+celda	Referencias!G511	num	1001.0	1001	=F511*2+1
+celda	Referencias!F512	num	501.0	501	
+celda	Referencias!G512	num	1003.0	1003	=F512*2+1
+celda	Referencias!F513	num	502.0	502	
+celda	Referencias!G513	num	1005.0	1005	=F513*2+1
+celda	Referencias!F514	num	503.0	503	
+celda	Referencias!G514	num	1007.0	1007	=F514*2+1
+celda	Referencias!F515	num	504.0	504	
+celda	Referencias!G515	num	1009.0	1009	=F515*2+1
+celda	Referencias!F516	num	505.0	505	
+celda	Referencias!G516	num	1011.0	1011	=F516*2+1
+celda	Referencias!F517	num	506.0	506	
+celda	Referencias!G517	num	1013.0	1013	=F517*2+1
+celda	Referencias!F518	num	507.0	507	
+celda	Referencias!G518	num	1015.0	1015	=F518*2+1
+celda	Referencias!F519	num	508.0	508	
+celda	Referencias!G519	num	1017.0	1017	=F519*2+1
+celda	Referencias!F520	num	509.0	509	
+celda	Referencias!G520	num	1019.0	1019	=F520*2+1
+celda	Referencias!F521	num	510.0	510	
+celda	Referencias!G521	num	1021.0	1021	=F521*2+1
+celda	Referencias!F522	num	511.0	511	
+celda	Referencias!G522	num	1023.0	1023	=F522*2+1
+celda	Referencias!F523	num	512.0	512	
+celda	Referencias!G523	num	1025.0	1025	=F523*2+1
+celda	Referencias!F524	num	513.0	513	
+celda	Referencias!G524	num	1027.0	1027	=F524*2+1
+celda	Referencias!F525	num	514.0	514	
+celda	Referencias!G525	num	1029.0	1029	=F525*2+1
+celda	Referencias!F526	num	515.0	515	
+celda	Referencias!G526	num	1031.0	1031	=F526*2+1
+celda	Referencias!F527	num	516.0	516	
+celda	Referencias!G527	num	1033.0	1033	=F527*2+1
+celda	Referencias!F528	num	517.0	517	
+celda	Referencias!G528	num	1035.0	1035	=F528*2+1
+celda	Referencias!F529	num	518.0	518	
+celda	Referencias!G529	num	1037.0	1037	=F529*2+1
+celda	Referencias!F530	num	519.0	519	
+celda	Referencias!G530	num	1039.0	1039	=F530*2+1
+celda	Referencias!F531	num	520.0	520	
+celda	Referencias!G531	num	1041.0	1041	=F531*2+1
+celda	Referencias!F532	num	521.0	521	
+celda	Referencias!G532	num	1043.0	1043	=F532*2+1
+celda	Referencias!F533	num	522.0	522	
+celda	Referencias!G533	num	1045.0	1045	=F533*2+1
+celda	Referencias!F534	num	523.0	523	
+celda	Referencias!G534	num	1047.0	1047	=F534*2+1
+celda	Referencias!F535	num	524.0	524	
+celda	Referencias!G535	num	1049.0	1049	=F535*2+1
+celda	Referencias!F536	num	525.0	525	
+celda	Referencias!G536	num	1051.0	1051	=F536*2+1
+celda	Referencias!F537	num	526.0	526	
+celda	Referencias!G537	num	1053.0	1053	=F537*2+1
+celda	Referencias!F538	num	527.0	527	
+celda	Referencias!G538	num	1055.0	1055	=F538*2+1
+celda	Referencias!F539	num	528.0	528	
+celda	Referencias!G539	num	1057.0	1057	=F539*2+1
+celda	Referencias!F540	num	529.0	529	
+celda	Referencias!G540	num	1059.0	1059	=F540*2+1
+celda	Referencias!F541	num	530.0	530	
+celda	Referencias!G541	num	1061.0	1061	=F541*2+1
+celda	Referencias!F542	num	531.0	531	
+celda	Referencias!G542	num	1063.0	1063	=F542*2+1
+celda	Referencias!F543	num	532.0	532	
+celda	Referencias!G543	num	1065.0	1065	=F543*2+1
+celda	Referencias!F544	num	533.0	533	
+celda	Referencias!G544	num	1067.0	1067	=F544*2+1
+celda	Referencias!F545	num	534.0	534	
+celda	Referencias!G545	num	1069.0	1069	=F545*2+1
+celda	Referencias!F546	num	535.0	535	
+celda	Referencias!G546	num	1071.0	1071	=F546*2+1
+celda	Referencias!F547	num	536.0	536	
+celda	Referencias!G547	num	1073.0	1073	=F547*2+1
+celda	Referencias!F548	num	537.0	537	
+celda	Referencias!G548	num	1075.0	1075	=F548*2+1
+celda	Referencias!F549	num	538.0	538	
+celda	Referencias!G549	num	1077.0	1077	=F549*2+1
+celda	Referencias!F550	num	539.0	539	
+celda	Referencias!G550	num	1079.0	1079	=F550*2+1
+celda	Referencias!F551	num	540.0	540	
+celda	Referencias!G551	num	1081.0	1081	=F551*2+1
+celda	Referencias!F552	num	541.0	541	
+celda	Referencias!G552	num	1083.0	1083	=F552*2+1
+celda	Referencias!F553	num	542.0	542	
+celda	Referencias!G553	num	1085.0	1085	=F553*2+1
+celda	Referencias!F554	num	543.0	543	
+celda	Referencias!G554	num	1087.0	1087	=F554*2+1
+celda	Referencias!F555	num	544.0	544	
+celda	Referencias!G555	num	1089.0	1089	=F555*2+1
+celda	Referencias!F556	num	545.0	545	
+celda	Referencias!G556	num	1091.0	1091	=F556*2+1
+celda	Referencias!F557	num	546.0	546	
+celda	Referencias!G557	num	1093.0	1093	=F557*2+1
+celda	Referencias!F558	num	547.0	547	
+celda	Referencias!G558	num	1095.0	1095	=F558*2+1
+celda	Referencias!F559	num	548.0	548	
+celda	Referencias!G559	num	1097.0	1097	=F559*2+1
+celda	Referencias!F560	num	549.0	549	
+celda	Referencias!G560	num	1099.0	1099	=F560*2+1
+celda	Referencias!F561	num	550.0	550	
+celda	Referencias!G561	num	1101.0	1101	=F561*2+1
+celda	Referencias!F562	num	551.0	551	
+celda	Referencias!G562	num	1103.0	1103	=F562*2+1
+celda	Referencias!F563	num	552.0	552	
+celda	Referencias!G563	num	1105.0	1105	=F563*2+1
+celda	Referencias!F564	num	553.0	553	
+celda	Referencias!G564	num	1107.0	1107	=F564*2+1
+celda	Referencias!F565	num	554.0	554	
+celda	Referencias!G565	num	1109.0	1109	=F565*2+1
+celda	Referencias!F566	num	555.0	555	
+celda	Referencias!G566	num	1111.0	1111	=F566*2+1
+celda	Referencias!F567	num	556.0	556	
+celda	Referencias!G567	num	1113.0	1113	=F567*2+1
+celda	Referencias!F568	num	557.0	557	
+celda	Referencias!G568	num	1115.0	1115	=F568*2+1
+celda	Referencias!F569	num	558.0	558	
+celda	Referencias!G569	num	1117.0	1117	=F569*2+1
+celda	Referencias!F570	num	559.0	559	
+celda	Referencias!G570	num	1119.0	1119	=F570*2+1
+celda	Referencias!F571	num	560.0	560	
+celda	Referencias!G571	num	1121.0	1121	=F571*2+1
+celda	Referencias!F572	num	561.0	561	
+celda	Referencias!G572	num	1123.0	1123	=F572*2+1
+celda	Referencias!F573	num	562.0	562	
+celda	Referencias!G573	num	1125.0	1125	=F573*2+1
+celda	Referencias!F574	num	563.0	563	
+celda	Referencias!G574	num	1127.0	1127	=F574*2+1
+celda	Referencias!F575	num	564.0	564	
+celda	Referencias!G575	num	1129.0	1129	=F575*2+1
+celda	Referencias!F576	num	565.0	565	
+celda	Referencias!G576	num	1131.0	1131	=F576*2+1
+celda	Referencias!F577	num	566.0	566	
+celda	Referencias!G577	num	1133.0	1133	=F577*2+1
+celda	Referencias!F578	num	567.0	567	
+celda	Referencias!G578	num	1135.0	1135	=F578*2+1
+celda	Referencias!F579	num	568.0	568	
+celda	Referencias!G579	num	1137.0	1137	=F579*2+1
+celda	Referencias!F580	num	569.0	569	
+celda	Referencias!G580	num	1139.0	1139	=F580*2+1
+celda	Referencias!F581	num	570.0	570	
+celda	Referencias!G581	num	1141.0	1141	=F581*2+1
+celda	Referencias!F582	num	571.0	571	
+celda	Referencias!G582	num	1143.0	1143	=F582*2+1
+celda	Referencias!F583	num	572.0	572	
+celda	Referencias!G583	num	1145.0	1145	=F583*2+1
+celda	Referencias!F584	num	573.0	573	
+celda	Referencias!G584	num	1147.0	1147	=F584*2+1
+celda	Referencias!F585	num	574.0	574	
+celda	Referencias!G585	num	1149.0	1149	=F585*2+1
+celda	Referencias!F586	num	575.0	575	
+celda	Referencias!G586	num	1151.0	1151	=F586*2+1
+celda	Referencias!F587	num	576.0	576	
+celda	Referencias!G587	num	1153.0	1153	=F587*2+1
+celda	Referencias!F588	num	577.0	577	
+celda	Referencias!G588	num	1155.0	1155	=F588*2+1
+celda	Referencias!F589	num	578.0	578	
+celda	Referencias!G589	num	1157.0	1157	=F589*2+1
+celda	Referencias!F590	num	579.0	579	
+celda	Referencias!G590	num	1159.0	1159	=F590*2+1
+celda	Referencias!F591	num	580.0	580	
+celda	Referencias!G591	num	1161.0	1161	=F591*2+1
+celda	Referencias!F592	num	581.0	581	
+celda	Referencias!G592	num	1163.0	1163	=F592*2+1
+celda	Referencias!F593	num	582.0	582	
+celda	Referencias!G593	num	1165.0	1165	=F593*2+1
+celda	Referencias!F594	num	583.0	583	
+celda	Referencias!G594	num	1167.0	1167	=F594*2+1
+celda	Referencias!F595	num	584.0	584	
+celda	Referencias!G595	num	1169.0	1169	=F595*2+1
+celda	Referencias!F596	num	585.0	585	
+celda	Referencias!G596	num	1171.0	1171	=F596*2+1
+celda	Referencias!F597	num	586.0	586	
+celda	Referencias!G597	num	1173.0	1173	=F597*2+1
+celda	Referencias!F598	num	587.0	587	
+celda	Referencias!G598	num	1175.0	1175	=F598*2+1
+celda	Referencias!F599	num	588.0	588	
+celda	Referencias!G599	num	1177.0	1177	=F599*2+1
+celda	Referencias!F600	num	589.0	589	
+celda	Referencias!G600	num	1179.0	1179	=F600*2+1
+celda	Referencias!F601	num	590.0	590	
+celda	Referencias!G601	num	1181.0	1181	=F601*2+1
+celda	Referencias!F602	num	591.0	591	
+celda	Referencias!G602	num	1183.0	1183	=F602*2+1
+celda	Referencias!F603	num	592.0	592	
+celda	Referencias!G603	num	1185.0	1185	=F603*2+1
+celda	Referencias!F604	num	593.0	593	
+celda	Referencias!G604	num	1187.0	1187	=F604*2+1
+celda	Referencias!F605	num	594.0	594	
+celda	Referencias!G605	num	1189.0	1189	=F605*2+1
+celda	Referencias!F606	num	595.0	595	
+celda	Referencias!G606	num	1191.0	1191	=F606*2+1
+celda	Referencias!F607	num	596.0	596	
+celda	Referencias!G607	num	1193.0	1193	=F607*2+1
+celda	Referencias!F608	num	597.0	597	
+celda	Referencias!G608	num	1195.0	1195	=F608*2+1
+celda	Referencias!F609	num	598.0	598	
+celda	Referencias!G609	num	1197.0	1197	=F609*2+1
+celda	Referencias!F610	num	599.0	599	
+celda	Referencias!G610	num	1199.0	1199	=F610*2+1
+celda	Referencias!F611	num	600.0	600	
+celda	Referencias!G611	num	1201.0	1201	=F611*2+1
+celda	Referencias!F612	num	601.0	601	
+celda	Referencias!G612	num	1203.0	1203	=F612*2+1
+celda	Referencias!F613	num	602.0	602	
+celda	Referencias!G613	num	1205.0	1205	=F613*2+1
+celda	Referencias!F614	num	603.0	603	
+celda	Referencias!G614	num	1207.0	1207	=F614*2+1
+celda	Referencias!F615	num	604.0	604	
+celda	Referencias!G615	num	1209.0	1209	=F615*2+1
+celda	Referencias!F616	num	605.0	605	
+celda	Referencias!G616	num	1211.0	1211	=F616*2+1
+celda	Referencias!F617	num	606.0	606	
+celda	Referencias!G617	num	1213.0	1213	=F617*2+1
+celda	Referencias!F618	num	607.0	607	
+celda	Referencias!G618	num	1215.0	1215	=F618*2+1
+celda	Referencias!F619	num	608.0	608	
+celda	Referencias!G619	num	1217.0	1217	=F619*2+1
+celda	Referencias!F620	num	609.0	609	
+celda	Referencias!G620	num	1219.0	1219	=F620*2+1
+celda	Referencias!F621	num	610.0	610	
+celda	Referencias!G621	num	1221.0	1221	=F621*2+1
+celda	Referencias!F622	num	611.0	611	
+celda	Referencias!G622	num	1223.0	1223	=F622*2+1
+celda	Referencias!F623	num	612.0	612	
+celda	Referencias!G623	num	1225.0	1225	=F623*2+1
+celda	Referencias!F624	num	613.0	613	
+celda	Referencias!G624	num	1227.0	1227	=F624*2+1
+celda	Referencias!F625	num	614.0	614	
+celda	Referencias!G625	num	1229.0	1229	=F625*2+1
+celda	Referencias!F626	num	615.0	615	
+celda	Referencias!G626	num	1231.0	1231	=F626*2+1
+celda	Referencias!F627	num	616.0	616	
+celda	Referencias!G627	num	1233.0	1233	=F627*2+1
+celda	Referencias!F628	num	617.0	617	
+celda	Referencias!G628	num	1235.0	1235	=F628*2+1
+celda	Referencias!F629	num	618.0	618	
+celda	Referencias!G629	num	1237.0	1237	=F629*2+1
+celda	Referencias!F630	num	619.0	619	
+celda	Referencias!G630	num	1239.0	1239	=F630*2+1
+celda	Referencias!F631	num	620.0	620	
+celda	Referencias!G631	num	1241.0	1241	=F631*2+1
+celda	Referencias!F632	num	621.0	621	
+celda	Referencias!G632	num	1243.0	1243	=F632*2+1
+celda	Referencias!F633	num	622.0	622	
+celda	Referencias!G633	num	1245.0	1245	=F633*2+1
+celda	Referencias!F634	num	623.0	623	
+celda	Referencias!G634	num	1247.0	1247	=F634*2+1
+celda	Referencias!F635	num	624.0	624	
+celda	Referencias!G635	num	1249.0	1249	=F635*2+1
+celda	Referencias!F636	num	625.0	625	
+celda	Referencias!G636	num	1251.0	1251	=F636*2+1
+celda	Referencias!F637	num	626.0	626	
+celda	Referencias!G637	num	1253.0	1253	=F637*2+1
+celda	Referencias!F638	num	627.0	627	
+celda	Referencias!G638	num	1255.0	1255	=F638*2+1
+celda	Referencias!F639	num	628.0	628	
+celda	Referencias!G639	num	1257.0	1257	=F639*2+1
+celda	Referencias!F640	num	629.0	629	
+celda	Referencias!G640	num	1259.0	1259	=F640*2+1
+celda	Referencias!F641	num	630.0	630	
+celda	Referencias!G641	num	1261.0	1261	=F641*2+1
+celda	Referencias!F642	num	631.0	631	
+celda	Referencias!G642	num	1263.0	1263	=F642*2+1
+celda	Referencias!F643	num	632.0	632	
+celda	Referencias!G643	num	1265.0	1265	=F643*2+1
+celda	Referencias!F644	num	633.0	633	
+celda	Referencias!G644	num	1267.0	1267	=F644*2+1
+celda	Referencias!F645	num	634.0	634	
+celda	Referencias!G645	num	1269.0	1269	=F645*2+1
+celda	Referencias!F646	num	635.0	635	
+celda	Referencias!G646	num	1271.0	1271	=F646*2+1
+celda	Referencias!F647	num	636.0	636	
+celda	Referencias!G647	num	1273.0	1273	=F647*2+1
+celda	Referencias!F648	num	637.0	637	
+celda	Referencias!G648	num	1275.0	1275	=F648*2+1
+celda	Referencias!F649	num	638.0	638	
+celda	Referencias!G649	num	1277.0	1277	=F649*2+1
+celda	Referencias!F650	num	639.0	639	
+celda	Referencias!G650	num	1279.0	1279	=F650*2+1
+celda	Referencias!F651	num	640.0	640	
+celda	Referencias!G651	num	1281.0	1281	=F651*2+1
+celda	Referencias!F652	num	641.0	641	
+celda	Referencias!G652	num	1283.0	1283	=F652*2+1
+celda	Referencias!F653	num	642.0	642	
+celda	Referencias!G653	num	1285.0	1285	=F653*2+1
+celda	Referencias!F654	num	643.0	643	
+celda	Referencias!G654	num	1287.0	1287	=F654*2+1
+celda	Referencias!F655	num	644.0	644	
+celda	Referencias!G655	num	1289.0	1289	=F655*2+1
+celda	Referencias!F656	num	645.0	645	
+celda	Referencias!G656	num	1291.0	1291	=F656*2+1
+celda	Referencias!F657	num	646.0	646	
+celda	Referencias!G657	num	1293.0	1293	=F657*2+1
+celda	Referencias!F658	num	647.0	647	
+celda	Referencias!G658	num	1295.0	1295	=F658*2+1
+celda	Referencias!F659	num	648.0	648	
+celda	Referencias!G659	num	1297.0	1297	=F659*2+1
+celda	Referencias!F660	num	649.0	649	
+celda	Referencias!G660	num	1299.0	1299	=F660*2+1
+celda	Referencias!F661	num	650.0	650	
+celda	Referencias!G661	num	1301.0	1301	=F661*2+1
+celda	Referencias!F662	num	651.0	651	
+celda	Referencias!G662	num	1303.0	1303	=F662*2+1
+celda	Referencias!F663	num	652.0	652	
+celda	Referencias!G663	num	1305.0	1305	=F663*2+1
+celda	Referencias!F664	num	653.0	653	
+celda	Referencias!G664	num	1307.0	1307	=F664*2+1
+celda	Referencias!F665	num	654.0	654	
+celda	Referencias!G665	num	1309.0	1309	=F665*2+1
+celda	Referencias!F666	num	655.0	655	
+celda	Referencias!G666	num	1311.0	1311	=F666*2+1
+celda	Referencias!F667	num	656.0	656	
+celda	Referencias!G667	num	1313.0	1313	=F667*2+1
+celda	Referencias!F668	num	657.0	657	
+celda	Referencias!G668	num	1315.0	1315	=F668*2+1
+celda	Referencias!F669	num	658.0	658	
+celda	Referencias!G669	num	1317.0	1317	=F669*2+1
+celda	Referencias!F670	num	659.0	659	
+celda	Referencias!G670	num	1319.0	1319	=F670*2+1
+celda	Referencias!F671	num	660.0	660	
+celda	Referencias!G671	num	1321.0	1321	=F671*2+1
+celda	Referencias!F672	num	661.0	661	
+celda	Referencias!G672	num	1323.0	1323	=F672*2+1
+celda	Referencias!F673	num	662.0	662	
+celda	Referencias!G673	num	1325.0	1325	=F673*2+1
+celda	Referencias!F674	num	663.0	663	
+celda	Referencias!G674	num	1327.0	1327	=F674*2+1
+celda	Referencias!F675	num	664.0	664	
+celda	Referencias!G675	num	1329.0	1329	=F675*2+1
+celda	Referencias!F676	num	665.0	665	
+celda	Referencias!G676	num	1331.0	1331	=F676*2+1
+celda	Referencias!F677	num	666.0	666	
+celda	Referencias!G677	num	1333.0	1333	=F677*2+1
+celda	Referencias!F678	num	667.0	667	
+celda	Referencias!G678	num	1335.0	1335	=F678*2+1
+celda	Referencias!F679	num	668.0	668	
+celda	Referencias!G679	num	1337.0	1337	=F679*2+1
+celda	Referencias!F680	num	669.0	669	
+celda	Referencias!G680	num	1339.0	1339	=F680*2+1
+celda	Referencias!F681	num	670.0	670	
+celda	Referencias!G681	num	1341.0	1341	=F681*2+1
+celda	Referencias!F682	num	671.0	671	
+celda	Referencias!G682	num	1343.0	1343	=F682*2+1
+celda	Referencias!F683	num	672.0	672	
+celda	Referencias!G683	num	1345.0	1345	=F683*2+1
+celda	Referencias!F684	num	673.0	673	
+celda	Referencias!G684	num	1347.0	1347	=F684*2+1
+celda	Referencias!F685	num	674.0	674	
+celda	Referencias!G685	num	1349.0	1349	=F685*2+1
+celda	Referencias!F686	num	675.0	675	
+celda	Referencias!G686	num	1351.0	1351	=F686*2+1
+celda	Referencias!F687	num	676.0	676	
+celda	Referencias!G687	num	1353.0	1353	=F687*2+1
+celda	Referencias!F688	num	677.0	677	
+celda	Referencias!G688	num	1355.0	1355	=F688*2+1
+celda	Referencias!F689	num	678.0	678	
+celda	Referencias!G689	num	1357.0	1357	=F689*2+1
+celda	Referencias!F690	num	679.0	679	
+celda	Referencias!G690	num	1359.0	1359	=F690*2+1
+celda	Referencias!F691	num	680.0	680	
+celda	Referencias!G691	num	1361.0	1361	=F691*2+1
+celda	Referencias!F692	num	681.0	681	
+celda	Referencias!G692	num	1363.0	1363	=F692*2+1
+celda	Referencias!F693	num	682.0	682	
+celda	Referencias!G693	num	1365.0	1365	=F693*2+1
+celda	Referencias!F694	num	683.0	683	
+celda	Referencias!G694	num	1367.0	1367	=F694*2+1
+celda	Referencias!F695	num	684.0	684	
+celda	Referencias!G695	num	1369.0	1369	=F695*2+1
+celda	Referencias!F696	num	685.0	685	
+celda	Referencias!G696	num	1371.0	1371	=F696*2+1
+celda	Referencias!F697	num	686.0	686	
+celda	Referencias!G697	num	1373.0	1373	=F697*2+1
+celda	Referencias!F698	num	687.0	687	
+celda	Referencias!G698	num	1375.0	1375	=F698*2+1
+celda	Referencias!F699	num	688.0	688	
+celda	Referencias!G699	num	1377.0	1377	=F699*2+1
+celda	Referencias!F700	num	689.0	689	
+celda	Referencias!G700	num	1379.0	1379	=F700*2+1
+celda	Referencias!F701	num	690.0	690	
+celda	Referencias!G701	num	1381.0	1381	=F701*2+1
+celda	Referencias!F702	num	691.0	691	
+celda	Referencias!G702	num	1383.0	1383	=F702*2+1
+celda	Referencias!F703	num	692.0	692	
+celda	Referencias!G703	num	1385.0	1385	=F703*2+1
+celda	Referencias!F704	num	693.0	693	
+celda	Referencias!G704	num	1387.0	1387	=F704*2+1
+celda	Referencias!F705	num	694.0	694	
+celda	Referencias!G705	num	1389.0	1389	=F705*2+1
+celda	Referencias!F706	num	695.0	695	
+celda	Referencias!G706	num	1391.0	1391	=F706*2+1
+celda	Referencias!F707	num	696.0	696	
+celda	Referencias!G707	num	1393.0	1393	=F707*2+1
+celda	Referencias!F708	num	697.0	697	
+celda	Referencias!G708	num	1395.0	1395	=F708*2+1
+celda	Referencias!F709	num	698.0	698	
+celda	Referencias!G709	num	1397.0	1397	=F709*2+1
+celda	Referencias!F710	num	699.0	699	
+celda	Referencias!G710	num	1399.0	1399	=F710*2+1
+celda	Referencias!F711	num	700.0	700	
+celda	Referencias!G711	num	1401.0	1401	=F711*2+1
+celda	Referencias!F712	num	701.0	701	
+celda	Referencias!G712	num	1403.0	1403	=F712*2+1
+celda	Referencias!F713	num	702.0	702	
+celda	Referencias!G713	num	1405.0	1405	=F713*2+1
+celda	Referencias!F714	num	703.0	703	
+celda	Referencias!G714	num	1407.0	1407	=F714*2+1
+celda	Referencias!F715	num	704.0	704	
+celda	Referencias!G715	num	1409.0	1409	=F715*2+1
+celda	Referencias!F716	num	705.0	705	
+celda	Referencias!G716	num	1411.0	1411	=F716*2+1
+celda	Referencias!F717	num	706.0	706	
+celda	Referencias!G717	num	1413.0	1413	=F717*2+1
+celda	Referencias!F718	num	707.0	707	
+celda	Referencias!G718	num	1415.0	1415	=F718*2+1
+celda	Referencias!F719	num	708.0	708	
+celda	Referencias!G719	num	1417.0	1417	=F719*2+1
+celda	Referencias!F720	num	709.0	709	
+celda	Referencias!G720	num	1419.0	1419	=F720*2+1
+celda	Referencias!F721	num	710.0	710	
+celda	Referencias!G721	num	1421.0	1421	=F721*2+1
+celda	Referencias!F722	num	711.0	711	
+celda	Referencias!G722	num	1423.0	1423	=F722*2+1
+celda	Referencias!F723	num	712.0	712	
+celda	Referencias!G723	num	1425.0	1425	=F723*2+1
+celda	Referencias!F724	num	713.0	713	
+celda	Referencias!G724	num	1427.0	1427	=F724*2+1
+celda	Referencias!F725	num	714.0	714	
+celda	Referencias!G725	num	1429.0	1429	=F725*2+1
+celda	Referencias!F726	num	715.0	715	
+celda	Referencias!G726	num	1431.0	1431	=F726*2+1
+celda	Referencias!F727	num	716.0	716	
+celda	Referencias!G727	num	1433.0	1433	=F727*2+1
+celda	Referencias!F728	num	717.0	717	
+celda	Referencias!G728	num	1435.0	1435	=F728*2+1
+celda	Referencias!F729	num	718.0	718	
+celda	Referencias!G729	num	1437.0	1437	=F729*2+1
+celda	Referencias!F730	num	719.0	719	
+celda	Referencias!G730	num	1439.0	1439	=F730*2+1
+celda	Referencias!F731	num	720.0	720	
+celda	Referencias!G731	num	1441.0	1441	=F731*2+1
+celda	Referencias!F732	num	721.0	721	
+celda	Referencias!G732	num	1443.0	1443	=F732*2+1
+celda	Referencias!F733	num	722.0	722	
+celda	Referencias!G733	num	1445.0	1445	=F733*2+1
+celda	Referencias!F734	num	723.0	723	
+celda	Referencias!G734	num	1447.0	1447	=F734*2+1
+celda	Referencias!F735	num	724.0	724	
+celda	Referencias!G735	num	1449.0	1449	=F735*2+1
+celda	Referencias!F736	num	725.0	725	
+celda	Referencias!G736	num	1451.0	1451	=F736*2+1
+celda	Referencias!F737	num	726.0	726	
+celda	Referencias!G737	num	1453.0	1453	=F737*2+1
+celda	Referencias!F738	num	727.0	727	
+celda	Referencias!G738	num	1455.0	1455	=F738*2+1
+celda	Referencias!F739	num	728.0	728	
+celda	Referencias!G739	num	1457.0	1457	=F739*2+1
+celda	Referencias!F740	num	729.0	729	
+celda	Referencias!G740	num	1459.0	1459	=F740*2+1
+celda	Referencias!F741	num	730.0	730	
+celda	Referencias!G741	num	1461.0	1461	=F741*2+1
+celda	Referencias!F742	num	731.0	731	
+celda	Referencias!G742	num	1463.0	1463	=F742*2+1
+celda	Referencias!F743	num	732.0	732	
+celda	Referencias!G743	num	1465.0	1465	=F743*2+1
+celda	Referencias!F744	num	733.0	733	
+celda	Referencias!G744	num	1467.0	1467	=F744*2+1
+celda	Referencias!F745	num	734.0	734	
+celda	Referencias!G745	num	1469.0	1469	=F745*2+1
+celda	Referencias!F746	num	735.0	735	
+celda	Referencias!G746	num	1471.0	1471	=F746*2+1
+celda	Referencias!F747	num	736.0	736	
+celda	Referencias!G747	num	1473.0	1473	=F747*2+1
+celda	Referencias!F748	num	737.0	737	
+celda	Referencias!G748	num	1475.0	1475	=F748*2+1
+celda	Referencias!F749	num	738.0	738	
+celda	Referencias!G749	num	1477.0	1477	=F749*2+1
+celda	Referencias!F750	num	739.0	739	
+celda	Referencias!G750	num	1479.0	1479	=F750*2+1
+celda	Referencias!F751	num	740.0	740	
+celda	Referencias!G751	num	1481.0	1481	=F751*2+1
+celda	Referencias!F752	num	741.0	741	
+celda	Referencias!G752	num	1483.0	1483	=F752*2+1
+celda	Referencias!F753	num	742.0	742	
+celda	Referencias!G753	num	1485.0	1485	=F753*2+1
+celda	Referencias!F754	num	743.0	743	
+celda	Referencias!G754	num	1487.0	1487	=F754*2+1
+celda	Referencias!F755	num	744.0	744	
+celda	Referencias!G755	num	1489.0	1489	=F755*2+1
+celda	Referencias!F756	num	745.0	745	
+celda	Referencias!G756	num	1491.0	1491	=F756*2+1
+celda	Referencias!F757	num	746.0	746	
+celda	Referencias!G757	num	1493.0	1493	=F757*2+1
+celda	Referencias!F758	num	747.0	747	
+celda	Referencias!G758	num	1495.0	1495	=F758*2+1
+celda	Referencias!F759	num	748.0	748	
+celda	Referencias!G759	num	1497.0	1497	=F759*2+1
+celda	Referencias!F760	num	749.0	749	
+celda	Referencias!G760	num	1499.0	1499	=F760*2+1
+celda	Referencias!F761	num	750.0	750	
+celda	Referencias!G761	num	1501.0	1501	=F761*2+1
+celda	Referencias!F762	num	751.0	751	
+celda	Referencias!G762	num	1503.0	1503	=F762*2+1
+celda	Referencias!F763	num	752.0	752	
+celda	Referencias!G763	num	1505.0	1505	=F763*2+1
+celda	Referencias!F764	num	753.0	753	
+celda	Referencias!G764	num	1507.0	1507	=F764*2+1
+celda	Referencias!F765	num	754.0	754	
+celda	Referencias!G765	num	1509.0	1509	=F765*2+1
+celda	Referencias!F766	num	755.0	755	
+celda	Referencias!G766	num	1511.0	1511	=F766*2+1
+celda	Referencias!F767	num	756.0	756	
+celda	Referencias!G767	num	1513.0	1513	=F767*2+1
+celda	Referencias!F768	num	757.0	757	
+celda	Referencias!G768	num	1515.0	1515	=F768*2+1
+celda	Referencias!F769	num	758.0	758	
+celda	Referencias!G769	num	1517.0	1517	=F769*2+1
+celda	Referencias!F770	num	759.0	759	
+celda	Referencias!G770	num	1519.0	1519	=F770*2+1
+celda	Referencias!F771	num	760.0	760	
+celda	Referencias!G771	num	1521.0	1521	=F771*2+1
+celda	Referencias!F772	num	761.0	761	
+celda	Referencias!G772	num	1523.0	1523	=F772*2+1
+celda	Referencias!F773	num	762.0	762	
+celda	Referencias!G773	num	1525.0	1525	=F773*2+1
+celda	Referencias!F774	num	763.0	763	
+celda	Referencias!G774	num	1527.0	1527	=F774*2+1
+celda	Referencias!F775	num	764.0	764	
+celda	Referencias!G775	num	1529.0	1529	=F775*2+1
+celda	Referencias!F776	num	765.0	765	
+celda	Referencias!G776	num	1531.0	1531	=F776*2+1
+celda	Referencias!F777	num	766.0	766	
+celda	Referencias!G777	num	1533.0	1533	=F777*2+1
+celda	Referencias!F778	num	767.0	767	
+celda	Referencias!G778	num	1535.0	1535	=F778*2+1
+celda	Referencias!F779	num	768.0	768	
+celda	Referencias!G779	num	1537.0	1537	=F779*2+1
+celda	Referencias!F780	num	769.0	769	
+celda	Referencias!G780	num	1539.0	1539	=F780*2+1
+celda	Referencias!F781	num	770.0	770	
+celda	Referencias!G781	num	1541.0	1541	=F781*2+1
+celda	Referencias!F782	num	771.0	771	
+celda	Referencias!G782	num	1543.0	1543	=F782*2+1
+celda	Referencias!F783	num	772.0	772	
+celda	Referencias!G783	num	1545.0	1545	=F783*2+1
+celda	Referencias!F784	num	773.0	773	
+celda	Referencias!G784	num	1547.0	1547	=F784*2+1
+celda	Referencias!F785	num	774.0	774	
+celda	Referencias!G785	num	1549.0	1549	=F785*2+1
+celda	Referencias!F786	num	775.0	775	
+celda	Referencias!G786	num	1551.0	1551	=F786*2+1
+celda	Referencias!F787	num	776.0	776	
+celda	Referencias!G787	num	1553.0	1553	=F787*2+1
+celda	Referencias!F788	num	777.0	777	
+celda	Referencias!G788	num	1555.0	1555	=F788*2+1
+celda	Referencias!F789	num	778.0	778	
+celda	Referencias!G789	num	1557.0	1557	=F789*2+1
+celda	Referencias!F790	num	779.0	779	
+celda	Referencias!G790	num	1559.0	1559	=F790*2+1
+celda	Referencias!F791	num	780.0	780	
+celda	Referencias!G791	num	1561.0	1561	=F791*2+1
+celda	Referencias!F792	num	781.0	781	
+celda	Referencias!G792	num	1563.0	1563	=F792*2+1
+celda	Referencias!F793	num	782.0	782	
+celda	Referencias!G793	num	1565.0	1565	=F793*2+1
+celda	Referencias!F794	num	783.0	783	
+celda	Referencias!G794	num	1567.0	1567	=F794*2+1
+celda	Referencias!F795	num	784.0	784	
+celda	Referencias!G795	num	1569.0	1569	=F795*2+1
+celda	Referencias!F796	num	785.0	785	
+celda	Referencias!G796	num	1571.0	1571	=F796*2+1
+celda	Referencias!F797	num	786.0	786	
+celda	Referencias!G797	num	1573.0	1573	=F797*2+1
+celda	Referencias!F798	num	787.0	787	
+celda	Referencias!G798	num	1575.0	1575	=F798*2+1
+celda	Referencias!F799	num	788.0	788	
+celda	Referencias!G799	num	1577.0	1577	=F799*2+1
+celda	Referencias!F800	num	789.0	789	
+celda	Referencias!G800	num	1579.0	1579	=F800*2+1
+celda	Referencias!F801	num	790.0	790	
+celda	Referencias!G801	num	1581.0	1581	=F801*2+1
+celda	Referencias!F802	num	791.0	791	
+celda	Referencias!G802	num	1583.0	1583	=F802*2+1
+celda	Referencias!F803	num	792.0	792	
+celda	Referencias!G803	num	1585.0	1585	=F803*2+1
+celda	Referencias!F804	num	793.0	793	
+celda	Referencias!G804	num	1587.0	1587	=F804*2+1
+celda	Referencias!F805	num	794.0	794	
+celda	Referencias!G805	num	1589.0	1589	=F805*2+1
+celda	Referencias!F806	num	795.0	795	
+celda	Referencias!G806	num	1591.0	1591	=F806*2+1
+celda	Referencias!F807	num	796.0	796	
+celda	Referencias!G807	num	1593.0	1593	=F807*2+1
+celda	Referencias!F808	num	797.0	797	
+celda	Referencias!G808	num	1595.0	1595	=F808*2+1
+celda	Referencias!F809	num	798.0	798	
+celda	Referencias!G809	num	1597.0	1597	=F809*2+1
+celda	Referencias!F810	num	799.0	799	
+celda	Referencias!G810	num	1599.0	1599	=F810*2+1
+celda	Referencias!F811	num	800.0	800	
+celda	Referencias!G811	num	1601.0	1601	=F811*2+1
+celda	Referencias!F812	num	801.0	801	
+celda	Referencias!G812	num	1603.0	1603	=F812*2+1
+celda	Referencias!F813	num	802.0	802	
+celda	Referencias!G813	num	1605.0	1605	=F813*2+1
+celda	Referencias!F814	num	803.0	803	
+celda	Referencias!G814	num	1607.0	1607	=F814*2+1
+celda	Referencias!F815	num	804.0	804	
+celda	Referencias!G815	num	1609.0	1609	=F815*2+1
+celda	Referencias!F816	num	805.0	805	
+celda	Referencias!G816	num	1611.0	1611	=F816*2+1
+celda	Referencias!F817	num	806.0	806	
+celda	Referencias!G817	num	1613.0	1613	=F817*2+1
+celda	Referencias!F818	num	807.0	807	
+celda	Referencias!G818	num	1615.0	1615	=F818*2+1
+celda	Referencias!F819	num	808.0	808	
+celda	Referencias!G819	num	1617.0	1617	=F819*2+1
+celda	Referencias!F820	num	809.0	809	
+celda	Referencias!G820	num	1619.0	1619	=F820*2+1
+celda	Referencias!F821	num	810.0	810	
+celda	Referencias!G821	num	1621.0	1621	=F821*2+1
+celda	Referencias!F822	num	811.0	811	
+celda	Referencias!G822	num	1623.0	1623	=F822*2+1
+celda	Referencias!F823	num	812.0	812	
+celda	Referencias!G823	num	1625.0	1625	=F823*2+1
+celda	Referencias!F824	num	813.0	813	
+celda	Referencias!G824	num	1627.0	1627	=F824*2+1
+celda	Referencias!F825	num	814.0	814	
+celda	Referencias!G825	num	1629.0	1629	=F825*2+1
+celda	Referencias!F826	num	815.0	815	
+celda	Referencias!G826	num	1631.0	1631	=F826*2+1
+celda	Referencias!F827	num	816.0	816	
+celda	Referencias!G827	num	1633.0	1633	=F827*2+1
+celda	Referencias!F828	num	817.0	817	
+celda	Referencias!G828	num	1635.0	1635	=F828*2+1
+celda	Referencias!F829	num	818.0	818	
+celda	Referencias!G829	num	1637.0	1637	=F829*2+1
+celda	Referencias!F830	num	819.0	819	
+celda	Referencias!G830	num	1639.0	1639	=F830*2+1
+celda	Referencias!F831	num	820.0	820	
+celda	Referencias!G831	num	1641.0	1641	=F831*2+1
+celda	Referencias!F832	num	821.0	821	
+celda	Referencias!G832	num	1643.0	1643	=F832*2+1
+celda	Referencias!F833	num	822.0	822	
+celda	Referencias!G833	num	1645.0	1645	=F833*2+1
+celda	Referencias!F834	num	823.0	823	
+celda	Referencias!G834	num	1647.0	1647	=F834*2+1
+celda	Referencias!F835	num	824.0	824	
+celda	Referencias!G835	num	1649.0	1649	=F835*2+1
+celda	Referencias!F836	num	825.0	825	
+celda	Referencias!G836	num	1651.0	1651	=F836*2+1
+celda	Referencias!F837	num	826.0	826	
+celda	Referencias!G837	num	1653.0	1653	=F837*2+1
+celda	Referencias!F838	num	827.0	827	
+celda	Referencias!G838	num	1655.0	1655	=F838*2+1
+celda	Referencias!F839	num	828.0	828	
+celda	Referencias!G839	num	1657.0	1657	=F839*2+1
+celda	Referencias!F840	num	829.0	829	
+celda	Referencias!G840	num	1659.0	1659	=F840*2+1
+celda	Referencias!F841	num	830.0	830	
+celda	Referencias!G841	num	1661.0	1661	=F841*2+1
+celda	Referencias!F842	num	831.0	831	
+celda	Referencias!G842	num	1663.0	1663	=F842*2+1
+celda	Referencias!F843	num	832.0	832	
+celda	Referencias!G843	num	1665.0	1665	=F843*2+1
+celda	Referencias!F844	num	833.0	833	
+celda	Referencias!G844	num	1667.0	1667	=F844*2+1
+celda	Referencias!F845	num	834.0	834	
+celda	Referencias!G845	num	1669.0	1669	=F845*2+1
+celda	Referencias!F846	num	835.0	835	
+celda	Referencias!G846	num	1671.0	1671	=F846*2+1
+celda	Referencias!F847	num	836.0	836	
+celda	Referencias!G847	num	1673.0	1673	=F847*2+1
+celda	Referencias!F848	num	837.0	837	
+celda	Referencias!G848	num	1675.0	1675	=F848*2+1
+celda	Referencias!F849	num	838.0	838	
+celda	Referencias!G849	num	1677.0	1677	=F849*2+1
+celda	Referencias!F850	num	839.0	839	
+celda	Referencias!G850	num	1679.0	1679	=F850*2+1
+celda	Referencias!F851	num	840.0	840	
+celda	Referencias!G851	num	1681.0	1681	=F851*2+1
+celda	Referencias!F852	num	841.0	841	
+celda	Referencias!G852	num	1683.0	1683	=F852*2+1
+celda	Referencias!F853	num	842.0	842	
+celda	Referencias!G853	num	1685.0	1685	=F853*2+1
+celda	Referencias!F854	num	843.0	843	
+celda	Referencias!G854	num	1687.0	1687	=F854*2+1
+celda	Referencias!F855	num	844.0	844	
+celda	Referencias!G855	num	1689.0	1689	=F855*2+1
+celda	Referencias!F856	num	845.0	845	
+celda	Referencias!G856	num	1691.0	1691	=F856*2+1
+celda	Referencias!F857	num	846.0	846	
+celda	Referencias!G857	num	1693.0	1693	=F857*2+1
+celda	Referencias!F858	num	847.0	847	
+celda	Referencias!G858	num	1695.0	1695	=F858*2+1
+celda	Referencias!F859	num	848.0	848	
+celda	Referencias!G859	num	1697.0	1697	=F859*2+1
+celda	Referencias!F860	num	849.0	849	
+celda	Referencias!G860	num	1699.0	1699	=F860*2+1
+celda	Referencias!F861	num	850.0	850	
+celda	Referencias!G861	num	1701.0	1701	=F861*2+1
+celda	Referencias!F862	num	851.0	851	
+celda	Referencias!G862	num	1703.0	1703	=F862*2+1
+celda	Referencias!F863	num	852.0	852	
+celda	Referencias!G863	num	1705.0	1705	=F863*2+1
+celda	Referencias!F864	num	853.0	853	
+celda	Referencias!G864	num	1707.0	1707	=F864*2+1
+celda	Referencias!F865	num	854.0	854	
+celda	Referencias!G865	num	1709.0	1709	=F865*2+1
+celda	Referencias!F866	num	855.0	855	
+celda	Referencias!G866	num	1711.0	1711	=F866*2+1
+celda	Referencias!F867	num	856.0	856	
+celda	Referencias!G867	num	1713.0	1713	=F867*2+1
+celda	Referencias!F868	num	857.0	857	
+celda	Referencias!G868	num	1715.0	1715	=F868*2+1
+celda	Referencias!F869	num	858.0	858	
+celda	Referencias!G869	num	1717.0	1717	=F869*2+1
+celda	Referencias!F870	num	859.0	859	
+celda	Referencias!G870	num	1719.0	1719	=F870*2+1
+celda	Referencias!F871	num	860.0	860	
+celda	Referencias!G871	num	1721.0	1721	=F871*2+1
+celda	Referencias!F872	num	861.0	861	
+celda	Referencias!G872	num	1723.0	1723	=F872*2+1
+celda	Referencias!F873	num	862.0	862	
+celda	Referencias!G873	num	1725.0	1725	=F873*2+1
+celda	Referencias!F874	num	863.0	863	
+celda	Referencias!G874	num	1727.0	1727	=F874*2+1
+celda	Referencias!F875	num	864.0	864	
+celda	Referencias!G875	num	1729.0	1729	=F875*2+1
+celda	Referencias!F876	num	865.0	865	
+celda	Referencias!G876	num	1731.0	1731	=F876*2+1
+celda	Referencias!F877	num	866.0	866	
+celda	Referencias!G877	num	1733.0	1733	=F877*2+1
+celda	Referencias!F878	num	867.0	867	
+celda	Referencias!G878	num	1735.0	1735	=F878*2+1
+celda	Referencias!F879	num	868.0	868	
+celda	Referencias!G879	num	1737.0	1737	=F879*2+1
+celda	Referencias!F880	num	869.0	869	
+celda	Referencias!G880	num	1739.0	1739	=F880*2+1
+celda	Referencias!F881	num	870.0	870	
+celda	Referencias!G881	num	1741.0	1741	=F881*2+1
+celda	Referencias!F882	num	871.0	871	
+celda	Referencias!G882	num	1743.0	1743	=F882*2+1
+celda	Referencias!F883	num	872.0	872	
+celda	Referencias!G883	num	1745.0	1745	=F883*2+1
+celda	Referencias!F884	num	873.0	873	
+celda	Referencias!G884	num	1747.0	1747	=F884*2+1
+celda	Referencias!F885	num	874.0	874	
+celda	Referencias!G885	num	1749.0	1749	=F885*2+1
+celda	Referencias!F886	num	875.0	875	
+celda	Referencias!G886	num	1751.0	1751	=F886*2+1
+celda	Referencias!F887	num	876.0	876	
+celda	Referencias!G887	num	1753.0	1753	=F887*2+1
+celda	Referencias!F888	num	877.0	877	
+celda	Referencias!G888	num	1755.0	1755	=F888*2+1
+celda	Referencias!F889	num	878.0	878	
+celda	Referencias!G889	num	1757.0	1757	=F889*2+1
+celda	Referencias!F890	num	879.0	879	
+celda	Referencias!G890	num	1759.0	1759	=F890*2+1
+celda	Referencias!F891	num	880.0	880	
+celda	Referencias!G891	num	1761.0	1761	=F891*2+1
+celda	Referencias!F892	num	881.0	881	
+celda	Referencias!G892	num	1763.0	1763	=F892*2+1
+celda	Referencias!F893	num	882.0	882	
+celda	Referencias!G893	num	1765.0	1765	=F893*2+1
+celda	Referencias!F894	num	883.0	883	
+celda	Referencias!G894	num	1767.0	1767	=F894*2+1
+celda	Referencias!F895	num	884.0	884	
+celda	Referencias!G895	num	1769.0	1769	=F895*2+1
+celda	Referencias!F896	num	885.0	885	
+celda	Referencias!G896	num	1771.0	1771	=F896*2+1
+celda	Referencias!F897	num	886.0	886	
+celda	Referencias!G897	num	1773.0	1773	=F897*2+1
+celda	Referencias!F898	num	887.0	887	
+celda	Referencias!G898	num	1775.0	1775	=F898*2+1
+celda	Referencias!F899	num	888.0	888	
+celda	Referencias!G899	num	1777.0	1777	=F899*2+1
+celda	Referencias!F900	num	889.0	889	
+celda	Referencias!G900	num	1779.0	1779	=F900*2+1
+celda	Referencias!F901	num	890.0	890	
+celda	Referencias!G901	num	1781.0	1781	=F901*2+1
+celda	Referencias!F902	num	891.0	891	
+celda	Referencias!G902	num	1783.0	1783	=F902*2+1
+celda	Referencias!F903	num	892.0	892	
+celda	Referencias!G903	num	1785.0	1785	=F903*2+1
+celda	Referencias!F904	num	893.0	893	
+celda	Referencias!G904	num	1787.0	1787	=F904*2+1
+celda	Referencias!F905	num	894.0	894	
+celda	Referencias!G905	num	1789.0	1789	=F905*2+1
+celda	Referencias!F906	num	895.0	895	
+celda	Referencias!G906	num	1791.0	1791	=F906*2+1
+celda	Referencias!F907	num	896.0	896	
+celda	Referencias!G907	num	1793.0	1793	=F907*2+1
+celda	Referencias!F908	num	897.0	897	
+celda	Referencias!G908	num	1795.0	1795	=F908*2+1
+celda	Referencias!F909	num	898.0	898	
+celda	Referencias!G909	num	1797.0	1797	=F909*2+1
+celda	Referencias!F910	num	899.0	899	
+celda	Referencias!G910	num	1799.0	1799	=F910*2+1
+celda	Referencias!F911	num	900.0	900	
+celda	Referencias!G911	num	1801.0	1801	=F911*2+1
+celda	Referencias!F912	num	901.0	901	
+celda	Referencias!G912	num	1803.0	1803	=F912*2+1
+celda	Referencias!F913	num	902.0	902	
+celda	Referencias!G913	num	1805.0	1805	=F913*2+1
+celda	Referencias!F914	num	903.0	903	
+celda	Referencias!G914	num	1807.0	1807	=F914*2+1
+celda	Referencias!F915	num	904.0	904	
+celda	Referencias!G915	num	1809.0	1809	=F915*2+1
+celda	Referencias!F916	num	905.0	905	
+celda	Referencias!G916	num	1811.0	1811	=F916*2+1
+celda	Referencias!F917	num	906.0	906	
+celda	Referencias!G917	num	1813.0	1813	=F917*2+1
+celda	Referencias!F918	num	907.0	907	
+celda	Referencias!G918	num	1815.0	1815	=F918*2+1
+celda	Referencias!F919	num	908.0	908	
+celda	Referencias!G919	num	1817.0	1817	=F919*2+1
+celda	Referencias!F920	num	909.0	909	
+celda	Referencias!G920	num	1819.0	1819	=F920*2+1
+celda	Referencias!F921	num	910.0	910	
+celda	Referencias!G921	num	1821.0	1821	=F921*2+1
+celda	Referencias!F922	num	911.0	911	
+celda	Referencias!G922	num	1823.0	1823	=F922*2+1
+celda	Referencias!F923	num	912.0	912	
+celda	Referencias!G923	num	1825.0	1825	=F923*2+1
+celda	Referencias!F924	num	913.0	913	
+celda	Referencias!G924	num	1827.0	1827	=F924*2+1
+celda	Referencias!F925	num	914.0	914	
+celda	Referencias!G925	num	1829.0	1829	=F925*2+1
+celda	Referencias!F926	num	915.0	915	
+celda	Referencias!G926	num	1831.0	1831	=F926*2+1
+celda	Referencias!F927	num	916.0	916	
+celda	Referencias!G927	num	1833.0	1833	=F927*2+1
+celda	Referencias!F928	num	917.0	917	
+celda	Referencias!G928	num	1835.0	1835	=F928*2+1
+celda	Referencias!F929	num	918.0	918	
+celda	Referencias!G929	num	1837.0	1837	=F929*2+1
+celda	Referencias!F930	num	919.0	919	
+celda	Referencias!G930	num	1839.0	1839	=F930*2+1
+celda	Referencias!F931	num	920.0	920	
+celda	Referencias!G931	num	1841.0	1841	=F931*2+1
+celda	Referencias!F932	num	921.0	921	
+celda	Referencias!G932	num	1843.0	1843	=F932*2+1
+celda	Referencias!F933	num	922.0	922	
+celda	Referencias!G933	num	1845.0	1845	=F933*2+1
+celda	Referencias!F934	num	923.0	923	
+celda	Referencias!G934	num	1847.0	1847	=F934*2+1
+celda	Referencias!F935	num	924.0	924	
+celda	Referencias!G935	num	1849.0	1849	=F935*2+1
+celda	Referencias!F936	num	925.0	925	
+celda	Referencias!G936	num	1851.0	1851	=F936*2+1
+celda	Referencias!F937	num	926.0	926	
+celda	Referencias!G937	num	1853.0	1853	=F937*2+1
+celda	Referencias!F938	num	927.0	927	
+celda	Referencias!G938	num	1855.0	1855	=F938*2+1
+celda	Referencias!F939	num	928.0	928	
+celda	Referencias!G939	num	1857.0	1857	=F939*2+1
+celda	Referencias!F940	num	929.0	929	
+celda	Referencias!G940	num	1859.0	1859	=F940*2+1
+celda	Referencias!F941	num	930.0	930	
+celda	Referencias!G941	num	1861.0	1861	=F941*2+1
+celda	Referencias!F942	num	931.0	931	
+celda	Referencias!G942	num	1863.0	1863	=F942*2+1
+celda	Referencias!F943	num	932.0	932	
+celda	Referencias!G943	num	1865.0	1865	=F943*2+1
+celda	Referencias!F944	num	933.0	933	
+celda	Referencias!G944	num	1867.0	1867	=F944*2+1
+celda	Referencias!F945	num	934.0	934	
+celda	Referencias!G945	num	1869.0	1869	=F945*2+1
+celda	Referencias!F946	num	935.0	935	
+celda	Referencias!G946	num	1871.0	1871	=F946*2+1
+celda	Referencias!F947	num	936.0	936	
+celda	Referencias!G947	num	1873.0	1873	=F947*2+1
+celda	Referencias!F948	num	937.0	937	
+celda	Referencias!G948	num	1875.0	1875	=F948*2+1
+celda	Referencias!F949	num	938.0	938	
+celda	Referencias!G949	num	1877.0	1877	=F949*2+1
+celda	Referencias!F950	num	939.0	939	
+celda	Referencias!G950	num	1879.0	1879	=F950*2+1
+celda	Referencias!F951	num	940.0	940	
+celda	Referencias!G951	num	1881.0	1881	=F951*2+1
+celda	Referencias!F952	num	941.0	941	
+celda	Referencias!G952	num	1883.0	1883	=F952*2+1
+celda	Referencias!F953	num	942.0	942	
+celda	Referencias!G953	num	1885.0	1885	=F953*2+1
+celda	Referencias!F954	num	943.0	943	
+celda	Referencias!G954	num	1887.0	1887	=F954*2+1
+celda	Referencias!F955	num	944.0	944	
+celda	Referencias!G955	num	1889.0	1889	=F955*2+1
+celda	Referencias!F956	num	945.0	945	
+celda	Referencias!G956	num	1891.0	1891	=F956*2+1
+celda	Referencias!F957	num	946.0	946	
+celda	Referencias!G957	num	1893.0	1893	=F957*2+1
+celda	Referencias!F958	num	947.0	947	
+celda	Referencias!G958	num	1895.0	1895	=F958*2+1
+celda	Referencias!F959	num	948.0	948	
+celda	Referencias!G959	num	1897.0	1897	=F959*2+1
+celda	Referencias!F960	num	949.0	949	
+celda	Referencias!G960	num	1899.0	1899	=F960*2+1
+celda	Referencias!F961	num	950.0	950	
+celda	Referencias!G961	num	1901.0	1901	=F961*2+1
+celda	Referencias!F962	num	951.0	951	
+celda	Referencias!G962	num	1903.0	1903	=F962*2+1
+celda	Referencias!F963	num	952.0	952	
+celda	Referencias!G963	num	1905.0	1905	=F963*2+1
+celda	Referencias!F964	num	953.0	953	
+celda	Referencias!G964	num	1907.0	1907	=F964*2+1
+celda	Referencias!F965	num	954.0	954	
+celda	Referencias!G965	num	1909.0	1909	=F965*2+1
+celda	Referencias!F966	num	955.0	955	
+celda	Referencias!G966	num	1911.0	1911	=F966*2+1
+celda	Referencias!F967	num	956.0	956	
+celda	Referencias!G967	num	1913.0	1913	=F967*2+1
+celda	Referencias!F968	num	957.0	957	
+celda	Referencias!G968	num	1915.0	1915	=F968*2+1
+celda	Referencias!F969	num	958.0	958	
+celda	Referencias!G969	num	1917.0	1917	=F969*2+1
+celda	Referencias!F970	num	959.0	959	
+celda	Referencias!G970	num	1919.0	1919	=F970*2+1
+celda	Referencias!F971	num	960.0	960	
+celda	Referencias!G971	num	1921.0	1921	=F971*2+1
+celda	Referencias!F972	num	961.0	961	
+celda	Referencias!G972	num	1923.0	1923	=F972*2+1
+celda	Referencias!F973	num	962.0	962	
+celda	Referencias!G973	num	1925.0	1925	=F973*2+1
+celda	Referencias!F974	num	963.0	963	
+celda	Referencias!G974	num	1927.0	1927	=F974*2+1
+celda	Referencias!F975	num	964.0	964	
+celda	Referencias!G975	num	1929.0	1929	=F975*2+1
+celda	Referencias!F976	num	965.0	965	
+celda	Referencias!G976	num	1931.0	1931	=F976*2+1
+celda	Referencias!F977	num	966.0	966	
+celda	Referencias!G977	num	1933.0	1933	=F977*2+1
+celda	Referencias!F978	num	967.0	967	
+celda	Referencias!G978	num	1935.0	1935	=F978*2+1
+celda	Referencias!F979	num	968.0	968	
+celda	Referencias!G979	num	1937.0	1937	=F979*2+1
+celda	Referencias!F980	num	969.0	969	
+celda	Referencias!G980	num	1939.0	1939	=F980*2+1
+celda	Referencias!F981	num	970.0	970	
+celda	Referencias!G981	num	1941.0	1941	=F981*2+1
+celda	Referencias!F982	num	971.0	971	
+celda	Referencias!G982	num	1943.0	1943	=F982*2+1
+celda	Referencias!F983	num	972.0	972	
+celda	Referencias!G983	num	1945.0	1945	=F983*2+1
+celda	Referencias!F984	num	973.0	973	
+celda	Referencias!G984	num	1947.0	1947	=F984*2+1
+celda	Referencias!F985	num	974.0	974	
+celda	Referencias!G985	num	1949.0	1949	=F985*2+1
+celda	Referencias!F986	num	975.0	975	
+celda	Referencias!G986	num	1951.0	1951	=F986*2+1
+celda	Referencias!F987	num	976.0	976	
+celda	Referencias!G987	num	1953.0	1953	=F987*2+1
+celda	Referencias!F988	num	977.0	977	
+celda	Referencias!G988	num	1955.0	1955	=F988*2+1
+celda	Referencias!F989	num	978.0	978	
+celda	Referencias!G989	num	1957.0	1957	=F989*2+1
+celda	Referencias!F990	num	979.0	979	
+celda	Referencias!G990	num	1959.0	1959	=F990*2+1
+celda	Referencias!F991	num	980.0	980	
+celda	Referencias!G991	num	1961.0	1961	=F991*2+1
+celda	Referencias!F992	num	981.0	981	
+celda	Referencias!G992	num	1963.0	1963	=F992*2+1
+celda	Referencias!F993	num	982.0	982	
+celda	Referencias!G993	num	1965.0	1965	=F993*2+1
+celda	Referencias!F994	num	983.0	983	
+celda	Referencias!G994	num	1967.0	1967	=F994*2+1
+celda	Referencias!F995	num	984.0	984	
+celda	Referencias!G995	num	1969.0	1969	=F995*2+1
+celda	Referencias!F996	num	985.0	985	
+celda	Referencias!G996	num	1971.0	1971	=F996*2+1
+celda	Referencias!F997	num	986.0	986	
+celda	Referencias!G997	num	1973.0	1973	=F997*2+1
+celda	Referencias!F998	num	987.0	987	
+celda	Referencias!G998	num	1975.0	1975	=F998*2+1
+celda	Referencias!F999	num	988.0	988	
+celda	Referencias!G999	num	1977.0	1977	=F999*2+1
+celda	Referencias!F1000	num	989.0	989	
+celda	Referencias!G1000	num	1979.0	1979	=F1000*2+1
+celda	Referencias!F1001	num	990.0	990	
+celda	Referencias!G1001	num	1981.0	1981	=F1001*2+1
+celda	Referencias!F1002	num	991.0	991	
+celda	Referencias!G1002	num	1983.0	1983	=F1002*2+1
+celda	Referencias!F1003	num	992.0	992	
+celda	Referencias!G1003	num	1985.0	1985	=F1003*2+1
+celda	Referencias!F1004	num	993.0	993	
+celda	Referencias!G1004	num	1987.0	1987	=F1004*2+1
+celda	Referencias!F1005	num	994.0	994	
+celda	Referencias!G1005	num	1989.0	1989	=F1005*2+1
+celda	Referencias!F1006	num	995.0	995	
+celda	Referencias!G1006	num	1991.0	1991	=F1006*2+1
+celda	Referencias!F1007	num	996.0	996	
+celda	Referencias!G1007	num	1993.0	1993	=F1007*2+1
+celda	Referencias!F1008	num	997.0	997	
+celda	Referencias!G1008	num	1995.0	1995	=F1008*2+1
+celda	Referencias!F1009	num	998.0	998	
+celda	Referencias!G1009	num	1997.0	1997	=F1009*2+1
+celda	Referencias!F1010	num	999.0	999	
+celda	Referencias!G1010	num	1999.0	1999	=F1010*2+1
+nombre	datos	$Referencias.$A$1:$A$5

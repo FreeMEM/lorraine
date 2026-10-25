@@ -1,0 +1,43 @@
+# estructura.docx leído por LibreOffice 26.8.1.1, en-US
+parrafo	Título 1	5	0	0	0			Estructura
+tramo	Estructura	Liberation Serif 18 n
+parrafo	Texto	5	0	0	0			Lista con viñetas:
+tramo	Lista con viñetas:	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Primero
+tramo	Primero	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Segundo, con otro nivel
+tramo	Segundo, con otro nivel	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Dentro uno
+tramo	Dentro uno	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Dentro dos
+tramo	Dentro dos	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Tercero
+tramo	Tercero	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Lista numerada:
+tramo	Lista numerada:	Liberation Serif 12
+parrafo	Texto	5	0	0	0		1.	Uno
+tramo	Uno	Liberation Serif 12
+parrafo	Texto	5	0	0	0		a)	Uno a
+tramo	Uno a	Liberation Serif 12
+parrafo	Texto	5	0	0	0		b)	Uno b
+tramo	Uno b	Liberation Serif 12
+parrafo	Texto	5	0	0	0		2.	Dos
+tramo	Dos	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Tabla con una celda combinada:
+tramo	Tabla con una celda combinada:	Liberation Serif 12
+tabla	Table1	3	2
+fila	Combinada 1x2 | F1 C3
+fila	F2 C1 | F2 C2 | F2 C3
+fila	F3 C1 | F3 C2 | F3 C3
+parrafo	Texto	5	0	0	0			 imagen PNG en línea.
+tramo	 imagen PNG en línea.	Liberation Serif 12
+parrafo	Texto	5	0	0	0	page		Este párrafo empieza en una página nueva.
+tramo	Este párrafo empieza en una página nueva.	Liberation Serif 12
+parrafo	Texto	5	0	0	0	page		Y este, en una página apaisada (otra sección).
+tramo	Y este, en una página apaisada (otra sección).	Liberation Serif 12
+parrafo	Texto	5	0	0	0	page		De vuelta a la página vertical.
+tramo	De vuelta a la página vertical.	Liberation Serif 12
+imagen	Imagen1	3999	2999
+notas	0	0
+cambios	0
+paginas	4

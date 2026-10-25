@@ -1,0 +1,6 @@
+# perdidas_cambios.docx leído por LibreOffice 26.8.1.1, en-US
+parrafo	Texto	5	0	0	0			Texto original, texto insertado y texto borradofin.
+tramo	Texto original, texto insertado y texto borradofin.	Liberation Serif 12
+notas	0	0
+cambios	2
+paginas	1

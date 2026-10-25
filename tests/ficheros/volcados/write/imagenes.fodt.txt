@@ -1,0 +1,13 @@
+# imagenes.fodt leído por LibreOffice 26.8.1.1, en-US
+parrafo	Texto	5	0	0	0			 PNG
+tramo	 PNG	Liberation Serif 12
+parrafo	Texto	5	0	0	0			 JPEG
+tramo	 JPEG	Liberation Serif 12
+parrafo	Texto	5	0	0	0			 GIF
+tramo	 GIF	Liberation Serif 12
+imagen	GIF	3999	2999
+imagen	JPEG	3999	2999
+imagen	PNG	3999	2999
+notas	0	0
+cambios	0
+paginas	1

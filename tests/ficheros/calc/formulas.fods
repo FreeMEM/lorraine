@@ -35,8 +35,8 @@
    <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
-   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
    <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
    <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
    <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
@@ -90,37 +90,24 @@
  <office:styles>
   <style:default-style style:family="table-cell">
    <style:table-cell-properties fo:wrap-option="no-wrap"/>
-   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="es" fo:country="ES" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
+   <style:paragraph-properties style:tab-stop-distance="0.5in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <style:default-style style:family="graphic">
-   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" style:writing-mode="page"/>
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" style:writing-mode="page"/>
    <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
-   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="es" fo:country="ES" style:letter-kerning="true" style:font-family-asian="&apos;DejaVu Sans&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-family-asian="&apos;DejaVu Sans&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <style:style style:name="Default" style:family="graphic"/>
   <style:style style:name="Note" style:family="graphic" style:parent-style-name="Default">
-   <style:graphic-properties draw:stroke="solid" draw:marker-start="Arrowheads_20_1" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:padding-top="0.1cm" fo:padding-bottom="0.1cm" fo:padding-left="0.1cm" fo:padding-right="0.1cm" draw:shadow="visible" draw:shadow-offset-x="0.1cm" draw:shadow-offset-y="0.1cm"/>
+   <style:graphic-properties draw:stroke="solid" draw:marker-start="Arrowheads_20_1" draw:marker-start-width="0.0787in" draw:marker-start-center="false" draw:fill="solid" draw:fill-color="#ffffc0" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:padding-top="0.0394in" fo:padding-bottom="0.0394in" fo:padding-left="0.0394in" fo:padding-right="0.0394in" draw:shadow="visible" draw:shadow-offset-x="0.0394in" draw:shadow-offset-y="0.0394in"/>
    <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="10pt" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="10pt" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="10pt"/>
   </style:style>
   <number:number-style style:name="N0">
    <number:number number:min-integer-digits="1"/>
   </number:number-style>
-  <number:currency-style style:name="N111P0" style:volatile="true">
-   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-   <number:currency-symbol number:language="es" number:country="ES">€</number:currency-symbol>
-  </number:currency-style>
-  <number:currency-style style:name="N111">
-   <style:text-properties fo:color="#ff0000"/>
-   <number:text>-</number:text>
-   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
-   <number:text> </number:text>
-   <number:currency-symbol number:language="es" number:country="ES">€</number:currency-symbol>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N111P0"/>
-  </number:currency-style>
   <style:style style:name="Default" style:family="table-cell"/>
   <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:wrap-option="no-wrap" style:shrink-to-fit="false"/>
@@ -211,10 +198,10 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="2.258cm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
-   <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
    <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
@@ -223,22 +210,24 @@
    <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
   </number:number-style>
   <number:date-style style:name="N37" number:automatic-order="true">
-   <number:day number:style="long"/>
-   <number:text>/</number:text>
    <number:month number:style="long"/>
+   <number:text>/</number:text>
+   <number:day number:style="long"/>
    <number:text>/</number:text>
    <number:year/>
   </number:date-style>
   <number:date-style style:name="N70" number:automatic-order="true" number:format-source="language">
-   <number:day/>
-   <number:text>/</number:text>
    <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
    <number:text>/</number:text>
    <number:year/>
    <number:text> </number:text>
    <number:hours number:style="long"/>
    <number:text>:</number:text>
    <number:minutes number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
   </number:date-style>
   <number:boolean-style style:name="N99">
    <number:boolean/>
@@ -249,21 +238,21 @@
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
    <style:header-style>
-    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
    </style:header-style>
    <style:footer-style>
-    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
    </style:footer-style>
   </style:page-layout>
   <style:page-layout style:name="pm2">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
    <style:header-style>
-    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm" fo:border="1.5pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="1.5pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
      <style:background-image/>
     </style:header-footer-properties>
    </style:header-style>
    <style:footer-style>
-    <style:header-footer-properties fo:min-height="0.75cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm" fo:border="1.5pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="1.5pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
      <style:background-image/>
     </style:header-footer-properties>
    </style:footer-style>
@@ -375,7 +364,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -414,7 +403,7 @@
       <text:p>ROUND(2.567;2)</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=ROUND(2.567;2)" office:value-type="float" office:value="2.57" calcext:value-type="float">
-      <text:p>2,57</text:p>
+      <text:p>2.57</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -423,7 +412,7 @@
       <text:p>ROUNDUP(2.561;1)</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=ROUNDUP(2.561;1)" office:value-type="float" office:value="2.6" calcext:value-type="float">
-      <text:p>2,6</text:p>
+      <text:p>2.6</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -432,7 +421,7 @@
       <text:p>ROUNDDOWN(2.569;1)</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=ROUNDDOWN(2.569;1)" office:value-type="float" office:value="2.5" calcext:value-type="float">
-      <text:p>2,5</text:p>
+      <text:p>2.5</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -468,7 +457,7 @@
       <text:p>SQRT(2)</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=SQRT(2)" office:value-type="float" office:value="1.4142135623731" calcext:value-type="float">
-      <text:p>1,4142135623731</text:p>
+      <text:p>1.4142135623731</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -477,7 +466,7 @@
       <text:p>PI()</text:p>
      </table:table-cell>
      <table:table-cell table:formula="of:=PI()" office:value-type="float" office:value="3.14159265358979" calcext:value-type="float">
-      <text:p>3,14159265358979</text:p>
+      <text:p>3.14159265358979</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -573,7 +562,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -708,7 +697,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -729,7 +718,7 @@
       <text:p>AND(TRUE();[.A1]&gt;0)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=AND(TRUE();[.A1]&gt;0)" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -738,7 +727,7 @@
       <text:p>OR(FALSE();[.A1]&lt;0)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=OR(FALSE();[.A1]&lt;0)" office:value-type="boolean" office:boolean-value="false" calcext:value-type="boolean">
-      <text:p>FALSO</text:p>
+      <text:p>FALSE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -747,7 +736,7 @@
       <text:p>NOT(TRUE())</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=NOT(TRUE())" office:value-type="boolean" office:boolean-value="false" calcext:value-type="boolean">
-      <text:p>FALSO</text:p>
+      <text:p>FALSE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -756,7 +745,7 @@
       <text:p>TRUE()</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=TRUE()" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -765,7 +754,7 @@
       <text:p>FALSE()</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=FALSE()" office:value-type="boolean" office:boolean-value="false" calcext:value-type="boolean">
-      <text:p>FALSO</text:p>
+      <text:p>FALSE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -852,7 +841,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -935,8 +924,8 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>TEXT(1234.5;&quot;#,##0.00&quot;)</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=TEXT(1234.5;&quot;#,##0.00&quot;)" office:value-type="string" office:string-value="1.234,50" calcext:value-type="string">
-      <text:p>1.234,50</text:p>
+     <table:table-cell table:formula="of:=TEXT(1234.5;&quot;#,##0.00&quot;)" office:value-type="string" office:string-value="1,234.50" calcext:value-type="string">
+      <text:p>1,234.50</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1023,7 +1012,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -1035,7 +1024,7 @@
       <text:p>DATE(2026;10;25)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" table:formula="of:=DATE(2026;10;25)" office:value-type="date" office:date-value="2026-10-25" calcext:value-type="date">
-      <text:p>25/10/26</text:p>
+      <text:p>10/25/26</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1071,7 +1060,7 @@
       <text:p>TODAY()</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" table:formula="of:=TODAY()" office:value-type="date" office:date-value="2026-10-25" calcext:value-type="date">
-      <text:p>25/10/26</text:p>
+      <text:p>10/25/26</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1079,8 +1068,8 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>NOW()</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce3" table:formula="of:=NOW()" office:value-type="date" office:date-value="2026-10-25T02:18:08.9078" calcext:value-type="date">
-      <text:p>25/10/26 02:18</text:p>
+     <table:table-cell table:style-name="ce3" table:formula="of:=NOW()" office:value-type="date" office:date-value="2026-10-25T02:22:23.56045" calcext:value-type="date">
+      <text:p>10/25/26 02:22 AM</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1158,7 +1147,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -1275,7 +1264,7 @@
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
@@ -1287,7 +1276,7 @@
       <text:p>ISBLANK([.A8])</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=ISBLANK([.A8])" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1296,7 +1285,7 @@
       <text:p>ISNUMBER([.A1])</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=ISNUMBER([.A1])" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1305,7 +1294,7 @@
       <text:p>ISTEXT([.A6])</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=ISTEXT([.A6])" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1314,7 +1303,7 @@
       <text:p>ISERROR(1/0)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1" table:formula="of:=ISERROR(1/0)" office:value-type="boolean" office:boolean-value="true" calcext:value-type="boolean">
-      <text:p>VERDADERO</text:p>
+      <text:p>TRUE</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
@@ -1418,8 +1407,8 @@
      <table:table-cell table:formula="of:=[.A10]+1" office:value-type="string" office:string-value="" calcext:value-type="error">
       <text:p>Err:522</text:p>
      </table:table-cell>
-     <table:table-cell table:formula="of:=RAND()" office:value-type="float" office:value="0.79152307323671" calcext:value-type="float">
-      <text:p>0,79152307323671</text:p>
+     <table:table-cell table:formula="of:=RAND()" office:value-type="float" office:value="0.241344162531104" calcext:value-type="float">
+      <text:p>0.241344162531104</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>

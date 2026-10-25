@@ -1,0 +1,6 @@
+# perdidas_notas.odt leído por LibreOffice 26.8.1.1, en-US
+parrafo	Texto	5	0	0	0			Un párrafo con una nota al pie1 y otra al finali.
+tramo	Un párrafo con una nota al pie y otra al final.	Liberation Serif 12
+notas	1	1
+cambios	0
+paginas	2

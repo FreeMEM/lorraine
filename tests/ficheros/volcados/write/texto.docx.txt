@@ -1,0 +1,46 @@
+# texto.docx leído por LibreOffice 26.8.1.1, en-US
+parrafo	Título 1	5	0	0	0			Texto y formato
+tramo	Texto y formato	Liberation Serif 18 n
+parrafo	Texto	5	0	0	0			Párrafo normal con acentos: árbol, camión, pingüino, ñandú. El precio es 12 €.
+tramo	Párrafo normal con acentos: árbol, camión, pingüino, ñandú. El precio es 12 €.	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Otros alfabetos: Ελληνικά, Русский, 日本語, y un emoji 😀.
+tramo	Otros alfabetos: Ελληνικά, Русский, 日本語, y un emoji 😀.	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Tramos: negrita, cursiva, subrayado, tachado, color, resaltado, x2, H2O, monoespaciada 10 pt y estilo de carácter Énfasis.
+tramo	Tramos: 	Liberation Serif 12
+tramo	negrita	Liberation Serif 12 n
+tramo	, 	Liberation Serif 12
+tramo	cursiva	Liberation Serif 12 c
+tramo	, 	Liberation Serif 12
+tramo	subrayado	Liberation Serif 12 s
+tramo	, 	Liberation Serif 12
+tramo	tachado	Liberation Serif 12 t
+tramo	, 	Liberation Serif 12
+tramo	color	Liberation Serif 12 color=#00b050
+tramo	, 	Liberation Serif 12
+tramo	resaltado	Liberation Serif 12 fondo=#ffff00
+tramo	, x	Liberation Serif 12
+tramo	2	Liberation Serif 12 sup
+tramo	, H	Liberation Serif 12
+tramo	2	Liberation Serif 12 sub
+tramo	O, 	Liberation Serif 12
+tramo	monoespaciada 10 pt	Liberation Serif 10
+tramo	 y 	Liberation Serif 12
+tramo	estilo de carácter Énfasis	Liberation Serif 12 n color=#c00000 estilo=Énfasis
+tramo	.	Liberation Serif 12
+parrafo	Texto	centro	0	0	0			Centrado.
+tramo	Centrado.	Liberation Serif 12
+parrafo	Texto	6	0	0	0			A la derecha.
+tramo	A la derecha.	Liberation Serif 12
+parrafo	Texto	justificado	0	0	0			Justificado: un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. 
+tramo	Justificado: un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. 	Liberation Serif 12
+parrafo	Texto	5	2000	1000	1000			Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. 
+tramo	Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. 	Liberation Serif 12
+parrafo	Texto	5	0	0	0			Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. 
+tramo	Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. 	Liberation Serif 12
+parrafo	Destacado	5	0	0	0			Párrafo con el estilo Destacado, que hereda de Texto, que hereda de Standard.
+tramo	Párrafo con el estilo Destacado, que hereda de Texto, que hereda de Standard.	Liberation Serif 12 c color=#1f4e79
+parrafo	Texto	5	0	0	0			Una línea\npartida con un salto de línea y\tun tabulador.
+tramo	Una línea\npartida con un salto de línea y\tun tabulador.	Liberation Serif 12
+notas	0	0
+cambios	0
+paginas	1
