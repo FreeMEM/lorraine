@@ -1,0 +1,12 @@
+﻿Texto y formato
+Párrafo normal con acentos: árbol, camión, pingüino, ñandú. El precio es 12 €.
+Otros alfabetos: Ελληνικά, Русский, 日本語, y un emoji 😀.
+Tramos: negrita, cursiva, subrayado, tachado, color, resaltado, x2, H2O, monoespaciada 10 pt y estilo de carácter Énfasis.
+Centrado.
+A la derecha.
+Justificado: un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. un texto lo bastante largo para ocupar varias líneas y que se vea cómo se reparte el espacio entre las palabras de cada línea menos la última. 
+Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. Con sangría izquierda de 2 cm, derecha de 1 cm y primera línea de 1 cm. 
+Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. Interlineado doble y 0,5 cm de espacio antes. 
+Párrafo con el estilo Destacado, que hereda de Texto, que hereda de Standard.
+Una línea
+partida con un salto de línea y	un tabulador.

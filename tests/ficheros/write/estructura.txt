@@ -1,0 +1,20 @@
+﻿Estructura
+Lista con viñetas:
+    • Primero
+    • Segundo, con otro nivel
+        ◦ Dentro uno
+        ◦ Dentro dos
+    • Tercero
+Lista numerada:
+    1. Uno
+        a) Uno a
+        b) Uno b
+    2. Dos
+Tabla con una celda combinada:
+Combinada 1x2	F1 C3
+F2 C1	F2 C2	F2 C3
+F3 C1	F3 C2	F3 C3
+ imagen PNG en línea.
+Este párrafo empieza en una página nueva.
+Y este, en una página apaisada (otra sección).
+De vuelta a la página vertical.

@@ -75,8 +75,11 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
       de prueba con el nombre de Lorraine.
 - [x] 0.3 Entorno "a1200-030": FS-UAE con 68030 + 68882, sin JIT, a la velocidad de una Blizzard 1230 de 50 MHz
       (averiguar las opciones; apuntar cómo se comprobó). Un bucle de referencia medido en los tres entornos.
-- [ ] 0.4 `tools/corpus.py`: corpus propio con `soffice --headless` en `tests/ficheros/` (Calc: valores, fórmulas,
-      formatos, varias hojas, fechas; Write: párrafos, estilos, listas, tabla, imagen), en todos los formatos.
+- [x] 0.4 `tools/corpus.py`: corpus propio con `soffice --headless` en `tests/ficheros/` (Calc: valores, fórmulas,
+      formatos, varias hojas, fechas, límites, 20.000 celdas; Write: texto, estructura, 50 páginas), en todos los
+      formatos.
+- [ ] 0.4b Corpus, segunda parte: pérdidas (libro con gráfico y con macros; documento con control de cambios y
+      con notas al pie), imágenes JPEG y GIF, libro de 100.000 celdas y documento de 300 páginas, inmovilizado.
 - [ ] 0.5 `tools/volcar_lo.py`: volcado de referencia (valores de celdas, texto y formato de párrafos).
 - [ ] 0.6 Herramientas de comprobación (`08` § 4.4) en `~/.cache/lorraine-tools/`: ODF Validator, .NET y
       OOXML-Validator, `venv` con openpyxl y python-docx, parámetros del `x2t` de OnlyOffice. `tools/comprobar.py`
@@ -183,4 +186,24 @@ Plantilla:
   El trabajo de Dash: 1062, unos 320 y 13 ms.
 - `tests/run.py --maquina a1200-030`. `08` § 2 al día.
 - Batería: 2/2 en a1200 y 2/2 en a1200-030.
+
+### 2026-10-25 — Tarea 0.4 (corpus propio)
+
+- `tools/corpus.py` escribe las fuentes en Flat ODF (`tests/ficheros/<calc|write>/fuente/`) y LibreOffice 26.8.1.1
+  (perfil propio en `build/lo-perfil`) las convierte: Calc a `.ods`, `.xlsx`, `.csv` (UTF-8, solo la primera hoja)
+  y `.fods` con los valores calculados; Write a `.odt`, `.docx`, `.txt` y `.fodt`. 9 s todo; 7,7 MB.
+- Calc: `valores` (números extremos, `0,1+0,2`, acentos, `€`, otros alfabetos, emoji, fecha, hora, lógicos, cuatro
+  errores, huecos), `fechas1904` (sale `date1904="true"` en el `.xlsx`), `limites` (algo en XFD1048576; el `.xlsx`
+  lo conserva), `formulas` (una hoja por grupo de funciones de H3, referencias de todo tipo, un nombre, 1.000
+  fórmulas iguales, una circular que da `Err:522`, `RAND`), `formato` (10 formatos de número, fuente, colores, bordes,
+  alineación, ajuste, anchos, fila alta, fila y columna ocultas, combinada 2x3), `tamano_20k` (20.000 celdas, 2.000
+  fórmulas).
+- Write: `texto` (cada formato de carácter, alineaciones, sangrías, interlineado, estilos con herencia, salto de
+  línea y tabulador), `estructura` (listas de dos niveles, tabla con combinada, PNG en línea, salto de página,
+  sección apaisada, cabecera y pie con número de página: 4 páginas), `tamano_50p` (50 páginas medidas con el PDF de
+  LibreOffice).
+- **Aviso:** el CSV de `limites` salía de 16 GB (comas hasta XFD en un millón de filas). Borrado; ese caso ya no se
+  pasa a CSV. El disco de `/home` está al 95 % (54 GB libres).
+- Pendiente en la 0.4b: pérdidas, JPEG y GIF, los tamaños grandes, inmovilizado (va en `settings.xml`).
+- Batería: 2/2 (sin cambios de código Dash).
 

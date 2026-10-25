@@ -58,7 +58,7 @@ soffice --headless --convert-to odt  --outdir tests/ficheros/write tests/fichero
 soffice --headless --convert-to docx --outdir tests/ficheros/write tests/ficheros/write/fuente/*.fodt
 ```
 
-Así cada caso existe en todos los formatos y se regenera con una orden. La versión de LibreOffice usada se apunta en
+Así cada caso existe en todos los formatos y se regenera con una orden. El libro `limites` (algo en XFD1048576) no se pasa a CSV: saldrían 16 GB. La versión de LibreOffice usada se apunta en
 `tests/ficheros/VERSION` (los ficheros cambian un poco entre versiones).
 
 Casos mínimos de partida (se amplían en cada hito):
