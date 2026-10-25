@@ -201,6 +201,28 @@ def ficheros(pedidos):
     return [(prog, f) for prog, f in todos if any(f.name == Path(p).name for p in pedidos)]
 
 
+def volcar(rutas):
+    """Volcado de cualquier documento (no solo del corpus): {ruta: [líneas]}. Calc o Write por la extensión."""
+    os.environ.update(LANG="en_US.UTF-8", LC_ALL="en_US.UTF-8")
+    resultado = {}
+
+    def trabajo(desktop):
+        import uno
+        for f in rutas:
+            doc = desktop.loadComponentFromURL(uno.systemPathToFileUrl(str(Path(f).resolve())), "_blank", 0,
+                                               (corpus.prop("Hidden", True),))
+            if doc is None:
+                resultado[f] = None
+                continue
+            try:
+                calc = doc.supportsService("com.sun.star.sheet.SpreadsheetDocument")
+                resultado[f] = volcar_calc(doc) if calc else volcar_write(doc)
+            finally:
+                doc.close(True)
+    corpus.con_uno(trabajo)
+    return resultado
+
+
 def main():
     lista = ficheros(sys.argv[1:])
     if not lista:

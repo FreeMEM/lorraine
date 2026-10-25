@@ -81,7 +81,7 @@ miden en el entorno "a1200-030" (`08_PLAN_DE_PRUEBAS.md` § 2). Se compila con `
 - [x] 0.4b Corpus, segunda parte: pérdidas (libro con gráfico y con macros; documento con control de cambios y
       con notas al pie), imágenes JPEG y GIF, libro de 100.000 celdas y documento de 300 páginas, inmovilizado.
 - [x] 0.5 `tools/volcar_lo.py`: volcado de referencia (valores de celdas, texto y formato de párrafos).
-- [ ] 0.6 Herramientas de comprobación (`08` § 4.4) en `~/.cache/lorraine-tools/`: ODF Validator, .NET y
+- [~] 0.6 Herramientas de comprobación (`08` § 4.4) en `~/.cache/lorraine-tools/`: ODF Validator, .NET y
       OOXML-Validator, `venv` con openpyxl y python-docx, parámetros del `x2t` de OnlyOffice. `tools/comprobar.py`
       pasa un fichero por todas y resume.
 - [ ] 0.7 `tools/funciones_lo.py`: baja los tests de funciones de LibreOffice a `~/.cache/lorraine-pruebas/` y los
@@ -237,4 +237,32 @@ Plantilla:
 - Lo visto, en `08` § 3.2 y § 4.3: el `.xlsx` guarda 15 cifras, los lógicos de `.xlsx` vuelven como `=TRUE()`, las
   volátiles cambian en cada volcado, los saltos de página parten tramos, imágenes en dos sitios.
 - Batería: 2/2 (sin cambios en Dash).
+
+### 2026-10-25 — Tarea 0.6, a medias (el usuario para por hoy)
+
+Hecho:
+- `tools/get_herramientas.sh` instala en `~/.cache/lorraine-tools/`: ODF Validator 0.13.0 (`.jar`), OOXML-Validator
+  2.1.6 (la versión para Linux trae su propio .NET: no hace falta instalar .NET) y un `venv` con openpyxl 3.1.5 y
+  python-docx 1.2.0.
+- `x2t` de OnlyOffice vale en su forma simple: `x2t entrada.docx salida.odt` (desde su carpeta), sin XML de
+  parámetros.
+- `tools/comprobar.py`: zip, XML bien formado, validador, LibreOffice (su volcado es la referencia), OnlyOffice
+  (convierte al otro formato y se compara el volcado) y openpyxl/python-docx (se comparan valores y textos).
+  `tools/volcar_lo.py` tiene ahora `volcar(rutas)` para cualquier documento.
+- Validador ODF: los ficheros de LibreOffice solo pasan con `-e` (sus extensiones `calcext:`/`loext:`; con `-e`
+  vale también para ODF 1.4); nuestras fuentes `.fods`/`.fodt` pasan en estricto. Lorraine tendrá que pasar en
+  estricto.
+- Visto con el corpus: los `.docx` de LibreOffice no pasan OOXML-Validator (`w:jc val="start"`, que no es de
+  Transitional); OnlyOffice convierte los errores de celda en texto (se acepta) y al pasar `texto.docx` a `.odt` se
+  pierde un salto de línea (sin averiguar si al leer o al escribir); `Err:522` de una circular pasa a `#VALUE!` por
+  OnlyOffice.
+
+Por dónde seguir (siguiente iteración):
+1. Revisar `build/comprobacion_corpus.txt` (la pasada de todo el corpus, 6 min; no va a git) y las 5 diferencias de
+   openpyxl en `formulas.xlsx`.
+2. `limites.xlsx`: openpyxl tarda más de 5 min (recorre el millón de filas). Saltarlo en la parte de Python o leer
+   solo las celdas con valor (`ws._cells`).
+3. Guardar en `tests/ficheros/comprobacion.txt` la línea base del corpus (qué falla ya en los ficheros de
+   LibreOffice), para que luego se vea lo que es de Lorraine.
+4. Marcar 0.6 `[x]` y seguir con la 0.7 (tests de funciones de LibreOffice).
 
